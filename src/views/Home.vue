@@ -1,11 +1,6 @@
 <template>
   <div class="home">
     <h1>{{ $t("appTitle") }}</h1>
-    <p>
-      <a href="https://github.com/canada-ca/aia-eia-js">{{
-        $t("linkProjectText")
-      }}</a>
-    </p>
     <form>
       <ActionButtonBar
         v-on:fileLoaded="fileLoaded($event)"
