@@ -143,6 +143,7 @@ export default class Results extends Vue {
     this.Survey.clear(true, true);
     window.localStorage.clear();
     this.$store.commit("resetSurvey");
+    this.$router.push("/");
   }
   fileLoaded($event: SurveyFile) {
     this.Survey.data = $event.data;
