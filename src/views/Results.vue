@@ -3,7 +3,7 @@
     <!--<PrintButton />-->
     <h1>{{ $t("resultTitle") }}</h1>
 
-    <p>{{ $t("onThisPage") }}</p>
+    <!-- <p>{{ $t("onThisPage") }}</p>
     <ul>
       <li>
         <a href="#score">{{ $t("riskLevel") }}</a>
@@ -28,7 +28,7 @@
           </li>
         </ul>
       </li>
-    </ul>
+    </ul> -->
 
     <form>
       <ActionButtonBar
@@ -37,12 +37,35 @@
       />
     </form>
 
-    <br/>
-
-    <Score />
-    <Obligations />
+    <div style="border-bottom: 1px solid #21737c; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(44, 153, 164); margin-bottom: 0.2em; margin-top: 1em; padding-bottom: 0.2em;"></div>
 
     <div class="container-fluid">
+      <div class="row">
+        <h2 id="mitigationMeasures">Score by Responsible AI Dimension</h2>
+      </div>
+      <div class="row">
+        <p>Data Quality and Rights</p>
+      </div>
+      <div class="row">
+        <p>Explainability and Interpretability</p>
+      </div>
+      <div class="row">
+        <p>Bias and Fairness</p>
+      </div>
+      <div class="row">
+        <p>Compliance and Accountability</p>
+      </div>
+      <div class="row">
+        <p>Robustness</p>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- <Score /> -->
+    <Obligations />
+
+    <!-- <div class="container-fluid">
       <div class="row">
         <h2 id="mitigationMeasures">{{ $t("resultSectionMeasure") }}</h2>
       </div>
@@ -76,7 +99,7 @@
       <div class="row" v-for="result in myResults[2]" :key="result.name">
         <Result :data="result"></Result>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -117,6 +140,7 @@ export default class Results extends Vue {
   startAgain() {
     this.Survey.clear(true, true);
     window.localStorage.clear();
+    window.location.href = "/";
     this.$store.commit("resetSurvey");
   }
   fileLoaded($event: SurveyFile) {

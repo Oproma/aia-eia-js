@@ -1,5 +1,5 @@
 <template>
-  <div class="requirements">
+  <!-- <div class="requirements">
     <div class="container-fluid">
       <div class="row">
         <h2 id="obligations">{{ $t("requirements.title") }} {{ score[3] }}</h2>
@@ -17,6 +17,14 @@
           {{ $t("linkDirectiveText") }}
         </a>
       </p>
+    </div>
+  </div> -->
+  <div class="container-fluid">
+    <div class="row">
+      <p>For information on how to improve your system. Visit our <a href="https://portal.ai-global.org/">community portal</a> for Responsible AI reports, tools, training datasets and other valuable resources</p>
+    </div>
+    <div class="row">
+      <p>If you need more hands on support, you can directly contact one of our <a href="#">trusted service providers</a>.</p>
     </div>
   </div>
 </template>

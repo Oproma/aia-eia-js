@@ -38,6 +38,7 @@ export default class Home extends Vue {
   startAgain() {
     this.Survey.clear(true, true);
     window.localStorage.clear();
+    window.location.href = "/";
     this.$store.commit("resetSurvey");
   }
   fileLoaded($event: SurveyFile) {
@@ -74,6 +75,8 @@ export default class Home extends Vue {
 
     // Set locale
     this.Survey.locale = i18n.locale;
+
+    this.Survey.startSurveyText = "Start now!";
 
     // Remove the default required '*'.
     this.Survey.requiredText = "";

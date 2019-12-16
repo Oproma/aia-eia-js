@@ -1,21 +1,21 @@
 <style>
 .scoreClass {
-  font-size: 0.8em !important;
+  /* font-size: 1em !important; */
   display: flex !important;
 }
 .sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  bottom: 0;
+  bottom: 1rem;
 }
 </style>
 <template>
   <b-container class="sticky">
     <b-row :class="alertclass" :no-gutters="true" v-if="!isMobile()">
-      <b-col>{{ $t("riskLevel") }}: {{ score[3] }}</b-col>
+      <!-- <b-col>{{ $t("riskLevel") }}: {{ score[3] }}</b-col> -->
       <b-col>{{ $t("currentScore") }}: {{ score[2] }}</b-col>
-      <b-col>{{ $t("rawRiskScore") }}: {{ score[0] }}</b-col>
-      <b-col>{{ $t("mitigationScore") }}: {{ score[1] }}</b-col>
+      <!-- <b-col>{{ $t("rawRiskScore") }}: {{ score[0] }}</b-col> -->
+      <!-- <b-col>{{ $t("mitigationScore") }}: {{ score[1] }}</b-col> -->
     </b-row>
     <b-row :class="alertclass" :no-gutters="true" v-if="isMobile()">
       <b-col>{{ $t("IL") }}: {{ score[3] }}</b-col>

@@ -1,6 +1,6 @@
 {
     "title": {
-        "default": "v0.1",
+        "default": "",
         "fr": ""
     },
     "pages": [
@@ -11,7 +11,7 @@
                     "type": "html",
                     "name": "welcome1",
                     "html": {
-                        "default": "",
+                        "default": "The Design Assistant is a tool to help you design, build, and deploy your AI system in a responsible and ethical way. The Design assistant assess you against the five dimensions of Responsible AI - Data quality and rights. Explainability and Interpretability, Bias and Fairness, Compliance and Accountability, and Robustness.",
                         "fr": ""
                     }
                 }
@@ -5014,12 +5014,12 @@
                 }
             ],
             "title": {
-                "default": "Section 1-7",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "aiPurpose",
+            "name": "accountability1",
             "elements": [
                 {
                     "type": "panel",
@@ -5085,62 +5085,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 8",
-                "fr": ""
-            }
-        },
-        {
-            "name": "userbase",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "userbasePanel-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "userbase",
-                            "title": {
-                                "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "Most users will be individuals or groups from vulnerable populations",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "Some users will be individuals or groups from vulnerable populations",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-1",
-                                    "text": {
-                                        "default": "No users will be individuals or groups from vulnerable populations",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 9",
-                "fr": ""
-            }
-        },
-        {
-            "name": "severityOutcomes",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "severityOutcomesPanel-RS",
@@ -5177,16 +5122,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 10",
-                "fr": ""
-            }
-        },
-        {
-            "name": "levelMaturity",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "levelMaturityPanel-RS",
@@ -5237,16 +5173,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 11",
-                "fr": ""
-            }
-        },
-        {
-            "name": "riskBenefit",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "riskBenefitPanel-RS",
@@ -5286,12 +5213,12 @@
                 }
             ],
             "title": {
-                "default": "Section 12",
+                "default": "Accountability #1",
                 "fr": ""
             }
         },
         {
-            "name": "technicalKnowledge",
+            "name": "accountability2",
             "elements": [
                 {
                     "type": "panel",
@@ -5336,16 +5263,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 13",
-                "fr": ""
-            }
-        },
-        {
-            "name": "riskManagement",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "riskManagementPanel-RS",
@@ -5396,16 +5314,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 14",
-                "fr": ""
-            }
-        },
-        {
-            "name": "governanceModel",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "governanceModel-MS",
@@ -5463,7 +5372,53 @@
                 }
             ],
             "title": {
-                "default": "Section 15",
+                "default": "Accountability #2",
+                "fr": ""
+            }
+        },
+        {
+            "name": "userbase",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "userbasePanel-RS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "userbase",
+                            "title": {
+                                "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Most users will be individuals or groups from vulnerable populations",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Some users will be individuals or groups from vulnerable populations",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "No users will be individuals or groups from vulnerable populations",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Bias and Fairness",
                 "fr": ""
             }
         },
@@ -5573,10 +5528,54 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "panel",
+                    "name": "shareInformation-RS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "shareInformation",
+                            "title": {
+                                "default": "Are you willing to share information about how your system renders a decision or performs a function in an easy to understand way? Information should include, but not be limited to, data sources, development processess, and consulted stakeholders.",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Openly, with the public",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "If users make a special request",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.25",
+                                    "text": {
+                                        "default": "With certification bodies for verification of the system",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.25",
+                                    "text": {
+                                        "default": "With authorities if required",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "title": {
-                "default": "Section 17",
+                "default": "Explainability and Interpretability",
                 "fr": ""
             }
         },
@@ -5654,57 +5653,14 @@
                 }
             ],
             "title": {
-                "default": "Section 18",
+                "default": "Robustness",
                 "fr": ""
             }
         },
         {
             "name": "shareInformation",
             "elements": [
-                {
-                    "type": "panel",
-                    "name": "shareInformation-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "shareInformation",
-                            "title": {
-                                "default": "Are you willing to share information about how your system renders a decision or performs a function in an easy to understand way? Information should include, but not be limited to, data sources, development processess, and consulted stakeholders.",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Openly, with the public",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "If users make a special request",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.25",
-                                    "text": {
-                                        "default": "With certification bodies for verification of the system",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.25",
-                                    "text": {
-                                        "default": "With authorities if required",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
+                
             ],
             "title": {
                 "default": "Section 19",

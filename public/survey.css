@@ -14,7 +14,7 @@ div.sv_qstn_error_top  span.glyphicon-exclamation-sign {
 }
 
 .form-control {
-  font-size: 2rem !important;
+  font-size: 1rem !important;
 }
 
 .btn-default {
@@ -86,7 +86,7 @@ p {
 }
 
 body {
-  font-family: "Noto Sans",sans-serif !important;
+  font-family: "Open Sans",sans-serif !important;
   font-size: 16px !important;
   line-height: 1.4375 !important;
   color: #333 !important;
@@ -118,7 +118,8 @@ a:active, a:hover {
 }
 
 .btn {
-  font-family: Lato,sans-serif !important;
+  font-family: Open-sans,sans-serif !important;
+  display: inline-block !important;
 }
 .btn {
   border-style: outset !important;
