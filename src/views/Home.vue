@@ -38,7 +38,6 @@ export default class Home extends Vue {
   startAgain() {
     this.Survey.clear(true, true);
     window.localStorage.clear();
-    window.location.href = "/";
     this.$store.commit("resetSurvey");
   }
   fileLoaded($event: SurveyFile) {
