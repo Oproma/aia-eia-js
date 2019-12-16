@@ -5088,7 +5088,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "severityOutcomesPanel-RS",
+                    "name": "severityOutcomesPanel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5125,7 +5125,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "levelMaturityPanel-RS",
+                    "name": "levelMaturityPanel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5176,7 +5176,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "riskBenefitPanel-RS",
+                    "name": "riskBenefitPanel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5213,7 +5213,7 @@
                 }
             ],
             "title": {
-                "default": "Accountability #1",
+                "default": "",
                 "fr": ""
             }
         },
@@ -5222,7 +5222,7 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "technicalKnowledgePanel-RS",
+                    "name": "technicalKnowledgePanel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5266,7 +5266,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "riskManagementPanel-RS",
+                    "name": "riskManagementPanel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5317,7 +5317,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "governanceModel-MS",
+                    "name": "governanceModel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
@@ -5372,16 +5372,408 @@
                 }
             ],
             "title": {
-                "default": "Accountability #2",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "userbase",
+            "name": "accountability3",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "userbasePanel-RS",
+                    "name": "ongoingMonitoring-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "ongoingMonitoring",
+                            "title": {
+                                "default": "Is there ongoing monitoroing of the system to ensure that the objectives are continuously being met?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "development-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "development",
+                            "title": {
+                                "default": "Were all labour laws or procedures followed throughout the development life-cycle of this project?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "robustReview-NS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "robustReview",
+                            "title": {
+                                "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed internally as part of a general technology review",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:<br />- Analysis of the systems training/testing data<br />- Multiple tests with different training/testing data, for example, gather more training data for certain subsets (e.g., parts/slices of the feature space), or gather test data for categories of interest<br />- Testing of different models <br />- Testing for right degree of transparency to mitigate any potential abuse<br />- System is built so users can set their own degree of sensitivity<br />- The smallest set of inputs necessary were used to make it clear which factors are affeting the model <br />- The simplest model to meet the performance goal was used<br />- Model learns on casual relationships not correlations when and where possible <br />- Model is trained to match true goal <br />- Model has been constrained to produce input-output relationships that reflect domain expert knowledge<br />- Metrics used address the particular benefits and risks of your specific context <br />- The model's sensitivity has been trained for different subsets of examples",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed by a trusted third-party independent of a technology review",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability4",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "systemCompliantEU-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "systemCompliantEU",
+                            "title": {
+                                "default": "Is the personal data information flow in the system compliant with EU GDPR?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "Not applicable",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "name": "systemCompliantCalifornia-AS",
+                            "elements": [
+                                {
+                                    "type": "radiogroup",
+                                    "name": "systemCompliantCalifornia",
+                                    "title": {
+                                        "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
+                                        "fr": ""
+                                    },
+                                    "choices": [
+                                        {
+                                            "value": "item1-1",
+                                            "text": {
+                                                "default": "Yes",
+                                                "fr": ""
+                                            }
+                                        },
+                                        {
+                                            "value": "item2-0",
+                                            "text": {
+                                                "default": "No",
+                                                "fr": ""
+                                            }
+                                        },
+                                        {
+                                            "value": "item3-1",
+                                            "text": {
+                                                "default": "Not applicable",
+                                                "fr": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "systemLog-AS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "systemLog",
+                            "title": {
+                                "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Yes, the log identifies the authority or delegated authority responsible",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Yes, the log recrods all the recommendations or decisions made by the system and are easy to identify",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "secureCloud-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "secureCloud",
+                            "title": {
+                                "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud? What's the ToR?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "Not sure",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "meetSystemObjectives-AS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "meetSystemObjectives",
+                            "title": {
+                                "default": "What are the recourse mechanism for a decision or action that does not meet the objectives of the system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.25",
+                                    "text": {
+                                        "default": "Decision is able to be reversed",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.25",
+                                    "text": {
+                                        "default": "Update will be made to the process",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.25",
+                                    "text": {
+                                        "default": "If an issue with the system has been identified that could cause harm to an individual or community, it is immediatly taken off-line until it is remediated",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.25",
+                                    "text": {
+                                        "default": "Users are notified ",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability5",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "fallbackMechanism-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "fallbackMechanism",
+                            "title": {
+                                "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "Yes, there is a contigency plan in place if the system is not available",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "humanOversight-AS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "humanOversight-M1",
+                            "title": {
+                                "default": "Will there be thresholds in place for which a decision would be flagged for human oversight?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "System is only used to assist a decision maker ",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "System will be replacing a decision that would otherwise be made by a human no judgement or discretion is required",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "System will be replacing a decision that would otherwise be made by a human and judgement or discretion is required",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness1",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "userbasePanel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5415,12 +5807,379 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "panel",
+                    "name": "benefit-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "benefit",
+                            "title": {
+                                "default": "Is it possible for one or more individuals or groups of users to benefit more than other individuals or groups from this system?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "No, outcomes are completely equitable amongst all segmentations",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "systemObjectives-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "systemObjectives",
+                            "title": {
+                                "default": "Are the objectives of the system clear to the users and subjects?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "discrimination-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "discrimination-M1",
+                            "title": {
+                                "default": "Has this system been designed and trained in a way so as not to create, reinforce, or reproduce discrimination based on the following areas:",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.12",
+                                    "text": {
+                                        "default": "Socio-economic capacity",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.12",
+                                    "text": {
+                                        "default": "Physical attributes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.12",
+                                    "text": {
+                                        "default": "Level of education",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.12",
+                                    "text": {
+                                        "default": "Sexual orientation",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.12",
+                                    "text": {
+                                        "default": "Physical attributes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item6-0.12",
+                                    "text": {
+                                        "default": "Ethnicity",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item7-0.12",
+                                    "text": {
+                                        "default": "Cultural association(s)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item8-0.12",
+                                    "text": {
+                                        "default": "Religious affiliation(s)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item9-0.12",
+                                    "text": {
+                                        "default": "Age",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "title": {
-                "default": "Bias and Fairness",
+                "default": "",
                 "fr": ""
             }
+        },
+        {
+            "name": "biasFairness2",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "diversityTraining-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "diversityTraining",
+                            "title": {
+                                "default": "Was training for diversity and inclusion completed for everyone working on the development of this system?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "socialInferences-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "socialInferences-M1",
+                            "title": {
+                                "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Yes, however we have engaged with social scientists, humanists, and other relevant experts to understand and accounted for various perspectives. Including, but not limited to, how the system will function over time.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Yes, however, goals have been set to ensure the system works fairly across anticipated use cases, inlcuding across different regions, with different languages, with different segmentations",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "restrictiveAccess-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "restrictiveAccess",
+                            "title": {
+                                "default": "Can the deployment of this system restrict an individual from access to a specific business product or service offering?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "challengeRecommendations-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "challengeRecommendations",
+                            "title": {
+                                "default": "Will the user have the ability to challenge decisions/recommendations made by the use case?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "systemImpact-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "systemImpact",
+                            "title": {
+                                "default": "Does this system impact an end-user or consumer's economic interest, health, access or mobility, licensing and permit issuance, or any otherwise impact their lives?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness3",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "actionSystemImpact-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "actionSystemImpact",
+                            "title": {
+                                "default": "The decision or action made by the system could have the following impact:",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "not applicable",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Health and well-being of an individual or group",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "Economic interests of an individual or group",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "Ongoing sustainability of an environmental ecosystem ",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": ""
         },
         {
             "name": "technologyType",
@@ -5483,11 +6242,11 @@
             }
         },
         {
-            "name": "discoverSystem",
+            "name": "explainabilityInterpretability1",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "discoverSystem-RS",
+                    "name": "discoverSystem-EIS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5531,7 +6290,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "shareInformation-RS",
+                    "name": "shareInformation-EIS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5575,12 +6334,12 @@
                 }
             ],
             "title": {
-                "default": "Explainability and Interpretability",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "testedQuality",
+            "name": "robustness1",
             "elements": [
                 {
                     "type": "panel",
@@ -5588,7 +6347,7 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "testedQuality",
+                            "name": "testedQuality-M1",
                             "title": {
                                 "default": "Has the system been tested to ensure quality development was conducted?",
                                 "fr": ""
@@ -5650,49 +6409,106 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Robustness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "shareInformation",
-            "elements": [
-                
-            ],
-            "title": {
-                "default": "Section 19",
-                "fr": ""
-            }
-        },
-        {
-            "name": "benefit",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "benefit-RS",
+                    "name": "minimumPerformanceLevel-RS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "benefit",
+                            "name": "minimumPerformanceLevel",
                             "title": {
-                                "default": "Is it possible for one or more individuals or groups of users to benefit more than other individuals or groups from this system?",
+                                "default": "Does the system have a minimum performance level for the solution to be viable?",
                                 "fr": ""
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0",
+                                    "value": "item1-1",
                                     "text": {
                                         "default": "Yes",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-1",
+                                    "value": "item2-0",
                                     "text": {
-                                        "default": "No, outcomes are completely equitable amongst all segmentations",
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "robustSystem-RS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "robustSystem-M1",
+                            "title": {
+                                "default": "Have you ensured that your system is robust enough to deal with errors or inconsistencies during the design, development, execution, deployment and use phase of the AI system, and to adequately cope with erroneous outcomes?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all that apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.15",
+                                    "text": {
+                                        "default": "Yes, have ensured that there is a mitigation plan in place for any individual, group, or organization who has an incentive to make the system misbehave.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.15",
+                                    "text": {
+                                        "default": "Yes, the unintended consequences resulting in a mistake from the system have assessed and mitigated to the best extent possible.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.15",
+                                    "text": {
+                                        "default": "Yes, a rigorous threat model to understand all possible attack vectors has been implemented.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.15",
+                                    "text": {
+                                        "default": "Yes, the system has been tested against adversarial attacks.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item6-0.15",
+                                    "text": {
+                                        "default": "Yes, third party advesarial testing of the system was completed.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item7-0.15",
+                                    "text": {
+                                        "default": "Yes, ongoing research is being conducted to ensure the latest tools are being applied.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item8-0.14",
+                                    "text": {
+                                        "default": "Yes, preventative and precautionary measures have been taken.",
                                         "fr": ""
                                     }
                                 }
@@ -5702,16 +6518,16 @@
                 }
             ],
             "title": {
-                "default": "Section 20",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "principlesProtected",
+            "name": "dataQualityRights1",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "principlesProtected-RS",
+                    "name": "principlesProtected-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
@@ -5763,228 +6579,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 21",
-                "fr": ""
-            }
-        },
-        {
-            "name": "systemObjectives",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "systemObjectives-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "systemObjectives",
-                            "title": {
-                                "default": "Are the objectives of the system clear to the users and subjects?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 22",
-                "fr": ""
-            }
-        },
-        {
-            "name": "ongoingMonitoring",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "ongoingMonitoring-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "ongoingMonitoring",
-                            "title": {
-                                "default": "Is there ongoing monitoroing of the system to ensure that the objectives are continuously being met?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 23",
-                "fr": ""
-            }
-        },
-        {
-            "name": "discrimination",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "discrimination-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "discrimination",
-                            "title": {
-                                "default": "Has this system been designed and trained in a way so as not to create, reinforce, or reproduce discrimination based on the following areas:",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.2",
-                                    "text": {
-                                        "default": "Socio-economic capacity",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.2",
-                                    "text": {
-                                        "default": "Physical attributes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.2",
-                                    "text": {
-                                        "default": "Level of education",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.2",
-                                    "text": {
-                                        "default": "Sexual orientation",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item5-0.2",
-                                    "text": {
-                                        "default": "Physical attributes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item6-0.2",
-                                    "text": {
-                                        "default": "Ethnicity",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item7-0.2",
-                                    "text": {
-                                        "default": "Cultural association(s)",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item8-0.2",
-                                    "text": {
-                                        "default": "Religious affiliation(s)",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item9-0.2",
-                                    "text": {
-                                        "default": "Age",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 24",
-                "fr": ""
-            }
-        },
-        {
-            "name": "development",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "development-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "development",
-                            "title": {
-                                "default": "Were all labour laws or procedures followed throughout the development life-cycle of this project?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 25",
-                "fr": ""
-            }
-        },
-        {
-            "name": "data",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "data-RS",
+                    "name": "data-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6025,16 +6623,7 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 26",
-                "fr": ""
-            }
-        },
-        {
-            "name": "personalInformation",
-            "elements": [
+                },
                 {
                     "type": "panel",
                     "name": "personalInformation-NS",
@@ -6123,20 +6712,20 @@
                 }
             ],
             "title": {
-                "default": "Section 27",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "privacyProtected",
+            "name": "dataQualityRights2",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "privacyProtected-RS",
+                    "name": "privacyProtected-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "privacyProtected",
+                            "name": "privacyProtected-M1",
                             "title": {
                                 "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
                                 "fr": ""
@@ -6147,63 +6736,63 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.11",
+                                    "value": "item1-0.12",
                                     "text": {
                                         "default": "The collection of private information only takes place if a user consents or for authorized surveillance purposes.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.11",
+                                    "value": "item2-0.12",
                                     "text": {
                                         "default": "Data related to personal thoughts and emotions are not used in situations where the system coudl case harm, especially in circumstances where moral judgements (eg. lifestyle choices could be made).",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.11",
+                                    "value": "item3-0.12",
                                     "text": {
                                         "default": "Users are able to disconnect or stop sharing information with the system at any point in time.  If a disruption in service occurs, data collection is an direct dependency vs an indirect dependency.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.11",
+                                    "value": "item4-0.12",
                                     "text": {
                                         "default": "Only users have the ability to set profile preferences, changes to the these preferences can easily be done at any time.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.11",
+                                    "value": "item5-0.12",
                                     "text": {
                                         "default": "Access to personal information is limited to only individuals who require it for the direct functioning of the system.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.11",
+                                    "value": "item6-0.12",
                                     "text": {
                                         "default": "Individuals have the ability to access their poersonal data inclduing, but not limited to, the collection, use, and sharing of this data at any time.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.11",
+                                    "value": "item7-0.12",
                                     "text": {
                                         "default": "Individuals have the ability to donate their personal data to research organizations.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item8-0.11",
+                                    "value": "item8-0.12",
                                     "text": {
                                         "default": "Data integrity is assured. The system does not use private data to imitate or alter a persons appearance, voice, or other individual characteristics in order to damage one's reputation or manipulate other people.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item9-0.11",
+                                    "value": "item9-0.12",
                                     "text": {
                                         "default": "The system does not curtail people's real or percieved liberty.",
                                         "fr": ""
@@ -6212,19 +6801,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 28",
-                "fr": ""
-            }
-        },
-        {
-            "name": "sensitiveData",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "sensitiveData-RS",
+                    "name": "sensitiveData-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6258,23 +6838,14 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 29",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataHandeled",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "dataHandeled-RS",
+                    "name": "dataHandeled-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataHandeled",
+                            "name": "dataHandeled-M1",
                             "title": {
                                 "default": "Is data used in the training or implementation of this system handeled with care?",
                                 "fr": ""
@@ -6285,42 +6856,42 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.11",
+                                    "value": "item1-0.17",
                                     "text": {
                                         "default": "Standards for cyptography or security are followed.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.11",
+                                    "value": "item2-0.17",
                                     "text": {
                                         "default": "Data is encrypted when in transit or rest.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.11",
+                                    "value": "item3-0.17",
                                     "text": {
                                         "default": "Anonymize and aggregate incoming data using best-practice data scrubbing pipelines.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.11",
+                                    "value": "item4-0.17",
                                     "text": {
                                         "default": "Provides users with clear notification when personal information is being collected, used, or shared.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.11",
+                                    "value": "item5-0.17",
                                     "text": {
                                         "default": "When and where possible, system leverages on-device processing.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.11",
+                                    "value": "item6-0.17",
                                     "text": {
                                         "default": "Where possible, independent data trusts are used to ensure users privacy.",
                                         "fr": ""
@@ -6332,20 +6903,20 @@
                 }
             ],
             "title": {
-                "default": "Section 30",
+                "default": "",
                 "fr": ""
             }
         },
         {
-            "name": "userPrivacy",
+            "name": "dataQualityRights3",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "userPrivacy-RS",
+                    "name": "userPrivacy-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "userPrivacy",
+                            "name": "userPrivacy-M1",
                             "title": {
                                 "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
                                 "fr": ""
@@ -6379,23 +6950,14 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 31",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataQuality",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "dataQuality-RS",
+                    "name": "dataQuality-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQuality",
+                            "name": "dataQuality-M1",
                             "title": {
                                 "default": "Has training and implementation data been reviewed for quality?",
                                 "fr": ""
@@ -6436,19 +6998,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 32",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accurateUserbase",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "accurateUserbase-RS",
+                    "name": "accurateUserbase-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
@@ -6507,19 +7060,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 33",
-                "fr": ""
-            }
-        },
-        {
-            "name": "managedData",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "managedData-RS",
+                    "name": "managedData-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6546,602 +7090,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Section 34",
-                "fr": ""
-            }
-        },
-        {
-            "name": "robustReview",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "robustReview-NS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "robustReview",
-                            "title": {
-                                "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1",
-                                    "text": {
-                                        "default": "Yes, inputs are reviewed internally as part of a general technology review",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2",
-                                    "text": {
-                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:<br />- Analysis of the systems training/testing data<br />- Multiple tests with different training/testing data, for example, gather more training data for certain subsets (e.g., parts/slices of the feature space), or gather test data for categories of interest<br />- Testing of different models <br />- Testing for right degree of transparency to mitigate any potential abuse<br />- System is built so users can set their own degree of sensitivity<br />- The smallest set of inputs necessary were used to make it clear which factors are affeting the model <br />- The simplest model to meet the performance goal was used<br />- Model learns on casual relationships not correlations when and where possible <br />- Model is trained to match true goal <br />- Model has been constrained to produce input-output relationships that reflect domain expert knowledge<br />- Metrics used address the particular benefits and risks of your specific context <br />- The model's sensitivity has been trained for different subsets of examples",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3",
-                                    "text": {
-                                        "default": "Yes, inputs are reviewed by a trusted third-party independent of a technology review",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 35",
-                "fr": ""
-            }
-        },
-        {
-            "name": "systemCompliantEU",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "systemCompliantEU-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "systemCompliantEU",
-                            "title": {
-                                "default": "Is the personal data information flow in the system compliant with EU GDPR?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-1",
-                                    "text": {
-                                        "default": "Not applicable",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 36",
-                "fr": ""
-            }
-        },
-        {
-            "name": "systemCompliantCalifornia",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "systemCompliantCalifornia-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "systemCompliantCalifornia",
-                            "title": {
-                                "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-1",
-                                    "text": {
-                                        "default": "Not applicable",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 37",
-                "fr": ""
-            }
-        },
-        {
-            "name": "diversityTraining",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "diversityTraining-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "diversityTraining",
-                            "title": {
-                                "default": "Was training for diversity and inclusion completed for everyone working on the development of this system?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 38",
-                "fr": ""
-            }
-        },
-        {
-            "name": "socialInferences",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "socialInferences-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "socialInferences",
-                            "title": {
-                                "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "Yes, however we have engaged with social scientists, humanists, and other relevant experts to understand and accounted for various perspectives. Including, but not limited to, how the system will function over time.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.5",
-                                    "text": {
-                                        "default": "Yes, however, goals have been set to ensure the system works fairly across anticipated use cases, inlcuding across different regions, with different languages, with different segmentations",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 39",
-                "fr": ""
-            }
-        },
-        {
-            "name": "systemLog",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "systemLog-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "systemLog",
-                            "title": {
-                                "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "Yes, the log identifies the authority or delegated authority responsible",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.5",
-                                    "text": {
-                                        "default": "Yes, the log recrods all the recommendations or decisions made by the system and are easy to identify",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 40",
-                "fr": ""
-            }
-        },
-        {
-            "name": "secureCloud",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "secureCloud-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "secureCloud",
-                            "title": {
-                                "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud? What's the ToR?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "Not sure",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 41",
-                "fr": ""
-            }
-        },
-        {
-            "name": "meetSystemObjectives",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "meetSystemObjectives-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "meetSystemObjectives",
-                            "title": {
-                                "default": "What are the recourse mechanism for a decision or action that does not meet the objectives of the system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.25",
-                                    "text": {
-                                        "default": "Decision is able to be reversed",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.25",
-                                    "text": {
-                                        "default": "Update will be made to the process",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.25",
-                                    "text": {
-                                        "default": "If an issue with the system has been identified that could cause harm to an individual or community, it is immediatly taken off-line until it is remediated",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.25",
-                                    "text": {
-                                        "default": "Users are notified ",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 42",
-                "fr": ""
-            }
-        },
-        {
-            "name": "restrictiveAccess",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "restrictiveAccess-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "restrictiveAccess",
-                            "title": {
-                                "default": "Can the deployment of this system restrict an individual from access to a specific business product or service offering?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-1",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 43",
-                "fr": ""
-            }
-        },
-        {
-            "name": "challengeRecommendations",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "challengeRecommendations-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "challengeRecommendations",
-                            "title": {
-                                "default": "Will the user have the ability to challenge decisions/recommendations made by the use case?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 44",
-                "fr": ""
-            }
-        },
-        {
-            "name": "systemImpact",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "systemImpact-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "systemImpact",
-                            "title": {
-                                "default": "Does this system impact an end-user or consumer's economic interest, health, access or mobility, licensing and permit issuance, or any otherwise impact their lives?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-1",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 45",
-                "fr": ""
-            }
-        },
-        {
-            "name": "fallbackMechanism",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "fallbackMechanism-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "fallbackMechanism",
-                            "title": {
-                                "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-1",
-                                    "text": {
-                                        "default": "Yes, there is a contigency plan in place if the system is not available",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 46",
-                "fr": ""
-            }
-        },
-        {
-            "name": "humanOversight",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "humanOversight-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "humanOversight",
-                            "title": {
-                                "default": "Will there be thresholds in place for which a decision would be flagged for human oversight?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "System is only used to assist a decision maker ",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "System will be replacing a decision that would otherwise be made by a human no judgement or discretion is required",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "System will be replacing a decision that would otherwise be made by a human and judgement or discretion is required",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 47",
-                "fr": ""
-            }
-        },
-        {
-            "name": "trainingData",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "trainingData-RS",
+                    "name": "trainingData-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -7171,188 +7123,7 @@
                 }
             ],
             "title": {
-                "default": "Section 49",
-                "fr": ""
-            }
-        },
-        {
-            "name": "minimumPerformanceLevel",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "minimumPerformanceLevel-RS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "minimumPerformanceLevel",
-                            "title": {
-                                "default": "Does the system have a minimum performance level for the solution to be viable?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 50",
-                "fr": ""
-            }
-        },
-        {
-            "name": "actionSystemImpact",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "actionSystemImpact-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "actionSystemImpact",
-                            "title": {
-                                "default": "The decision or action made by the system could have the following impact:",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "not applicable",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "Health and well-being of an individual or group",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "Economic interests of an individual or group",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0",
-                                    "text": {
-                                        "default": "Ongoing sustainability of an environmental ecosystem ",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 51",
-                "fr": ""
-            }
-        },
-        {
-            "name": "robustSystem",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "robustSystem-RS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "robustSystem",
-                            "title": {
-                                "default": "Have you ensured that your system is robust enough to deal with errors or inconsistencies during the design, development, execution, deployment and use phase of the AI system, and to adequately cope with erroneous outcomes?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all that apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.14",
-                                    "text": {
-                                        "default": "Yes, have ensured that there is a mitigation plan in place for any individual, group, or organization who has an incentive to make the system misbehave.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.14",
-                                    "text": {
-                                        "default": "Yes, the unintended consequences resulting in a mistake from the system have assessed and mitigated to the best extent possible.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.14",
-                                    "text": {
-                                        "default": "Yes, a rigorous threat model to understand all possible attack vectors has been implemented.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item5-0.14",
-                                    "text": {
-                                        "default": "Yes, the system has been tested against adversarial attacks.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item6-0.14",
-                                    "text": {
-                                        "default": "Yes, third party advesarial testing of the system was completed.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item7-0.14",
-                                    "text": {
-                                        "default": "Yes, ongoing research is being conducted to ensure the latest tools are being applied.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item8-0.14",
-                                    "text": {
-                                        "default": "Yes, preventative and precautionary measures have been taken.",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Section 53",
+                "default": "",
                 "fr": ""
             }
         }

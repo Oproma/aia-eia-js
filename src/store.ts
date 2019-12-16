@@ -74,12 +74,23 @@ function getValue(val: any) {
 function getScoreTypeHelper(name: String): Number {
   // 1 - Not Scored, 2 - Raw Score, 3 - Mitigation Score
   if (name) {
-    if (name.endsWith("-RS")) {
+
+    /*if (name.endsWith("-RS")) {
       return 2;
-    } else if (name.endsWith("-MS")) {
+    } else*/ if (name.endsWith("-MS")) {
       return 3;
     } else if (name.endsWith("-NS")) {
       return 1;
+    } else if (name.endsWith("-AS")) {
+      return 4;
+    } else if (name.endsWith("-DQRS")) {
+      return 5;
+    } else if (name.endsWith("-EIS")) {
+      return 6;
+    } else if (name.endsWith("-BFS")) {
+      return 7;
+    } else if (name.endsWith("-RS")) {
+      return 8;
     }
   }
 
@@ -104,21 +115,29 @@ function getScoreType(question: IQuestion): Number {
 }
 
 function getMaxScoreForQuestion(question: QuestionSelectBase): number {
-  var questionType = question.getType();
+  var valueName = question.getValueName();
   var max = 0;
-  var value = 0;
-  if (questionType == "radiogroup" || questionType == "dropdown") {
-    question.choices.forEach(item => {
-      value = getValue(item.itemValue);
-      if (max < value) {
-        max = value;
-      }
-    });
-  } else if (questionType == "checkbox") {
-    question.choices.forEach(item => {
-      value = getValue(item.itemValue);
-      max += value;
-    });
+
+  var found = valueName.match(/-M[0-9]+-?/g);
+  if (found !== null) {
+    max = parseFloat(found[0].replace(/\D+/g, ''));
+  } else {
+    var questionType = question.getType();
+    var value = 0;
+
+    if (questionType == "radiogroup" || questionType == "dropdown") {
+      question.choices.forEach(item => {
+        value = getValue(item.itemValue);
+        if (max < value) {
+          max = value;
+        }
+      });
+    } else if (questionType == "checkbox") {
+      question.choices.forEach(item => {
+        value = getValue(item.itemValue);
+        max += value;
+      });
+    }
   }
 
   return max;
@@ -140,51 +159,90 @@ function calculateFinalScore(
   let threshold2 = 0.5;
   let threshold3 = 0.75;
 
-  questionNames.forEach(name => {
-    var currentQuestion = survey.getQuestionByName(name);
-    var currentQuestionType = getScoreType(currentQuestion);
+  let accountabilityScore = 0;
+  let maxAccountabilityscore = 0;
+  let dataQualityRightsScore = 0;
+  let maxDataQualityRightsScore = 0;
+  let explainabilityInterpretabilityScore = 0;
+  let maxExplainabilityInterpretabilityScore = 0;
+  let biasFairnessScore = 0;
+  let maxBiasFairnessScore = 0;
+  let robustnessScore = 0;
+  let maxRobustnessScore = 0;
 
-    if (currentQuestionType === 2) {
-      // no real risk of injection since we are just getting a value, worst case it breaks our score
-      // eslint-disable-next-line security/detect-object-injection
-      rawRiskScore += getValue(survey.data[name]);
-      maxRawRiskScore += getMaxScoreForQuestion(<QuestionSelectBase>(
-        currentQuestion
-      ));
-    } else if (currentQuestionType === 3) {
-      // no real risk of injection since we are just getting a value, worst case it breaks our score
-      // eslint-disable-next-line security/detect-object-injection
-      mitigationScore += getValue(survey.data[name]);
-      maxMitigationScore += getMaxScoreForQuestion(<QuestionSelectBase>(
-        currentQuestion
-      ));
+  questionNames.forEach(name => {
+    const currentQuestion = survey.getQuestionByName(name);
+    const currentQuestionType = getScoreType(currentQuestion);
+    const currentQuestionMaxScore = getMaxScoreForQuestion(<QuestionSelectBase>(currentQuestion));
+
+    switch (currentQuestionType) {
+      case 4: // accountability
+        accountabilityScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
+        maxAccountabilityscore += currentQuestionMaxScore;
+        break;
+      case 5: // data quality and rights
+        dataQualityRightsScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
+        maxDataQualityRightsScore += currentQuestionMaxScore;
+        break;
+      case 6: // explainability and interpretability
+        explainabilityInterpretabilityScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
+        maxExplainabilityInterpretabilityScore += currentQuestionMaxScore;
+        break;
+      case 7: // bias and fairness
+        biasFairnessScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
+        maxBiasFairnessScore += currentQuestionMaxScore;
+        break;
+      case 8: // robustness
+        robustnessScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
+        maxRobustnessScore += currentQuestionMaxScore;
+        break;
     }
+
+  //   if (currentQuestionType === 2) {
+  //     // no real risk of injection since we are just getting a value, worst case it breaks our score
+  //     // eslint-disable-next-line security/detect-object-injection
+  //     rawRiskScore += getValue(survey.data[name]);
+  //     maxRawRiskScore += getMaxScoreForQuestion(<QuestionSelectBase>(
+  //       currentQuestion
+  //     ));
+  //   } else if (currentQuestionType === 3) {
+  //     // no real risk of injection since we are just getting a value, worst case it breaks our score
+  //     // eslint-disable-next-line security/detect-object-injection
+  //     mitigationScore += getValue(survey.data[name]);
+  //     maxMitigationScore += getMaxScoreForQuestion(<QuestionSelectBase>(
+  //       currentQuestion
+  //     ));
+  //   }
   });
 
-  //maxMitigationScore is divided by 2 because of Design/Implementation fork
-  if (mitigationScore >= percentage * (maxMitigationScore / 2)) {
-    total = Math.round((1 - deduction) * rawRiskScore);
-  } else {
-    total = rawRiskScore;
-  }
+  // //maxMitigationScore is divided by 2 because of Design/Implementation fork
+  // if (mitigationScore >= percentage * (maxMitigationScore / 2)) {
+  //   total = Math.round((1 - deduction) * rawRiskScore);
+  // } else {
+  //   total = rawRiskScore;
+  // }
 
-  if (total <= maxRawRiskScore * threshold1) {
-    level = 1;
-  } else if (
-    total > maxRawRiskScore * threshold1 &&
-    total <= maxRawRiskScore * threshold2
-  ) {
-    level = 2;
-  } else if (
-    total > maxRawRiskScore * threshold2 &&
-    total <= maxRawRiskScore * threshold3
-  ) {
-    level = 3;
-  } else {
-    level = 4;
-  }
+  // if (total <= maxRawRiskScore * threshold1) {
+  //   level = 1;
+  // } else if (
+  //   total > maxRawRiskScore * threshold1 &&
+  //   total <= maxRawRiskScore * threshold2
+  // ) {
+  //   level = 2;
+  // } else if (
+  //   total > maxRawRiskScore * threshold2 &&
+  //   total <= maxRawRiskScore * threshold3
+  // ) {
+  //   level = 3;
+  // } else {
+  //   level = 4;
+  // }
 
-  return [rawRiskScore, mitigationScore, total, level];
+  // return [rawRiskScore, mitigationScore, total, level];
+  return [dataQualityRightsScore, explainabilityInterpretabilityScore,
+    biasFairnessScore, accountabilityScore, robustnessScore, maxDataQualityRightsScore,
+    maxExplainabilityInterpretabilityScore, maxBiasFairnessScore, maxAccountabilityscore,
+    maxRobustnessScore];
 }
 
 const store: StoreOptions<RootState> = {
@@ -229,7 +287,7 @@ const store: StoreOptions<RootState> = {
       return !isEmpty(state.toolData);
     },
     calcScore: state => {
-      if (state.result === undefined) return [0, 0, 0];
+      if (state.result === undefined) return [0, 0, 0, 0, 0, 1, 1, 1, 1, 1];
       return calculateFinalScore(state.result, state.questionNames);
     },
     resultDataSections: state => {

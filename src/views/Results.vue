@@ -43,23 +43,25 @@
       <div class="row">
         <h2 id="mitigationMeasures">Score by Responsible AI Dimension</h2>
       </div>
-      <div class="row">
-        <p>Data Quality and Rights</p>
-      </div>
-      <div class="row">
-        <p>Explainability and Interpretability</p>
-      </div>
-      <div class="row">
-        <p>Bias and Fairness</p>
-      </div>
-      <div class="row">
-        <p>Compliance and Accountability</p>
-      </div>
-      <div class="row">
-        <p>Robustness</p>
+      <div>
+        <div style="display: inline-block;">
+          <p>Data Quality and Rights</p>
+          <p>Explainability and Interpretability</p>
+          <p>Bias and Fairness</p>
+          <p>Compliance and Accountability</p>       
+          <p>Robustness</p>
+        </div>
+        <div style="display: inline-block; margin-left: 1rem; text-align: end;">
+          <p>{{ ((score[0]/score[5])*100).toFixed(0) }}%</p>
+          <p>{{ ((score[1]/score[6])*100).toFixed(0) }}%</p>
+          <p>{{ ((score[2]/score[7])*100).toFixed(0) }}%</p>
+          <p>{{ ((score[3]/score[8])*100).toFixed(0) }}%</p>
+          <p>{{ ((score[4]/score[9])*100).toFixed(0) }}%</p>
+        </div>
       </div>
     </div>
-
+    
+        
     <br />
 
     <!-- <Score /> -->
@@ -133,7 +135,7 @@ import surveyJSON from "@/survey-enfr.json";
   }
 })
 export default class Results extends Vue {
-  myResults = this.$store.getters.resultDataSections;
+  // myResults = this.$store.getters.resultDataSections;
 
   Survey: Model = new Model(surveyJSON);
 

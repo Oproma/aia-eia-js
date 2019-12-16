@@ -10,12 +10,13 @@
 }
 </style>
 <template>
-  <b-container class="sticky">
+  <div></div>
+  <!-- <b-container class="sticky">
     <b-row :class="alertclass" :no-gutters="true" v-if="!isMobile()">
-      <!-- <b-col>{{ $t("riskLevel") }}: {{ score[3] }}</b-col> -->
+      <b-col>{{ $t("riskLevel") }}: {{ score[3] }}</b-col>
       <b-col>{{ $t("currentScore") }}: {{ score[2] }}</b-col>
-      <!-- <b-col>{{ $t("rawRiskScore") }}: {{ score[0] }}</b-col> -->
-      <!-- <b-col>{{ $t("mitigationScore") }}: {{ score[1] }}</b-col> -->
+      <b-col>{{ $t("rawRiskScore") }}: {{ score[0] }}</b-col>
+      <b-col>{{ $t("mitigationScore") }}: {{ score[1] }}</b-col>
     </b-row>
     <b-row :class="alertclass" :no-gutters="true" v-if="isMobile()">
       <b-col>{{ $t("IL") }}: {{ score[3] }}</b-col>
@@ -23,7 +24,7 @@
       <b-col>{{ $t("RS") }}: {{ score[0] }}</b-col>
       <b-col>{{ $t("MS") }}: {{ score[1] }}</b-col>
     </b-row>
-  </b-container>
+  </b-container> -->
 </template>
 
 <script lang="ts">
@@ -50,11 +51,12 @@ var myMixin = {
       return this.$store.getters.calcScore;
     },
     alertclass: function() {
-      const score = this.$store.getters.calcScore[3];
-      if (score === undefined || score === 1) return "scoreClass alert alert-success";
-      if (score === 2) return "scoreClass alert alert-info";
-      if (score === 3) return "scoreClass alert alert-warning";
-      if (score === 4) return "scoreClass alert alert-danger";
+      // const score = this.$store.getters.calcScore[3];
+      // if (score === undefined || score === 1) return "scoreClass alert alert-success";
+      // if (score === 2) return "scoreClass alert alert-info";
+      // if (score === 3) return "scoreClass alert alert-warning";
+      // if (score === 4) return "scoreClass alert alert-danger";
+      return "scoreClass alert alert-success";
     }
   }
 })
