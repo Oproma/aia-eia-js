@@ -3,10 +3,6 @@
 
 This project hosts a fork of the [Algorithmic Impact Assessment (AIA)](https://github.com/canada-ca/aia-eia-js) developed in Typescript.
 
-The AIA is a critical piece of the [Directive on Automated Decision-Making](http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32592) and we want to ensure its development is done in the open.
-
-As this assessment tool is open source, other countries and individuals may wish to also leverage it and even contribute back to it.
-
 It leverages the [SurveyJS library](https://surveyjs.io/Overview/Library/) to generate questions and answers. The primary source of the content, the file to edit if you want to change the questions and answers, is the `survey-enfr.json`, located in the `/src` folder.
 
 Editing a JSON file directly may not be easy so you can use the web based [SurveyJS Builder](https://surveyjs.io/create-survey/) app to help you out.
