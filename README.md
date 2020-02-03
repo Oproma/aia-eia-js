@@ -51,4 +51,4 @@ Please note that we will not be removing the branding ourselves at this point bu
 
 ## License
 
-[MIT License](LICENSE).
+[MIT License](LICENSE)
