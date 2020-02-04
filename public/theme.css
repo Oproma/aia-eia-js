@@ -126,6 +126,10 @@ h1 {
   padding-bottom: 0.2em;
 }
 
+.field-name {
+  font-weight: 700;
+}
+
 .radio p,
 .checkbox p {
   display: inline;
