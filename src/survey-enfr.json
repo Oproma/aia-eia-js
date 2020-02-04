@@ -5014,7 +5014,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Project Details",
                 "fr": ""
             }
         },
@@ -5213,7 +5213,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Accountability",
                 "fr": ""
             }
         },
@@ -5372,7 +5372,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Accountability",
                 "fr": ""
             }
         },
@@ -5482,7 +5482,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Accountability",
                 "fr": ""
             }
         },
@@ -5684,7 +5684,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Accountability",
                 "fr": ""
             }
         },
@@ -5764,7 +5764,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Accountability",
                 "fr": ""
             }
         },
@@ -5953,7 +5953,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Bias and fairness",
                 "fr": ""
             }
         },
@@ -6123,7 +6123,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Bias and fairness",
                 "fr": ""
             }
         },
@@ -6180,7 +6180,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Bias and fairness",
                 "fr": ""
             }
         },
@@ -6337,7 +6337,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Explainability and Interpretability",
                 "fr": ""
             }
         },
@@ -6521,7 +6521,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Robustness",
                 "fr": ""
             }
         },
@@ -6715,7 +6715,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Data quality and rights",
                 "fr": ""
             }
         },
@@ -6906,7 +6906,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Data quality and rights",
                 "fr": ""
             }
         },
@@ -7126,7 +7126,7 @@
                 }
             ],
             "title": {
-                "default": "",
+                "default": "Data quality and rights",
                 "fr": ""
             }
         }
