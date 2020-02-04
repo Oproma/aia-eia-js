@@ -18,15 +18,15 @@
             ]
         },
         {
-            "name": "projectDetails",
+            "name": "projectDetails1",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "projectDetailsPanel-NS",
+                    "name": "projectDetails1.1Panel-NS",
                     "elements": [
                         {
                             "type": "text",
-                            "name": "projectDetailsTitle",
+                            "name": "projectDetails1",
                             "title": {
                                 "default": "Title of project",
                                 "fr": ""
@@ -34,7 +34,7 @@
                         },
                         {
                             "type": "comment",
-                            "name": "projectDetailsDescription",
+                            "name": "projectDetails2",
                             "title": {
                                 "default": "Project Description",
                                 "fr": ""
@@ -42,7 +42,7 @@
                         },
                         {
                             "type": "text",
-                            "name": "projectDetailsCompany",
+                            "name": "projectDetails3",
                             "title": {
                                 "default": "Company or Organization",
                                 "fr": ""
@@ -50,7 +50,7 @@
                         },
                         {
                             "type": "dropdown",
-                            "name": "projectDetailsIndustry",
+                            "name": "projectDetails4",
                             "title": {
                                 "default": "Industry",
                                 "fr": ""
@@ -95,7 +95,7 @@
                                 {
                                     "value": 5,
                                     "text": {
-                                        "default": "Metal Mining",
+                                        "default": "Metal Mining",
                                         "fr": ""
                                     }
                                 },
@@ -228,14 +228,14 @@
                                 {
                                     "value": 24,
                                     "text": {
-                                        "default": "Meat Packing Plants",
+                                        "default": "Meat Packing Plants",
                                         "fr": ""
                                     }
                                 },
                                 {
                                     "value": 25,
                                     "text": {
-                                        "default": "Sausages & Other Prepared Meat Products",
+                                        "default": "Sausages & Other Prepared Meat Products",
                                         "fr": ""
                                     }
                                 },
@@ -256,7 +256,7 @@
                                 {
                                     "value": 28,
                                     "text": {
-                                        "default": "Ice Cream & Frozen Desserts",
+                                        "default": "Ice Cream & Frozen Desserts",
                                         "fr": ""
                                     }
                                 },
@@ -284,21 +284,21 @@
                                 {
                                     "value": 32,
                                     "text": {
-                                        "default": "Bakery Products",
+                                        "default": "Bakery Products",
                                         "fr": ""
                                     }
                                 },
                                 {
                                     "value": 33,
                                     "text": {
-                                        "default": "Cookies & Crackers",
+                                        "default": "Cookies & Crackers",
                                         "fr": ""
                                     }
                                 },
                                 {
                                     "value": 34,
                                     "text": {
-                                        "default": "Sugar & Confectionery Products",
+                                        "default": "Sugar & Confectionery Products",
                                         "fr": ""
                                     }
                                 },
@@ -396,7 +396,7 @@
                                 {
                                     "value": 48,
                                     "text": {
-                                        "default": "Carpets & Rugs",
+                                        "default": "Carpets & Rugs",
                                         "fr": ""
                                     }
                                 },
@@ -557,7 +557,7 @@
                                 {
                                     "value": 71,
                                     "text": {
-                                        "default": "Converted Paper & Paperboard Prods (No Containers/Boxes)",
+                                        "default": "Converted Paper & Paperboard Prods (No Containers\/Boxes)",
                                         "fr": ""
                                     }
                                 },
@@ -655,7 +655,7 @@
                                 {
                                     "value": 85,
                                     "text": {
-                                        "default": "Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)",
+                                        "default": "Plastic Material, Synth Resin\/Rubber, Cellulos (No Glass)",
                                         "fr": ""
                                     }
                                 },
@@ -1096,7 +1096,7 @@
                                 {
                                     "value": 148,
                                     "text": {
-                                        "default": "Ordnance & Accessories, (No Vehicles/Guided Missiles)",
+                                        "default": "Ordnance & Accessories, (No Vehicles\/Guided Missiles)",
                                         "fr": ""
                                     }
                                 },
@@ -1677,7 +1677,7 @@
                                 {
                                     "value": 231,
                                     "text": {
-                                        "default": "Watches, Clocks, Clockwork Operated Devices/Parts",
+                                        "default": "Watches, Clocks, Clockwork Operated Devices\/Parts",
                                         "fr": ""
                                     }
                                 },
@@ -2034,7 +2034,7 @@
                                 {
                                     "value": 282,
                                     "text": {
-                                        "default": "Wholesale-Lumber, Plywood, millwork & Wood Panels",
+                                        "default": "Wholesale-Lumber, Plywood, millwork & Wood Panels",
                                         "fr": ""
                                     }
                                 },
@@ -2181,7 +2181,7 @@
                                 {
                                     "value": 303,
                                     "text": {
-                                        "default": "Wholesale-Groceries, General Line (merchandise)",
+                                        "default": "Wholesale-Groceries, General Line (merchandise)",
                                         "fr": ""
                                     }
                                 },
@@ -2265,7 +2265,7 @@
                                 {
                                     "value": 315,
                                     "text": {
-                                        "default": "Retail-Misc General Merchandise Stores",
+                                        "default": "Retail-Misc General Merchandise Stores",
                                         "fr": ""
                                     }
                                 },
@@ -2706,7 +2706,7 @@
                                 {
                                     "value": 378,
                                     "text": {
-                                        "default": "Oil Royalty Traders",
+                                        "default": "Oil Royalty Traders",
                                         "fr": ""
                                     }
                                 },
@@ -2720,7 +2720,7 @@
                                 {
                                     "value": 380,
                                     "text": {
-                                        "default": "Mineral Royalty Traders",
+                                        "default": "Mineral Royalty Traders",
                                         "fr": ""
                                     }
                                 },
@@ -3230,7 +3230,7 @@
                         },
                         {
                             "type": "dropdown",
-                            "name": "projectDetailsCountry",
+                            "name": "projectDetails5",
                             "title": {
                                 "default": "Country",
                                 "fr": ""
@@ -4988,7 +4988,7 @@
                         },
                         {
                             "type": "text",
-                            "name": "projectDetailsCity",
+                            "name": "projectDetails6",
                             "title": {
                                 "default": "City",
                                 "fr": ""
@@ -4996,7 +4996,7 @@
                         },
                         {
                             "type": "text",
-                            "name": "projectDetailsRepresentative",
+                            "name": "projectDetails7",
                             "title": {
                                 "default": "Representative",
                                 "fr": ""
@@ -5004,7 +5004,7 @@
                         },
                         {
                             "type": "text",
-                            "name": "projectDetailsContactInformation",
+                            "name": "projectDetails8",
                             "title": {
                                 "default": "Contact information",
                                 "fr": ""
@@ -5023,11 +5023,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "aiPurposePanel-NS",
+                    "name": "accountability1.1Panel-NS",
                     "elements": [
                         {
-                            "type": "checkbox",
-                            "name": "aiPurpose",
+                            "type": "radiogroup",
+                            "name": "accountability1",
                             "title": {
                                 "default": "Why are you using AI for this project?",
                                 "fr": ""
@@ -5078,7 +5078,7 @@
                                 {
                                     "value": "item7",
                                     "text": {
-                                        "default": "Other",
+                                        "default": "other",
                                         "fr": ""
                                     }
                                 }
@@ -5088,11 +5088,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "severityOutcomesPanel-AS",
+                    "name": "accountability1.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "severityOutcomes",
+                            "name": "accountability2",
                             "title": {
                                 "default": "What's the severity of unintended outcomes occuring?",
                                 "fr": ""
@@ -5125,13 +5125,13 @@
                 },
                 {
                     "type": "panel",
-                    "name": "levelMaturityPanel-AS",
+                    "name": "accountability1.3Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "levelMaturity",
+                            "name": "accountability3",
                             "title": {
-                                "default": "Describe your companies level of maturity implementing complex programs, processes, and technology:",
+                                "default": "Describe your companies level of maturity implementing complex programs, processes, and technology",
                                 "fr": ""
                             },
                             "choices": [
@@ -5176,11 +5176,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "riskBenefitPanel-AS",
+                    "name": "accountability1.4Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "riskBenefit",
+                            "name": "accountability4",
                             "title": {
                                 "default": "Has a risk benefit analysis of all aspects of this system been completed?",
                                 "fr": ""
@@ -5222,11 +5222,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "technicalKnowledgePanel-AS",
+                    "name": "accountability2.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "technicalKnowledge",
+                            "name": "accountability5",
                             "title": {
                                 "default": "Is there a level of technical knowledge required to operate your system? Are users made aware prior to use?",
                                 "fr": ""
@@ -5242,7 +5242,7 @@
                                 {
                                     "value": "item2-0.5",
                                     "text": {
-                                        "default": "Yes, users have been clearly notified in advance that there is a degree of knowledge required to operate the system. ",
+                                        "default": "Yes, users have been clearly notified in advance that there is a degree of knowledge required to operate the system.",
                                         "fr": ""
                                     }
                                 },
@@ -5266,11 +5266,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "riskManagementPanel-AS",
+                    "name": "accountability2.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "riskManagement",
+                            "name": "accountability6",
                             "title": {
                                 "default": "Does your organization have a risk management process in place?",
                                 "fr": ""
@@ -5307,7 +5307,7 @@
                                 {
                                     "value": "item5-2",
                                     "text": {
-                                        "default": "Managed and measurable, the assessment of risk is a standard procedure (eg. ISO 31000) and exceptions to following the procedure would be noticed by management. It is likely that risk management is a defined management function with senior level responsiblity. Senior management have determined the levels of risk that the organiation will tolerate and have standards measures for risk/ return ratios.",
+                                        "default": "Managed and measurable, the assessment of risk is a standard procedure (eg. ISO 31000) and exceptions to following the procedure would be noticed by management. It is likely that risk management is a defined management function with senior level responsiblity. Senior management have determined the levels of risk that the organiation will tolerate and have standards measures for risk\/ return ratios.",
                                         "fr": ""
                                     }
                                 }
@@ -5317,11 +5317,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "governanceModel-AS",
+                    "name": "accountability2.3Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "governanceModel",
+                            "name": "accountability7-M1",
                             "title": {
                                 "default": "Does your organization have a strong governance model in place to ensure appropriate action is taken in advance of the system operating?",
                                 "fr": ""
@@ -5381,13 +5381,13 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "ongoingMonitoring-AS",
+                    "name": "accountability3.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "ongoingMonitoring",
+                            "name": "accountability8",
                             "title": {
-                                "default": "Is there ongoing monitoroing of the system to ensure that the objectives are continuously being met?",
+                                "default": "Is there ongoing monitoring of the system to ensure that the objectives are continuously being met?",
                                 "fr": ""
                             },
                             "choices": [
@@ -5411,11 +5411,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "development-AS",
+                    "name": "accountability3.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "development",
+                            "name": "accountability9",
                             "title": {
                                 "default": "Were all labour laws or procedures followed throughout the development life-cycle of this project?",
                                 "fr": ""
@@ -5441,11 +5441,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "robustReview-NS",
+                    "name": "accountability3.3Panel-NS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "robustReview",
+                            "name": "accountability10",
                             "title": {
                                 "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
                                 "fr": ""
@@ -5465,7 +5465,7 @@
                                 {
                                     "value": "item2",
                                     "text": {
-                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:<br />- Analysis of the systems training/testing data<br />- Multiple tests with different training/testing data, for example, gather more training data for certain subsets (e.g., parts/slices of the feature space), or gather test data for categories of interest<br />- Testing of different models <br />- Testing for right degree of transparency to mitigate any potential abuse<br />- System is built so users can set their own degree of sensitivity<br />- The smallest set of inputs necessary were used to make it clear which factors are affeting the model <br />- The simplest model to meet the performance goal was used<br />- Model learns on casual relationships not correlations when and where possible <br />- Model is trained to match true goal <br />- Model has been constrained to produce input-output relationships that reflect domain expert knowledge<br />- Metrics used address the particular benefits and risks of your specific context <br />- The model's sensitivity has been trained for different subsets of examples",
+                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:\n- Analysis of the systems training\/testing data\n- Multiple tests with different training\/testing data, for example, gather more training data for certain subsets (e.g., parts\/slices of the feature space), or gather test data for categories of interest\n- Testing of different models \n- Testing for right degree of transparency to mitigate any potential abuse\n- System is built so users can set their own degree of sensitivity\n- The smallest set of inputs necessary were used to make it clear which factors are affeting the model \n- The simplest model to meet the performance goal was used\n- Model learns on casual relationships not correlations when and where possible \n- Model is trained to match true goal \n- Model has been constrained to produce input-output relationships that reflect domain expert knowledge\n- Metrics used address the particular benefits and risks of your specific context \n- The model's sensitivity has been trained for different subsets of examples",
                                         "fr": ""
                                     }
                                 },
@@ -5491,11 +5491,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "systemCompliantEU-AS",
+                    "name": "accountability4.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "systemCompliantEU",
+                            "name": "accountability11",
                             "title": {
                                 "default": "Is the personal data information flow in the system compliant with EU GDPR?",
                                 "fr": ""
@@ -5523,41 +5523,41 @@
                                     }
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "accountability4.2Panel-AS",
+                    "elements": [
                         {
-                            "type": "panel",
-                            "name": "systemCompliantCalifornia-AS",
-                            "elements": [
+                            "type": "radiogroup",
+                            "name": "accountability12",
+                            "title": {
+                                "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
+                                "fr": ""
+                            },
+                            "choices": [
                                 {
-                                    "type": "radiogroup",
-                                    "name": "systemCompliantCalifornia",
-                                    "title": {
-                                        "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
                                         "fr": ""
-                                    },
-                                    "choices": [
-                                        {
-                                            "value": "item1-1",
-                                            "text": {
-                                                "default": "Yes",
-                                                "fr": ""
-                                            }
-                                        },
-                                        {
-                                            "value": "item2-0",
-                                            "text": {
-                                                "default": "No",
-                                                "fr": ""
-                                            }
-                                        },
-                                        {
-                                            "value": "item3-1",
-                                            "text": {
-                                                "default": "Not applicable",
-                                                "fr": ""
-                                            }
-                                        }
-                                    ]
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "Not applicable",
+                                        "fr": ""
+                                    }
                                 }
                             ]
                         }
@@ -5565,11 +5565,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "systemLog-AS",
+                    "name": "accountability4.3Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "systemLog",
+                            "name": "accountability13-M1",
                             "title": {
                                 "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
                                 "fr": ""
@@ -5606,11 +5606,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "secureCloud-AS",
+                    "name": "accountability4.4Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "secureCloud",
+                            "name": "accountability14",
                             "title": {
                                 "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud? What's the ToR?",
                                 "fr": ""
@@ -5636,11 +5636,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "meetSystemObjectives-AS",
+                    "name": "accountability4.5Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "meetSystemObjectives",
+                            "name": "accountability15-M1",
                             "title": {
                                 "default": "What are the recourse mechanism for a decision or action that does not meet the objectives of the system?",
                                 "fr": ""
@@ -5674,7 +5674,7 @@
                                 {
                                     "value": "item4-0.25",
                                     "text": {
-                                        "default": "Users are notified ",
+                                        "default": "Users are notified",
                                         "fr": ""
                                     }
                                 }
@@ -5693,11 +5693,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "fallbackMechanism-AS",
+                    "name": "accountability5.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "fallbackMechanism",
+                            "name": "accountability16",
                             "title": {
                                 "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
                                 "fr": ""
@@ -5723,11 +5723,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "humanOversight-AS",
+                    "name": "accountability5.2Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "humanOversight-M1",
+                            "name": "accountability17-M1",
                             "title": {
                                 "default": "Will there be thresholds in place for which a decision would be flagged for human oversight?",
                                 "fr": ""
@@ -5740,7 +5740,7 @@
                                 {
                                     "value": "item1-1",
                                     "text": {
-                                        "default": "System is only used to assist a decision maker ",
+                                        "default": "System is only used to assist a decision maker",
                                         "fr": ""
                                     }
                                 },
@@ -5752,7 +5752,7 @@
                                     }
                                 },
                                 {
-                                    "value": "item2-0",
+                                    "value": "item3-0",
                                     "text": {
                                         "default": "System will be replacing a decision that would otherwise be made by a human and judgement or discretion is required",
                                         "fr": ""
@@ -5773,11 +5773,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "userbasePanel-BFS",
+                    "name": "biasFairness1.1Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "userbase",
+                            "name": "biasFairness1",
                             "title": {
                                 "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
                                 "fr": ""
@@ -5810,11 +5810,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "benefit-BFS",
+                    "name": "biasFairness1.2Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "benefit",
+                            "name": "biasFairness2",
                             "title": {
                                 "default": "Is it possible for one or more individuals or groups of users to benefit more than other individuals or groups from this system?",
                                 "fr": ""
@@ -5840,11 +5840,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "systemObjectives-BFS",
+                    "name": "biasFairness1.3Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "systemObjectives",
+                            "name": "biasFairness3",
                             "title": {
                                 "default": "Are the objectives of the system clear to the users and subjects?",
                                 "fr": ""
@@ -5870,11 +5870,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "discrimination-BFS",
+                    "name": "biasFairness1.4Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "discrimination-M1",
+                            "name": "biasFairness4-M1",
                             "title": {
                                 "default": "Has this system been designed and trained in a way so as not to create, reinforce, or reproduce discrimination based on the following areas:",
                                 "fr": ""
@@ -5885,65 +5885,65 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.12",
+                                    "value": "item1-0.2",
                                     "text": {
                                         "default": "Socio-economic capacity",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.12",
+                                    "value": "item2-0.2",
                                     "text": {
                                         "default": "Physical attributes",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.12",
+                                    "value": "item3-0.2",
                                     "text": {
                                         "default": "Level of education",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.12",
+                                    "value": "item4-0.2",
                                     "text": {
                                         "default": "Sexual orientation",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.12",
-                                    "text": {
-                                        "default": "Physical attributes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item6-0.12",
+                                    "value": "item5-0.2",
                                     "text": {
                                         "default": "Ethnicity",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.12",
+                                    "value": "item6-0.2",
                                     "text": {
                                         "default": "Cultural association(s)",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item8-0.12",
+                                    "value": "item7-0.2",
                                     "text": {
                                         "default": "Religious affiliation(s)",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item9-0.12",
+                                    "value": "item8-0.2",
                                     "text": {
                                         "default": "Age",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item9-0.2",
+                                    "text": {
+                                        "default": "Degree of ability",
                                         "fr": ""
                                     }
                                 }
@@ -5962,11 +5962,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "diversityTraining-BFS",
+                    "name": "biasFairness2.1Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "diversityTraining",
+                            "name": "biasFairness5",
                             "title": {
                                 "default": "Was training for diversity and inclusion completed for everyone working on the development of this system?",
                                 "fr": ""
@@ -5992,11 +5992,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "socialInferences-BFS",
+                    "name": "biasFairness2.2Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "socialInferences-M1",
+                            "name": "biasFairness6-M1",
                             "title": {
                                 "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
                                 "fr": ""
@@ -6033,11 +6033,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "restrictiveAccess-BFS",
+                    "name": "biasFairness2.3Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "restrictiveAccess",
+                            "name": "biasFairness7",
                             "title": {
                                 "default": "Can the deployment of this system restrict an individual from access to a specific business product or service offering?",
                                 "fr": ""
@@ -6063,13 +6063,13 @@
                 },
                 {
                     "type": "panel",
-                    "name": "challengeRecommendations-BFS",
+                    "name": "biasFairness2.4Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "challengeRecommendations",
+                            "name": "biasFairness8",
                             "title": {
-                                "default": "Will the user have the ability to challenge decisions/recommendations made by the use case?",
+                                "default": "Will the user have the ability to challenge decisions\/recommendations made by the use case?",
                                 "fr": ""
                             },
                             "choices": [
@@ -6093,11 +6093,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "systemImpact-BFS",
+                    "name": "biasFairness2.5Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "systemImpact",
+                            "name": "biasFairness9",
                             "title": {
                                 "default": "Does this system impact an end-user or consumer's economic interest, health, access or mobility, licensing and permit issuance, or any otherwise impact their lives?",
                                 "fr": ""
@@ -6132,11 +6132,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "actionSystemImpact-BFS",
+                    "name": "biasFairness3.1Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "actionSystemImpact",
+                            "name": "biasFairness10-M1",
                             "title": {
                                 "default": "The decision or action made by the system could have the following impact:",
                                 "fr": ""
@@ -6154,23 +6154,23 @@
                                     }
                                 },
                                 {
-                                    "value": "item1-0",
+                                    "value": "item2-0",
                                     "text": {
                                         "default": "Health and well-being of an individual or group",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0",
+                                    "value": "item3-0",
                                     "text": {
                                         "default": "Economic interests of an individual or group",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0",
+                                    "value": "item4-0",
                                     "text": {
-                                        "default": "Ongoing sustainability of an environmental ecosystem ",
+                                        "default": "Ongoing sustainability of an environmental ecosystem",
                                         "fr": ""
                                     }
                                 }
@@ -6179,18 +6179,21 @@
                     ]
                 }
             ],
-            "title": ""
+            "title": {
+                "default": "",
+                "fr": ""
+            }
         },
         {
-            "name": "technologyType",
+            "name": "miscellaneous1",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "technologyType-NS",
+                    "name": "miscellaneous1.1Panel-NS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "technologyType",
+                            "name": "miscellaneous1",
                             "title": {
                                 "default": "What type of technology are you using?",
                                 "fr": ""
@@ -6199,7 +6202,7 @@
                                 {
                                     "value": "item1",
                                     "text": {
-                                        "default": "Image and object recognition: analyzing large datasests to automate the recognition, classification, and context associated with an image or object. ",
+                                        "default": "Image and object recognition: analyzing large datasests to automate the recognition, classification, and context associated with an image or object.",
                                         "fr": ""
                                     }
                                 },
@@ -6237,7 +6240,7 @@
                 }
             ],
             "title": {
-                "default": "Section 16",
+                "default": "",
                 "fr": ""
             }
         },
@@ -6246,11 +6249,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "discoverSystem-EIS",
+                    "name": "explainabilityInterpretability1.1Panel-EIS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "discoverSystem",
+                            "name": "explainabilityInterpretability1",
                             "title": {
                                 "default": "Is it possible to discover how your system renders a decision or performs a function?",
                                 "fr": ""
@@ -6290,11 +6293,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "shareInformation-EIS",
+                    "name": "explainabilityInterpretability1.2Panel-EIS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "shareInformation",
+                            "name": "explainabilityInterpretability2",
                             "title": {
                                 "default": "Are you willing to share information about how your system renders a decision or performs a function in an easy to understand way? Information should include, but not be limited to, data sources, development processess, and consulted stakeholders.",
                                 "fr": ""
@@ -6343,11 +6346,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "testedQuality-RS",
+                    "name": "robustness1.1Panel-RS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "testedQuality-M1",
+                            "name": "robustness1-M1",
                             "title": {
                                 "default": "Has the system been tested to ensure quality development was conducted?",
                                 "fr": ""
@@ -6412,11 +6415,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "minimumPerformanceLevel-RS",
+                    "name": "robustness1.2Panel-RS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "minimumPerformanceLevel",
+                            "name": "robustness2",
                             "title": {
                                 "default": "Does the system have a minimum performance level for the solution to be viable?",
                                 "fr": ""
@@ -6442,11 +6445,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "robustSystem-RS",
+                    "name": "robustness1.3Panel-RS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "robustSystem-M1",
+                            "name": "robustness3-M1",
                             "title": {
                                 "default": "Have you ensured that your system is robust enough to deal with errors or inconsistencies during the design, development, execution, deployment and use phase of the AI system, and to adequately cope with erroneous outcomes?",
                                 "fr": ""
@@ -6464,42 +6467,42 @@
                                     }
                                 },
                                 {
-                                    "value": "item2-0.15",
+                                    "value": "item2-0.14",
                                     "text": {
                                         "default": "Yes, have ensured that there is a mitigation plan in place for any individual, group, or organization who has an incentive to make the system misbehave.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.15",
+                                    "value": "item3-0.14",
                                     "text": {
                                         "default": "Yes, the unintended consequences resulting in a mistake from the system have assessed and mitigated to the best extent possible.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.15",
+                                    "value": "item4-0.14",
                                     "text": {
                                         "default": "Yes, a rigorous threat model to understand all possible attack vectors has been implemented.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.15",
+                                    "value": "item5-0.14",
                                     "text": {
                                         "default": "Yes, the system has been tested against adversarial attacks.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.15",
+                                    "value": "item6-0.14",
                                     "text": {
                                         "default": "Yes, third party advesarial testing of the system was completed.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.15",
+                                    "value": "item7-0.14",
                                     "text": {
                                         "default": "Yes, ongoing research is being conducted to ensure the latest tools are being applied.",
                                         "fr": ""
@@ -6527,11 +6530,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "principlesProtected-DQRS",
+                    "name": "dataQualityRights1.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "principlesProtected",
+                            "name": "dataQualityRights1-M1",
                             "title": {
                                 "default": "How does the system ensure that rights, values, and principles of the public have been protected?",
                                 "fr": ""
@@ -6582,11 +6585,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "data-DQRS",
+                    "name": "dataQualityRights1.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "data",
+                            "name": "dataQualityRights2",
                             "title": {
                                 "default": "How was the data being used for the system collected?",
                                 "fr": ""
@@ -6607,14 +6610,14 @@
                                     }
                                 },
                                 {
-                                    "value": "item2-0.5",
+                                    "value": "item3-0.5",
                                     "text": {
                                         "default": "Third-party aquisition with an unknown supply chain",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0",
+                                    "value": "item4-0",
                                     "text": {
                                         "default": "Unclear",
                                         "fr": ""
@@ -6626,11 +6629,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "personalInformation-NS",
+                    "name": "dataQualityRights1.3Panel-NS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "personalInformation",
+                            "name": "dataQualityRights3",
                             "title": {
                                 "default": "Does data used for training or use of the system include personal information?",
                                 "fr": ""
@@ -6646,7 +6649,7 @@
                                 {
                                     "value": "item2",
                                     "text": {
-                                        "default": "Yes, name ",
+                                        "default": "Yes, name",
                                         "fr": ""
                                     }
                                 },
@@ -6721,11 +6724,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "privacyProtected-DQRS",
+                    "name": "dataQualityRights2.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "privacyProtected-M1",
+                            "name": "dataQualityRights4-M1",
                             "title": {
                                 "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
                                 "fr": ""
@@ -6736,63 +6739,63 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.12",
+                                    "value": "item1-0.11",
                                     "text": {
                                         "default": "The collection of private information only takes place if a user consents or for authorized surveillance purposes.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.12",
+                                    "value": "item2-0.11",
                                     "text": {
                                         "default": "Data related to personal thoughts and emotions are not used in situations where the system coudl case harm, especially in circumstances where moral judgements (eg. lifestyle choices could be made).",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.12",
+                                    "value": "item3-0.11",
                                     "text": {
                                         "default": "Users are able to disconnect or stop sharing information with the system at any point in time.  If a disruption in service occurs, data collection is an direct dependency vs an indirect dependency.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.12",
+                                    "value": "item4-0.11",
                                     "text": {
                                         "default": "Only users have the ability to set profile preferences, changes to the these preferences can easily be done at any time.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.12",
+                                    "value": "item5-0.11",
                                     "text": {
                                         "default": "Access to personal information is limited to only individuals who require it for the direct functioning of the system.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.12",
+                                    "value": "item6-0.11",
                                     "text": {
                                         "default": "Individuals have the ability to access their poersonal data inclduing, but not limited to, the collection, use, and sharing of this data at any time.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.12",
+                                    "value": "item7-0.11",
                                     "text": {
                                         "default": "Individuals have the ability to donate their personal data to research organizations.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item8-0.12",
+                                    "value": "item8-0.11",
                                     "text": {
                                         "default": "Data integrity is assured. The system does not use private data to imitate or alter a persons appearance, voice, or other individual characteristics in order to damage one's reputation or manipulate other people.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item9-0.12",
+                                    "value": "item9-0.11",
                                     "text": {
                                         "default": "The system does not curtail people's real or percieved liberty.",
                                         "fr": ""
@@ -6804,11 +6807,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "sensitiveData-DQRS",
+                    "name": "dataQualityRights2.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "sensitiveData",
+                            "name": "dataQualityRights5",
                             "title": {
                                 "default": "Can the system be developed or implemented without the collection and use of sensitve data?",
                                 "fr": ""
@@ -6841,11 +6844,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataHandeled-DQRS",
+                    "name": "dataQualityRights2.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataHandeled-M1",
+                            "name": "dataQualityRights6-M1",
                             "title": {
                                 "default": "Is data used in the training or implementation of this system handeled with care?",
                                 "fr": ""
@@ -6856,7 +6859,7 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.17",
+                                    "value": "item1-0",
                                     "text": {
                                         "default": "Standards for cyptography or security are followed.",
                                         "fr": ""
@@ -6912,11 +6915,11 @@
             "elements": [
                 {
                     "type": "panel",
-                    "name": "userPrivacy-DQRS",
+                    "name": "dataQualityRights3.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "userPrivacy-M1",
+                            "name": "dataQualityRights7-M1",
                             "title": {
                                 "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
                                 "fr": ""
@@ -6953,11 +6956,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQuality-DQRS",
+                    "name": "dataQualityRights3.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQuality-M1",
+                            "name": "dataQualityRights8-M1",
                             "title": {
                                 "default": "Has training and implementation data been reviewed for quality?",
                                 "fr": ""
@@ -6989,7 +6992,7 @@
                                     }
                                 },
                                 {
-                                    "value": "item3-1",
+                                    "value": "item4-1",
                                     "text": {
                                         "default": "Yes, data is compliant with ISO 8000 or equivilant industry recognized standard",
                                         "fr": ""
@@ -7001,11 +7004,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accurateUserbase-DQRS",
+                    "name": "dataQualityRights3.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accurateUserbase",
+                            "name": "dataQualityRights9-M1",
                             "title": {
                                 "default": "Has your system been trained on data that accurately represents your entire user base?",
                                 "fr": ""
@@ -7063,11 +7066,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "managedData-DQRS",
+                    "name": "dataQualityRights3.4Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "managedData",
+                            "name": "dataQualityRights10",
                             "title": {
                                 "default": "How is the data being collected, used, and stored being mamanged?",
                                 "fr": ""
@@ -7093,13 +7096,13 @@
                 },
                 {
                     "type": "panel",
-                    "name": "trainingData-DQRS",
+                    "name": "dataQualityRights3.5Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "trainingData",
+                            "name": "dataQualityRights11",
                             "title": {
-                                "default": "Does training data rely on decisions/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
+                                "default": "Does training data rely on decisions\/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
                                 "fr": ""
                             },
                             "choices": [
