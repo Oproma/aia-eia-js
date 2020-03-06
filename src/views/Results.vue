@@ -1,7 +1,7 @@
 <template>
   <div class="results">
     <!--<PrintButton />-->
-    <h1>{{ $t("resultTitle") }}</h1>
+    <h1 class="section-header">{{ $t("resultTitle") }}</h1>
 
     <!-- <p>{{ $t("onThisPage") }}</p>
     <ul>

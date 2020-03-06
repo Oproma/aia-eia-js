@@ -2,8 +2,8 @@
   <div class="home">
     <DesignAssistant v-if="isSurveyStarted" :survey="Survey" v-on:startAgain="startAgain" />
     <div v-else>
-      <h1>{{ $t("appTitle") }}</h1>
-      <div v-html="description"></div>
+      <h1 class="section-header">{{ $t("appTitle") }}</h1>
+      <div style="padding: 1em;" v-html="description"></div>
       <div class="row sv_main sv_bootstrapmaterial_css" style="padding: 25px;">
         <div class="col-sm-6">
           <div class="card h-100">
@@ -101,6 +101,11 @@ export default class Home extends Vue {
 
     // Remove the default required '*'.
     this.Survey.requiredText = "";
+
+    this.Survey.onAfterRenderPage.add((sender, options) => {
+      const node = options.htmlElement.getElementsByTagName("h4")[0];
+      node.classList.add('section-header');
+    });
 
     // Fix all the question labels as they're using <H5> instead of <label>
     // as SurveyJS has open issue as per: https://github.com/surveyjs/surveyjs/issues/928
