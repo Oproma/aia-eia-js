@@ -79,12 +79,6 @@ p {
     float: left !important;
 }
 
-.row {
-  display: block !important;
-  margin-right: -15px !important;
-  margin-left: -15px !important;
-}
-
 body {
   font-family: "Open Sans",sans-serif !important;
   font-size: 16px !important;
@@ -119,7 +113,6 @@ a:active, a:hover {
 
 .btn {
   font-family: Open-sans,sans-serif !important;
-  display: inline-block !important;
 }
 .btn {
   border-style: outset !important;
@@ -150,7 +143,6 @@ a:active, a:hover {
 }
 
 .btn {
-  display: inline-block !important;
   margin-bottom: 0 !important;
   font-weight: 400 !important;
   text-align: center !important;
@@ -168,4 +160,13 @@ a:active, a:hover {
   -moz-user-select: none !important;
   -ms-user-select: none !important;
   user-select: none !important;
+}
+
+.panel-footer {
+  display: none !important;
+}
+
+input:disabled {
+  background-color: #9E9E9E !important;
+  pointer-events: none;
 }

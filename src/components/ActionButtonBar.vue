@@ -33,7 +33,7 @@
     <div v-else>
       <input
         type="file"
-        class="btn btn-default"
+        class="btn btn-default w-100"
         value="Load"
         @change="onFileChanged($event)"
       />

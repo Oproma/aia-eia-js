@@ -1,21 +1,26 @@
 <template>
   <div>
-    <!--<h2>Assessment Tool</h2>-->
     <div id="surveyContainer" class="wb-frmvld">
       <survey v-bind:survey="survey"></survey>
     </div>
+    <SurveyControls :survey="survey" v-on:startAgain="$emit('startAgain')" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { Model } from "survey-vue";
+import SurveyControls from "@/components/SurveyControls.vue";
 import showdown from "showdown";
 
-@Component
-export default class AssessmentTool extends Vue {
+@Component({
+  components: {
+    SurveyControls
+  }
+})
+export default class DesignAssistant extends Vue {
   @Prop() public survey!: Model;
-  Mounted() {
+  mounted() {
     const converter = new showdown.Converter();
     this.survey.onTextMarkdown.add(function(survey, options) {
       //convert the markdown text to html
