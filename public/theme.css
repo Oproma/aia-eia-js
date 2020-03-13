@@ -2,61 +2,42 @@ html {
   background-color: #252525;
 }
 
-.logo {
-  position: absolute; z-index: 4;
+.banner {
+  position: relative;
 }
-
-.logo img {
-  position: absolute;
-  margin: 2rem;
-  margin-left: 5rem;
-  height: 30px;
-  filter: invert(100%) sepia(92%) saturate(4%) hue-rotate(200deg)
-    brightness(107%) contrast(100%);
-  z-index: 3;
-}
-
-.banner-text {
+.banner-body {
   position: absolute; 
   height: 100%; 
-  width: 100%; 
   color:white;
   z-index: 3;
 }
-
-.banner-box {
-  font-family: Oswald;
-}
-
-.banner-box h1 {
-  font-weight: 400 !important;
-  font-size: 54px !important;
-  line-height: 58.5px !important;
-  text-align: center; 
-  border: 0;
-}
-
-.banner-box h2 {
-  font-size: 35.7px !important;
-  line-height: 40.8px !important;
-  font-weight: 300 !important;
+.banner-body .banner-box h2 {
+  font-weight: 500 !important;
+  margin: 0;
   text-align: center;
 }
-
-.banner-box:before {
+.banner-body .banner-box:before {
   background-color: #000000;
-  opacity: 0.7;
+  opacity: 0.4;
   position: absolute;
   z-index: -1;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  content: ' ';
+  content: " ";
   display: block;
 }
-
-.banner:after {
+.banner-body .company-logo img {
+  height: 20px;
+  filter: invert(100%) sepia(92%) saturate(4%) hue-rotate(200deg)
+    brightness(107%) contrast(100%);
+  z-index: 3;
+}
+.banner .banner-logo {
+  height: 90px;
+}
+.banner .banner-logo:after {
   background: linear-gradient(90deg, #21737c 0%, #061a66 100%);
   display: block;
   position: absolute;
@@ -68,18 +49,13 @@ html {
   content: " ";
   z-index: 2;
 }
-
-.banner {
-  height: 383px;
-}
-
-.banner-logo {
+.banner-logo span:first-child {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   background-image: url(https://ai-global.org/wp-content/uploads/2018/05/global-header.jpg);
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -136,15 +112,15 @@ html {
   margin-bottom: 0 !important;
 }
 
-h1, .h1 {
+main h1, main .h1 {
   font-size: 1.9em !important;
   font-weight: 600 !important;
   line-height: 1.1 !important;
 }
-h2, .h2 {
+main h2, main .h2 {
   font-size: 1.8em !important;
 }
-h1, h2, .h1, .h2 {
+main h1, main h2, main .h1, main .h2 {
   margin-top: 23px !important;
   margin-bottom: 11.5px !important;
 }

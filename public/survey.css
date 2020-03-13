@@ -23,13 +23,6 @@ div.sv_qstn_error_top  span.glyphicon-exclamation-sign {
   border-color: #dcdee1 !important;
 }
 
-.container-fluid {
-  padding-right: 15px !important;
-  padding-left: 15px !important;
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
 p {
   margin: 0 0 11.5px !important;
 }
