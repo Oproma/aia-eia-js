@@ -7132,6 +7132,6 @@
         }
     ],
     "showQuestionNumbers": "false",
-    "showProgressBar": "top",
+    "showProgressBar": "false",
     "firstPageIsStarted": true
 }

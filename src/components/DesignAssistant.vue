@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SurveyProgress :survey="survey" />
     <div id="surveyContainer" class="wb-frmvld">
       <survey v-bind:survey="survey"></survey>
     </div>
@@ -11,11 +12,13 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { Model } from "survey-vue";
 import SurveyControls from "@/components/SurveyControls.vue";
+import SurveyProgress from "@/components/SurveyProgress.vue";
 import showdown from "showdown";
 
 @Component({
   components: {
-    SurveyControls
+    SurveyControls,
+    SurveyProgress
   }
 })
 export default class DesignAssistant extends Vue {

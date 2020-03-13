@@ -121,6 +121,10 @@ a:active, a:hover {
   user-select: none !important;
 }
 
+.progress-bar {
+  margin: 0 !important;
+}
+
 .panel-footer {
   display: none !important;
 }
