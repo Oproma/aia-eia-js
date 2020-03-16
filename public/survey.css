@@ -49,25 +49,11 @@ body {
 .btn-default:visited {
   color: #335075 !important;
 }
-a:visited {
+a:not([href="#"]):visited {
   color: #7834bc !important;
 }
 .nav a, a.btn {
   text-decoration: none !important;
-}
-
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color !important;
-  outline-offset: -2px !important;
-}
-
-a:focus, a:hover {
-  color: #0535d2 !important;
-  text-decoration: underline !important;
-}
-
-a:active, a:hover {
-  outline: 0 !important;
 }
 
 .btn {

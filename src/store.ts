@@ -290,6 +290,48 @@ const store: StoreOptions<RootState> = {
       if (state.result === undefined) return [0, 0, 0, 0, 0, 1, 1, 1, 1, 1];
       return calculateFinalScore(state.result, state.questionNames);
     },
+    results: state => {
+      if (state.result === undefined) {
+        return null;
+      }
+      const getScoreTypeHelper = function (name: string) : string {
+        if (name) {
+          if (name.endsWith("-NS")) {
+            return "not_scored";
+          } else if (name.endsWith("-AS")) {
+            return "accountability";
+          } else if (name.endsWith("-EIS")) {
+            return "explainability_interpretability";
+          } else if (name.endsWith("-DQRS")) {
+            return "data_quality_and_rights";
+          } else if (name.endsWith("-BFS")) {
+            return "bias_and_fairness";
+          } else if (name.endsWith("-RS")) {
+            return "robustness";
+          }
+        }
+        return "null";
+      };
+      const getScoreType = function (question: IQuestion): string {
+        var result = getScoreTypeHelper(question.name);
+        if (result === "null") {
+          result = getScoreTypeHelper(question.parent.name);
+        }
+        return result;
+      };
+      const results: any = {};
+      state.answerData.forEach(answer => {
+        const question = state.result!.getQuestionByName(answer.name);
+        const scoreType = getScoreType(question);
+        if (scoreType !== "null" && scoreType !== "not_scored") {
+          if (results[scoreType] === undefined) {
+            results[scoreType] = [];
+          }
+          results[scoreType].push(answer);
+        }
+      });
+      return results;
+    },
     resultDataSections: state => {
       if (state.result === undefined) return {};
 

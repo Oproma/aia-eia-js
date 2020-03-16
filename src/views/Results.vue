@@ -30,16 +30,29 @@
       </li>
     </ul> -->
 
-    <form>
+    <!-- <form>
       <ActionButtonBar
         v-on:fileLoaded="fileLoaded($event)"
         v-on:startAgain="startAgain"
       />
-    </form>
+      <div style="border-bottom: 1px solid #21737c; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(44, 153, 164); margin-bottom: 0.2em; margin-top: 1em; padding-bottom: 0.2em;"></div>
+    </form> -->
 
-    <div style="border-bottom: 1px solid #21737c; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(44, 153, 164); margin-bottom: 0.2em; margin-top: 1em; padding-bottom: 0.2em;"></div>
-
+  <div class="panel-body">
+    <SurveyScore :survey="Survey" />
+    <br />
     <div class="container-fluid">
+      <div class="row">
+        <p>For information on how to improve your system. Visit our <a href="https://portal.ai-global.org/">community portal</a> for Responsible AI reports, tools, training datasets and other valuable resources</p>
+      </div>
+      <div class="row">
+        <p>If you need more hands on support, you can directly contact one of our <a href="#">trusted service providers</a>.</p>
+      </div>
+    </div>
+  </div>
+    
+
+    <!-- <div class="container-fluid">
       <div class="row">
         <h2 id="mitigationMeasures">Score by Responsible AI Dimension</h2>
       </div>
@@ -59,13 +72,13 @@
           <p>{{ ((score[4]/score[9])*100).toFixed(0) }}%</p>
         </div>
       </div>
-    </div>
-    
-        
-    <br />
+
+    </div> -->
+
+    <!-- <br /> -->
 
     <!-- <Score /> -->
-    <Obligations />
+    <!-- <Obligations /> -->
 
     <!-- <div class="container-fluid">
       <div class="row">
@@ -116,6 +129,7 @@ import AssessmentTool from "@/components/AssessmentTool.vue"; // @ is an alias t
 import Score from "@/components/Score.vue";
 import ActionButtonBar from "@/components/ActionButtonBar.vue";
 import Result from "@/components/Result.vue";
+import SurveyScore from "@/components/SurveyScore.vue";
 import Obligations from "@/components/Obligations.vue";
 import SurveyFile from "@/interfaces/SurveyFile";
 import i18n from "@/plugins/i18n";
@@ -126,7 +140,8 @@ import surveyJSON from "@/survey-enfr.json";
     ActionButtonBar,
     Result,
     Score,
-    Obligations
+    SurveyScore,
+    Obligations,
   },
   computed: {
     score: function() {
