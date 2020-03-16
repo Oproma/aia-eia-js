@@ -17,7 +17,7 @@
   <b-container class="sticky sv_main sv_bootstrapmaterial_css">
     <b-row class="stickyPanel" :no-gutters="true" v-if="!isMobile()">
       <b-col class="d-flex justify-content-start">
-        <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="$emit('startAgain')" />
+        <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="showConfirmationBox" />
       </b-col>
       <b-col class="d-flex justify-content-center">
         <input type="button" value="Previous" class="btn sv_prev_btn btn-primary mr-2" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
@@ -38,7 +38,7 @@
         <br />
         <b-row>
           <b-col class="d-flex justify-content-between">
-            <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="$emit('startAgain')" />
+            <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="showConfirmationBox" />
             <input type="button" value="Finish" class="btn sv_prev_btn btn-primary" v-on:click="finish" />
           </b-col>
         </b-row>
@@ -70,6 +70,25 @@ var myMixin = {
 export default class SurveyControls extends Vue {
   @Prop() public survey!: Model;
 
+  showConfirmationBox() {
+    this.$bvModal
+      .msgBoxConfirm("Please confirm that you want to reset everything and start over.", {
+        title: "Please Confirm",
+        size: "md",
+        buttonSize: "sm",
+        okVariant: "danger",
+        okTitle: "YES",
+        cancelTitle: "NO",
+        footerClass: "p-2",
+        hideHeaderClose: false,
+        centered: true
+      })
+      .then(value => {
+        if (value === true) {
+          this.$emit('startAgain');
+        }
+      });
+  }
   prevPage() {
     this.survey.prevPage();
   }
