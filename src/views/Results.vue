@@ -48,7 +48,7 @@
     <SurveyScore :survey="Survey" />
     <br />
     <div class="d-flex justify-content-center">
-      <img v-bind:src="'img/radar-chart.jpg'" /> 
+      <img :src="`${publicPath}img/radar-chart.jpg`" /> 
     </div>
     <br />
     <div class="container-fluid">
@@ -160,6 +160,9 @@ import surveyJSON from "@/survey-enfr.json";
   computed: {
     score: function() {
       return this.$store.getters.calcScore;
+    },
+    publicPath: function() {
+      return process.env.BASE_URL
     }
   }
 })
