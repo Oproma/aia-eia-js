@@ -20,7 +20,7 @@
   <b-container class="sticky sv_main sv_bootstrapmaterial_css">
     <b-row class="stickyPanel" :no-gutters="true" v-if="!isMobile()">
       <b-col class="d-flex justify-content-start">
-        <input type="button" value="Reset" class="btn btn-primary" v-on:click="showConfirmationBox" />
+        <input type="button" value="Reset" class="btn btn-primary" v-on:click="reset" />
       </b-col>
       <b-col class="d-flex justify-content-center">
         <input type="button" value="Previous" class="btn btn-primary mr-2" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
@@ -42,7 +42,7 @@
         <br />
         <b-row>
           <b-col class="d-flex justify-content-between">
-            <input type="button" value="Reset" class="btn btn-primary" v-on:click="showConfirmationBox" />
+            <input type="button" value="Reset" class="btn btn-primary" v-on:click="reset" />
             <input type="button" value="Finish" class="btn btn-primary" v-on:click="finish" />
           </b-col>
         </b-row>
@@ -67,7 +67,7 @@ import { SurveyMixins } from "@/mixins/SurveyMixins";
 export default class SurveyControls extends Vue {
   @Prop() public survey!: Model;
 
-  showConfirmationBox() {
+  reset() {
     this.$bvModal
       .msgBoxConfirm("Please confirm that you want to reset everything and start over.", {
         title: "Please Confirm",
@@ -93,7 +93,27 @@ export default class SurveyControls extends Vue {
     this.survey.nextPage();
   }
   finish() {
+    this.$bvModal
+      .msgBoxConfirm("Do you want to save your responses?", {
+        title: "Thank you for completing the survey!",
+        size: "md",
+        buttonSize: "sm",
+        okTitle: "YES",
+        cancelTitle: "NO",
+        footerClass: "p-2",
+        hideHeaderClose: false,
+        centered: true
+      })
+      .then(value => {
+        if (value === null) {
+          return;
+        }
+        if (value === true) {
+          SurveyMixins.saveSurvey(this.$store.state); 
+        }
         this.survey.doComplete();
+      });
+    
   }
 }
 </script>
