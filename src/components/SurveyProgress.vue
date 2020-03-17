@@ -2,7 +2,7 @@
   <b-container fluid>
     <b-row>
       <b-col class="d-flex justify-content-center">
-        Page {{ currentPageNo() }} of {{ maxPageNo() }}
+        {{ perc().toFixed(0) }}%
       </b-col>
     </b-row>
     <b-row>
