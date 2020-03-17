@@ -1,6 +1,6 @@
 <style scoped>
-  .btn-start-again, .btn-start-again:hover {
-    background-color: rgb(24, 166, 137);
+  .btn-start-again, .btn-start-again:active {
+    background-color: rgb(24, 166, 137) !important;
   }
 </style>
 
