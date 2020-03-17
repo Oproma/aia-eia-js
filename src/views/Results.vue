@@ -41,6 +41,10 @@
   <div class="panel-body">
     <SurveyScore :survey="Survey" />
     <br />
+    <div class="d-flex justify-content-center">
+      <img src="/img/radar-chart.jpg" /> 
+    </div>
+    <br />
     <div class="container-fluid">
       <div class="row">
         <p>For information on how to improve your system. Visit our <a href="https://portal.ai-global.org/">community portal</a> for Responsible AI reports, tools, training datasets and other valuable resources</p>
