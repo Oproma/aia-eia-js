@@ -1,3 +1,9 @@
+<style scoped>
+  .btn-start-again, .btn-start-again:hover {
+    background-color: rgb(24, 166, 137);
+  }
+</style>
+
 <template>
   <div class="results">
     <!--<PrintButton />-->
@@ -51,6 +57,9 @@
       </div>
       <div class="row">
         <p>If you need more hands on support, you can directly contact one of our <a href="#">trusted service providers</a>.</p>
+      </div>
+      <div class="row">
+        <input type="button" value="Start Again" class="btn btn-primary btn-start-again" @click="startAgain" />
       </div>
     </div>
   </div>
