@@ -65,6 +65,9 @@
     margin-bottom: -3rem !important;
     padding: .5em !important;
   }
+  .fa-circle {
+    color: lightgray;
+  }
 </style>
 <template>
   <b-container>
@@ -83,10 +86,10 @@
             </b-thead>
             <b-tbody>
               <b-tr v-for="item in items" v-bind:key="item.dimensions">
-                <b-th>{{ item.dimensions }}</b-th>
-                <b-td class="text-center"><input type="radio" :checked="item.needs_to_improve"/></b-td>
-                <b-td class="text-center"><input type="radio" :checked="item.acceptable"/></b-td>
-                <b-td class="text-center"><input type="radio" :checked="item.proficient"/></b-td>
+                <b-th>{{ item.dimensions }}</b-th>    
+                <b-td class="text-center"><font-awesome-icon :icon="['far', item.needs_to_improve]" size="lg" /></b-td>
+                <b-td class="text-center"><font-awesome-icon :icon="['far', item.acceptable]" size="lg" /></b-td>
+                <b-td class="text-center"><font-awesome-icon :icon="['far', item.proficient]" size="lg" /></b-td>
               </b-tr>
             </b-tbody>
           </b-table-simple>
@@ -142,7 +145,10 @@ import { Model } from "survey-vue";
       for (var dimension in dimensions) {
         const perc: number = ((score[dimensions[dimension]]/score[5 + dimensions[dimension]])*100);
         items.push({
-          dimensions: dimension, needs_to_improve: perc < 50, acceptable: perc >= 50 && perc < 75, proficient: perc >= 75 && perc <= 100 
+          dimensions: dimension,
+          needs_to_improve: (perc < 50 ? 'check-circle' : 'circle'),
+          acceptable: (perc >= 50 && perc < 75 ? 'check-circle' : 'circle'),
+          proficient: (perc >= 75 && perc <= 100 ? 'check-circle' : 'circle')
         });
       }
       return items;
