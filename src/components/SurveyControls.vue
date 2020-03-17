@@ -1,4 +1,4 @@
-<style>
+<style scoped>
 .stickyPanel {
   padding: 10px 15px;
   background-color: #f5f5f5;
@@ -12,6 +12,9 @@
   position: sticky;
   bottom: 1rem;
 }
+.btn-save {
+  background-color: #007bff !important;
+}
 </style>
 <template>
   <b-container class="sticky sv_main sv_bootstrapmaterial_css">
@@ -24,6 +27,7 @@
         <input type="button" value="Next" class="btn btn-primary" v-on:click="nextPage" :disabled="this.survey.isLastPage" />
       </b-col>
       <b-col class="d-flex justify-content-end">
+        <input type="button" value="Save" class="btn btn-primary btn-save mr-2" v-on:click="save()" />
         <input type="button" value="Finish" class="btn btn-primary" v-on:click="finish" />
       </b-col>
     </b-row>
@@ -50,22 +54,15 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { Model } from "survey-vue";
-
-// define a mixin object
-var myMixin = {
-  methods: {
-    isMobile: function() {
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-  }
-};
+import { SurveyMixins } from "@/mixins/SurveyMixins";
 
 @Component({
-  mixins: [myMixin]
+  methods: {
+    isMobile: SurveyMixins.isMobile,
+    save: function () {
+      SurveyMixins.saveSurvey(this.$store.state);
+    } 
+  }
 })
 export default class SurveyControls extends Vue {
   @Prop() public survey!: Model;
@@ -96,7 +93,7 @@ export default class SurveyControls extends Vue {
     this.survey.nextPage();
   }
   finish() {
-    this.survey.doComplete();
+        this.survey.doComplete();
   }
 }
 </script>
