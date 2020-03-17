@@ -3,7 +3,20 @@
     <DesignAssistant v-if="isSurveyStarted" :survey="Survey" v-on:startAgain="startAgain" />
     <div v-else>
       <h1 class="section-header">{{ $t("appTitle") }}</h1>
-      <div style="padding: 1em;" v-html="description"></div>
+      <div style="padding: 1em;">
+        <p>The Design Assistant is an open virtual assessment to help those designing, developing, and implementing AI systems do so in a responsible way.</p>
+        <p>Committed to making responsible AI as simple as possible, we’ve done the hard work of deciphering the best practices, policies, and principles and put them into a simple online survey.</p>
+        <p>With our esteemed community of subject matter experts ranging from engineers, to ethicists, to policy makers, we have taken the most cited principles, whitepapers, and policy documents published by academics, standards organizations, and companies and translated them into comprehensive questions.</p>
+        <p>Based on our research and experience we have created a comprehensive evaluation looking at the following dimensions of a trusted AI program:</p>
+        <ul>
+          <li>Accountability</li>
+          <li>Explainability and Interpretability</li>
+          <li>Data Quality</li>
+          <li>Bias and Fairness</li>
+          <li>Robustness</li>
+        </ul>
+        <p>Our hope is that you will work with your colleagues who are responsible for different aspects of your business to fill out the Design Assistant. Whether you are just thinking about how to integrate AI tools into your business, or you have already deployed several models, this tool is for you. We do think that these questions are best to think about at the start of your project, however, we do think that the Design Assistant can be used throughout the lifecycle of your project!</p>
+      </div>
       <div class="row sv_main sv_bootstrapmaterial_css" style="padding: 25px;">
         <div class="col-sm-6">
           <div class="card h-100">
@@ -47,7 +60,6 @@ import surveyJSON from "@/survey-enfr.json";
   }
 })
 export default class Home extends Vue {
-  description: string = "";
   isSurveyStarted: boolean = false;
   Survey: Model = new Model(surveyJSON);
 
@@ -70,9 +82,6 @@ export default class Home extends Vue {
   }
 
   created() {
-    // *Hack* fetch description from the json file
-    this.description = surveyJSON.pages[0].elements[0].html!["default"];
-
     this.Survey.onComplete.add(result => {
       this.$store.commit("updateResult", result);
     });
