@@ -17,29 +17,29 @@
   <b-container class="sticky sv_main sv_bootstrapmaterial_css">
     <b-row class="stickyPanel" :no-gutters="true" v-if="!isMobile()">
       <b-col class="d-flex justify-content-start">
-        <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="showConfirmationBox" />
+        <input type="button" value="Reset" class="btn btn-primary" v-on:click="showConfirmationBox" />
       </b-col>
       <b-col class="d-flex justify-content-center">
-        <input type="button" value="Previous" class="btn sv_prev_btn btn-primary mr-2" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
-        <input type="button" value="Next" class="btn sv_prev_btn btn-primary" v-on:click="nextPage" :disabled="this.survey.isLastPage" />
+        <input type="button" value="Previous" class="btn btn-primary mr-2" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
+        <input type="button" value="Next" class="btn btn-primary" v-on:click="nextPage" :disabled="this.survey.isLastPage" />
       </b-col>
       <b-col class="d-flex justify-content-end">
-        <input type="button" value="Finish" class="btn sv_prev_btn btn-primary" v-on:click="finish" />
+        <input type="button" value="Finish" class="btn btn-primary" v-on:click="finish" />
       </b-col>
     </b-row>
     <b-row class="stickyPanel" :no-gutters="true" v-if="isMobile()">
       <b-col>
         <b-row>
           <b-col class="d-flex justify-content-between">
-            <input type="button" value="Previous" class="btn sv_prev_btn btn-primary" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
-            <input type="button" value="Next" class="btn sv_prev_btn btn-primary" v-on:click="nextPage" :disabled="this.survey.isLastPage" />
+            <input type="button" value="Previous" class="btn btn-primary" v-on:click="prevPage" :disabled="this.survey.isFirstPage" />
+            <input type="button" value="Next" class="btn btn-primary" v-on:click="nextPage" :disabled="this.survey.isLastPage" />
           </b-col>
         </b-row>
         <br />
         <b-row>
           <b-col class="d-flex justify-content-between">
-            <input type="button" value="Reset" class="btn sv_prev_btn btn-primary" v-on:click="showConfirmationBox" />
-            <input type="button" value="Finish" class="btn sv_prev_btn btn-primary" v-on:click="finish" />
+            <input type="button" value="Reset" class="btn btn-primary" v-on:click="showConfirmationBox" />
+            <input type="button" value="Finish" class="btn btn-primary" v-on:click="finish" />
           </b-col>
         </b-row>
       </b-col>
