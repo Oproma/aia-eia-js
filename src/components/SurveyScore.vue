@@ -114,7 +114,7 @@
         <b-nav tabs class="flip">
           <b-nav-item :active="target === 'accountability'" @click="target = 'accountability'">Accountability</b-nav-item>
           <b-nav-item :active="target === 'explainability_interpretability'" @click="target = 'explainability_interpretability'">Explainability</b-nav-item>
-          <b-nav-item :active="target === 'data_quality_and_rights'" @click="target = 'data_quality_and_rights'">Data quality and right</b-nav-item>
+          <b-nav-item :active="target === 'data_quality_and_rights'" @click="target = 'data_quality_and_rights'">Data quality and rights</b-nav-item>
           <b-nav-item :active="target === 'bias_and_fairness'" @click="target = 'bias_and_fairness'">Bias and fairness</b-nav-item>
           <b-nav-item :active="target === 'robustness'" @click="target = 'robustness'">Robustness</b-nav-item>
         </b-nav>
