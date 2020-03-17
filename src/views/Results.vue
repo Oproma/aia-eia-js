@@ -48,7 +48,7 @@
     <SurveyScore :survey="Survey" />
     <br />
     <div class="d-flex justify-content-center">
-      <img src="/img/radar-chart.jpg" /> 
+      <img v-bind:src="'img/radar-chart.jpg'" /> 
     </div>
     <br />
     <div class="container-fluid">
