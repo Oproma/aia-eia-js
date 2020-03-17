@@ -109,7 +109,7 @@
               <b-tr v-for="result in results[target]" v-bind:key="result.name">
                 <b-td>{{ result.title }}</b-td>
                 <b-td v-html="result.displayValue"></b-td>
-                <b-td></b-td>
+                <b-td v-html="result.displayRecommendation"></b-td>
               </b-tr>
             </b-tbody>
           </b-table-simple>

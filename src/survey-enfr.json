@@ -5185,6 +5185,10 @@
                                 "default": "Has a risk benefit analysis of all aspects of this system been completed?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "Google: The use of several metrics rather than a single one will help you to understand tradeoffs between different kinds of errors and experiences.\n\n1) Consider metrics including feedback from user surveys, quantities that track overall system performance and short- and long-term product heath (e.g., click-through rate and customer lifetime value, respectively), and false positive and false negative rates sliced across different subgroups.\n\n2) Ensure that your metrics are appropriate for the context and goals of your system, e.g., a fire alarm system should have high recall, even if that means the occasional false alarm.\n\nThere are ISO Standards that can be referenced here, however, we should find best practices that are open.",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -5229,6 +5233,10 @@
                             "name": "accountability5",
                             "title": {
                                 "default": "Is there a level of specialized knowledge required to operate your system? Are users made aware prior to use?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Competence 1) Creators of A\/IS should specify the types and levels of knowledge necessary to understand and operate any given application of A\/IS. In specifying the requisite types and levels of expertise, creators should do so for the individual components of A\/IS and for the entire systems. 2) Creators of A\/IS should integrate safeguards against the incompetent operation of their systems. Safeguards could include issuing 33 The IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems General Principles This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 United States License. notifications\/warnings to operators in certain conditions, limiting functionalities for different levels of operators (e.g., novice vs. advanced), system shut-down in potentially risky conditions, etc. 3) Creators of A\/IS should provide the parties affected by the output of A\/IS with information on the role of the operator, the competencies required, and the implications of operator error. Such documentation should be accessible and understandable to both experts and the general public. 4) Entities that operate A\/IS should create documented policies to govern how A\/IS should be operated. These policies should include the real-world applications for such A\/IS, any preconditions for their effective use, who is qualified to operate them, what training is required for operators, how to measure the performance of the A\/IS, and what should be expected from the A\/IS. The policies should also include specification of circumstances in which it might be necessary for the operator to override the A\/IS.",
                                 "fr": ""
                             },
                             "choices": [
@@ -5287,6 +5295,10 @@
                             "name": "accountability6",
                             "title": {
                                 "default": "Does your organization have a risk management process in place?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "To go in a different question (Microsoft?) 2) When the misuse of an AIS endangers public health or safety and has a high probability of occurrence, it is prudent to restrict open access and public dissemination to its algorithm.\n\n5) The errors and ﬂaws discovered in AIS and SAAD should be publicly shared, on a global scale, by public institutions and businesses in sectors that pose a signiﬁcant danger to personal integrity and social organization.\n\nIEEE\nAwareness of Misuse\n1) Creators should be aware of methods of misuse, and they should design A\/IS in ways to minimize the opportunity for these. \n\n2) Raise public awareness around the issues of potential A\/IS technology misuse in an informed and measured way by: \n - Providing ethics education and security awareness that sensitizes society to the potential risks of misuse of A\/IS. For example, provide \u201Cdata privacy warnings\u201D that some smart devices will collect their users\u2019 personal data. \n - Delivering this education in scalable and effective ways, including having experts with the greatest credibility and impact who can minimize unwarranted fear about A\/IS. \n - Educating government, lawmakers, and enforcement agencies about these issues of A\/IS so citizens can work collaboratively with these agencies to understand safe use of A\/IS. For example, the same way police officers give public safety lectures in schools, they could provide workshops on safe use and interaction with A\/IS.",
                                 "fr": ""
                             },
                             "choices": [
@@ -5455,6 +5467,10 @@
                                 "default": "Is there ongoing monitoring of the system to ensure that the system is operating as intended?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "Maps to EU assessment question \"what measures are put in place to inform on the products accuracy? On the reasons\/ criteria behind outcomes of the product?\"",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-1",
@@ -5483,6 +5499,10 @@
                             "name": "accountability10",
                             "title": {
                                 "default": "Were all labour laws or procedures in your jurisdiction followed throughout the development life-cycle of this project?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "(Martha\/ Mashal to develop catalogue of labour laws starting with US. Are they by state?)\n\nFrom Montreal declaration\n4) Industrial AIS development must be compatible with acceptable working conditions at every step of their life cycle, from natural resources extraction to recycling, and including data processing.\n\n5) The digital activity of users of AIS and digital services should be recognized as labor that contributes to the functioning of algorithms and creates value.",
                                 "fr": ""
                             },
                             "choices": [
@@ -5526,6 +5546,10 @@
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "\"1) Plan out your options to pursue interpretability: Pursuing interpretability can happen before, during and after designing and training your model.\n- What degree of interpretability do you really need? Work closely with relevant domain experts for your model (e.g., healthcare, retail, etc.) to identify what interpretability features are needed, and why. While rare, there are some cases\/systems where with sufficient empirical evidence, fine-grain interpretability is not needed.\n- Can you analyze your training\/testing data? For example, if you are working with private data, you may not have access to investigate your input data.\n- Can you change your training\/testing data, for example, gather more training data for certain subsets (e.g., parts\/slices of the feature space), or gather test data for categories of interest?\n- Can you design a new model or are you constrained to an already-trained model?\n- Are you providing too much transparency, potentially opening up vectors for abuse?\n- What are your post-train interpretability options? Will you have access to the internals of the model (e.g., black box vs. white box)?\n\n2) Treat interpretability as a core part of the user experience\n- Iterate with users in the development cycle to test and refine your assumptions about user needs and goals.\n- Design the UX so that users build useful mental models of the AI system. If not given clear and compelling information, users may make up their own theories about how an AI system works, which can negatively affect how they try to use the system.\n- Where possible, make it easy for users to do their own sensitivity analysis: empower them to test how different inputs affect the model output.\n- Additional relevant UX resources: Designing for human needs, user control, teaching an AI, habituation, fairness, representation\n\n3) Design the model to be interpretable\n- Use the smallest set of inputs necessary for your performance goals to make it clearer what factors are affecting the model.\n- Use the simplest model that meets your performance goals.\n- Learn causal relationships not correlations when possible (e.g., use height not age to predict if a kid is safe to ride a roller coaster).\n- Craft the training objective to match your true goal (e.g., train for the acceptable probability of false alarms, not accuracy).\n- Constrain your model to produce input-output relationships that reflect domain expert knowledge (e.g., a coffee shop should be more likely to be recommended if it\u2019s closer to the user, if everything else about it is the same).\n\n4) Choose metrics to reflect the end-goal and the end-task\n- The metrics you consider must address the particular benefits and risks of your specific context. For example, a fire alarm system would need to have high recall, even if that means the occasional false alarm.\n\n5) Understand the trained model: Many techniques are being developed to gain insights into the model (e.g., sensitivity to inputs).\n- Analyze the model\u2019s sensitivity to different inputs, for different subsets of examples.\n\n6) Communicate explanations to model users\n- Provide explanations that are understandable and appropriate for the user (e.g., technical details may be appropriate for industry practitioners and academia, while general users may find UI prompts, user-friendly summary descriptions or visualizations more useful). Explanations should be informed by a careful consideration of philosophical, psychological, computer science (including HCI), legal and ethical considerations about what counts as a good explanation in different contexts.\n- Identify if and where explanations may not be appropriate (e.g., where explanations could result in more confusion for general users, nefarious actors could take advantage of the explanation for system or user abuse, or explanations may reveal proprietary information).\n- Consider alternatives if explanations are requested by a certain user base but cannot or should not be provided, or if it's not possible to provide a clear, sound explanation. You could instead provide accountability through other mechanisms such as auditing or allow users to contest decisions or to provide feedback to influence future decisions or experiences.\n- Prioritize explanations that suggest clear actions a user can take to correct inaccurate predictions going forward.\n- Don\u2019t imply that explanations mean causation unless they do.\n- Recognize human psychology and limitations (e.g., confirmation bias, cognitive fatigue)\n- Explanations can come in many forms (e.g., text, graphs, statistics): when using visualization to provide insights, use best practices from HCI and visualization.\n- Any aggregated summary may lose information and hide details (e.g., partial dependency plots).\n- The ability to understand the parts of the ML system (especially inputs) and how all the parts work together (\u201Ccompleteness\u201D) helps users to build clearer mental models of the system. These mental models match actual system performance more closely, providing for a more trustworthy experience and more accurate expectations for future learning.\n- Be mindful of the limitations of your explanations (e.g., local explanations may not generalize broadly, and may provide conflicting explanations of two visually-similar examples).\n\"",
                                 "fr": ""
                             },
                             "choices": [
@@ -5726,6 +5750,10 @@
                                 "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "From EU - Good AI governance should include accountability mechanisms, which could be very diverse in choice depending on the goals. Mechanisms can range from monetary compensation (no-fault insurance) to fault finding, to reconciliation without monetary compensations. The choice of accountability mechanisms may also depend on the nature and weight of the activity, as well as the level of autonomy at play. An instance in which a system misreads a medicine claim and wrongly decides not to reimburse may be compensated for with money. In a case of discrimination, however, an explanation and apology might be at least as important.",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -5758,6 +5786,10 @@
                             },
                             "description": {
                                 "default": "Select all which apply",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Montreal declaration: The development and use of AIS must not contribute to lessening the responsibility of human beings when decisions must be made. 1) Only human beings can be held responsible for decisions stemming from recommendations made by AIS, and the actions that proceed therefrom. 2) In all areas where a decision that affects a person\u2019s life, quality of life, or reputation must be made, where time and circumstance permit, the ﬁnal decision must be taken by a human being and that decision should be free and informed 3) The decision to kill must always be made by human beings, and responsibility for this decision must not be transferred to an AIS. 4) People who authorize AIS to commit a crime or an offense, or demonstrate negligence by allowing AIS to commit them, are responsible for this crime or offense. 5) When damage or harm has been inﬂicted by an AIS, and the AIS is proven to be reliable and to have been used as intended, it is not reasonable to place blame on the people involved in its development or use.",
                                 "fr": ""
                             },
                             "choices": [
@@ -5804,6 +5836,10 @@
                             "name": "biasFairness1",
                             "title": {
                                 "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "NEED",
                                 "fr": ""
                             },
                             "choices": [
@@ -5873,6 +5909,10 @@
                                 "default": "Are the objectives of the system clear to the users?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "Maps to EU assessment question \"have the usage scenarious for the product been specified and clearly communicated?\"",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-1",
@@ -5914,6 +5954,10 @@
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "From Montreal Declaration: 1) AIS must be designed and trained so as not to create, reinforce, or reproduce discrimination based on \u2014 among other things \u2014 social, sexual, ethnic, cultural, or religious differences.\n\n2) AIS development must help eliminate relationships of domination between groups and people based on differences of power, wealth, or knowledge.\n\n3) AIS development must produce social and economic beneﬁts for all by reducing social inequalities and vulnerabilities.",
                                 "fr": ""
                             },
                             "choices": [
@@ -5995,6 +6039,10 @@
                                 "default": "Was training for diversity and inclusion completed for everyone working on the development of this system?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "STANDARD: What's acceptable for diversity and inclusion training? At a minimum come up with some criteria. \n \nIBM - 1) Make company policies clear and accessible to design and development teams from day one so that no one is confused about issues of responsibility or accountability. As an AI designer or developer, it is your responsibility to know.\n\nIBM - AI provides deeper insight into our personal lives when interacting with our sensitive data. As humans are inherently vulnerable to biases, and are responsible for building AI, there are chances for human bias to be embedded in the systems we create. It is the role of a responsible team to minimize algorithmic bias through ongoing research and data collection which is representative of a diverse population. \n\n1) Real-time analysis of AI brings to light both intentional and unintentional biases. When bias in data becomes apparent, the team must investigate and understand where it originated and how it can be mitigated\n\n2) Design and develop without intentional biases and schedule team reviews to avoid unintentional biases. Unintentional biases can include stereotyping, confirmation bias, and sunk cost bias.\n\n3) Instill a feedback mechanism or open dialogue with users to raise awareness of user-identified biases or issues. e.g., Woebot asks \u201CLet me know what you think,\u201D after suggesting a link",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-1",
@@ -6027,6 +6075,10 @@
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Google Responsible AI Practices: 1) Design your model using concrete goals for fairness and inclusion\n- Engage with social scientists, humanists, and other relevant experts for your product to understand and account for various perspectives.\n- Consider how the technology and its development over time will impact different use cases: Whose views are represented? What types of data are represented? What\u2019s being left out What outcomes does this technology enable and how do these compare for different users and communities? What biases, negative experiences, or discriminatory outcomes might occur?\n- Set goals for your system to work fairly across anticipated use cases: for example, in X different languages, or to Y different age groups. Monitor these goals over time and expand as appropriate.\n- Design your algorithms and objective function to reflect fairness goals.\n- Update your training and testing data frequently based on who uses your technology and how they use it.",
                                 "fr": ""
                             },
                             "choices": [
@@ -6266,6 +6318,10 @@
                                 "default": "What's the severity of this\/these unintended outcome(s)?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "Slavka shared reference material",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -6356,6 +6412,10 @@
                                 "default": "Is it possible to discover how your system renders a decision or performs a function?",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "From IEEE EAD. Achieving transparency, which may involve a significant portion of the resources required to develop the A\/IS, is important to each stakeholder group for the following reasons:\n - For users, what the system is doing and why.\n - For creators, including those undertaking the validation and certification of A\/IS, the systems\u2019 processes and input data.\n - For an accident investigator, if accidents occur.\n - For those in the legal process, to inform evidence and decision-making.\n - For the public, to build confidence in the technology.\n\nFrom EU: Explanation (XAI research): A known issue with learning systems based on neural nets is the difficulty to provide clear reasons for the interpretations and decisions of the system. This is due to the fact that the training process has resulted in setting the network parameters to numerical values that are difficult to correlate with the results. In addition, sometimes small changes in some values of the data might result in dramatic changes in the interpretation, leading the system to confuse a school bus with an ostrich for example. This specific issue might be used to deceive the system. \n\nFor a system to be trustworthy, it is necessary to be able to understand why it had a given behaviour and why it has provided a given interpretation. It is also necessary to limit these adversarial situations. As of today, this is still an open challenge to AI systems based on neural networks. A whole field of research, Explainable AI (XAI) is trying to address this issue, to better understand the underlying mechanisms and find solutions. The matter is of prime importance not only to explain AI\u2019s behaviour to the developer or the user, but also to simply deploy reliable AI systems.",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-1",
@@ -6398,6 +6458,10 @@
                             "name": "explainabilityInterpretability2",
                             "title": {
                                 "default": "Are you willing to share information about how your system renders a decision or performs a function in an easy to understand way? Information should include, but not be limited to, data sources, development processess, and consulted stakeholders.",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "IEEE EAD - Recommendation: Develop new standards that describe measurable, testable levels of transparency, so that systems can be objectively assessed and levels of compliance determined. For designers, such standards will provide a guide for self-assessing transparency during development and suggest mechanisms for improving transparency. The mechanisms by which transparency is provided will vary significantly, including but not limited to, the following use cases: - For users of care or domestic robots, a \u201Cwhydid-you-do-that button\u201D which, when pressed, causes the robot to explain the action it just took. - For validation or certification agencies, the algorithms underlying the A\/IS and how they have been verified. - For accident investigators, secure storage of sensor and internal state data comparable to a flight data recorder or black box.",
                                 "fr": ""
                             },
                             "choices": [
@@ -6455,6 +6519,10 @@
                             },
                             "description": {
                                 "default": "Select all that have been completed:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Learn from software engineering best test practices and quality engineering to make sure the AI system is working as intended and can be trusted.\n\n1) Conduct rigorous unit tests to test each component of the system in isolation.\n\n2) Conduct integration tests to understand how individual ML components interact with other parts of the overall system.\n\n3) Proactively detect input drift by testing the statistics of the inputs to the AI system to make sure they are not changing in unexpected ways.\n\n4) Use a gold standard dataset to test the system and ensure that it continues to behave as expected. Update this test set regularly in line with changing users and use cases, and to reduce the likelihood of training on the test set.\n\n5) Conduct iterative user testing to incorporate a diverse set of users\u2019 needs in the development cycles.\n\n6) Apply the quality engineering principle of poka-yoke: build quality checks into a system, so that unintended failures either cannot happen or trigger an immediate response (e.g., if an important feature is unexpectedly missing, the AI system won\u2019t output a prediction).",
                                 "fr": ""
                             },
                             "choices": [
@@ -6556,6 +6624,10 @@
                                 "default": "Select all that apply:",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "2) Robustness (Assessment List): Covered in other questions. \n- Resilience to Attack:\n # What are the forms of attack to which the AI system is vulnerable? Which of these forms of attack can be mitigated against?\n # What systems are in place to ensure data security and integrity?\n- Reliability & Reproducibility:\n # Is a strategy in place to monitor and test that my products or services meet goals, purposes and intended applications?\n # Are the used algorithms tested with regards to their reproducibility? Are reproducibility conditions under control? In which specific and sensitive contexts is it necessary to use a different approach?\n # For each aspect of reliability and reproducibility that should be considered, how is it measured and assured?\n # Are processes for the testing and verification of the reliability of AI systems clearly documented and operationalised to those tasked with developing and testing an AI system?\n # What mechanisms can be used to assure users of the reliability of an AI system?\n- Accuracy through data usage and control:\n # What definition(s) of accuracy is (are) applicable in the context of the system being developed and\/or deployed?\n # For each form of accuracy to be considered how is it measured and assured?\n # Is the data comprehensive enough to complete the task in hand? Is the most recent data used (not outdated)?\n # What other data sources \/ models can be added to increase accuracy?\n # What other data sources \/ models can be used to eliminate bias?\n # What strategy was put in place to measure inclusiveness of the data? Is the data representative enough of the case to be solved?\n- Fall-back plan:\n # What would be the impact of the AI system failing by: Providing wrong results? Being unavailable?\n # Providing societally unacceptable results (e.g. bias)?\n # In case of unacceptable impact - Have thresholds and governance for the above scenarios been defined to trigger alternative\/fall-back plans?\n # Have fall-back plans been defined and tested?",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -6639,6 +6711,10 @@
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "To be referenced somewhere else (w\/question about transparency):\n6) Access to fundamental resources, knowledge and digital tools must be guaranteed for all.\n\n7) We should support the development of commons algorithms \u2014 and of open data needed to train them \u2014 and expand their use, as a socially equitable objective.\n\nEU - 1) Respect for (& Enhancement of) Human Autonomy: AI systems should be designed not only to uphold rights, values and principles, but also to protect citizens in all their diversity from governmental and private abuses made possible by AI technology, ensuring a fair distribution of the benefits created by AI technologies, protect and enhance a plurality of human values, and enhance self-determination and autonomy of individual users and communities. \n\n2) Respect for (& Enhancement of) Human Autonomy (Assessment list): \n - Is the user informed in case of risks on human mental integrity (nudging) by the product?\n - Is useful and necessary information provided to the user of the service\/product to enable the latter to take a decision in full self-determination?\n - Does the AI system indicate to users that a decision, content, advice, or outcome, is the result of an algorithmic decision of any kind?\n - Do users have the facility to interrogate algorithmic decisions in order to fully understand their purpose, provenance, the data relied on, etc.?",
                                 "fr": ""
                             },
                             "choices": [
@@ -6962,6 +7038,10 @@
                                 "default": "Select all that apply:",
                                 "fr": ""
                             },
+                            "recommendation": {
+                                "default": "Derived from Google Responsible AI Practice principles: 1) Collect and handle data responsibly\n- Identify whether your ML model can be trained without the use of sensitive data, e.g., by utilizing non-sensitive data collection or an existing public data source.\n- If it is essential to process sensitive training data, strive to minimize the use of such data. Handle any sensitive data with care: e.g., comply with required laws and standards, provide users with clear notice and give them any necessary controls over data use, follow best practices such as encryption in transit and rest, and adhere to Google privacy principles.\n- Anonymize and aggregate incoming data using best practice data-scrubbing pipelines: e.g., consider removing personally identifiable information (PII) and outlier or metadata values that might allow de-anonymization (including implicit metadata such as arrival order, removable by random shuffling, as in Prochlo; or the Cloud Data Loss Prevention API to automatically discover and redact sensitive and identifying data).\n\n2) Leverage on-device processing where appropriate\n- If your goal is to learn statistics of individual interactions (e.g., how often certain UI elements are used), consider collecting only statistics that have been computed locally, on-device, rather than raw interaction data, which can include sensitive information.\n- Consider whether techniques like federated learning, where a fleet of devices coordinates to train a shared global model from locally-stored training data, can improve privacy in your system.\n- When feasible, apply aggregation, randomization, and scrubbing operations on-device (e.g., Secure aggregation, RAPPOR, and Prochlo's encode step). Note that these operations may only provide pragmatic, best-effort privacy unless the techniques employed are accompanied by proofs.",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -7120,6 +7200,10 @@
                             },
                             "description": {
                                 "default": "Select all that apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "From Google Responsible AI Practices - For supervised systems, consider the relationship between the data labels you have, and the items you are trying to predict. If you are using a data label X as a proxy to predict a label Y, in which cases is the gap between X and Y problematic?",
                                 "fr": ""
                             },
                             "choices": [

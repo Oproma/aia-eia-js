@@ -4,6 +4,9 @@ import VuexPersistence from "vuex-persist";
 import { RootState } from "./types";
 import { IQuestion, QuestionSelectBase, SurveyModel } from "survey-vue";
 import isEmpty from "lodash.isempty";
+// Used to get custom data from questions
+import surveyJSON from "@/survey-enfr.json";
+import showdown from "showdown";
 
 Vue.use(Vuex);
 
@@ -319,6 +322,30 @@ const store: StoreOptions<RootState> = {
         }
         return result;
       };
+      // *Hack* fetch custom data from questions in the json file and attach it
+      // to the answers
+      const converter = new showdown.Converter();
+      for (let i = 0; i < state.answerData.length; i++) {
+        const questionName = state.answerData[i].name;
+        const pageName = state.result.getQuestionByName(state.answerData[i].name).page.name;
+        for (let j = 0; j < surveyJSON.pages.length; j++) {
+          if (surveyJSON.pages[j].name === pageName) {
+            for (let k = 0; k < surveyJSON.pages[j].elements.length; k++) {
+              const panel: any = surveyJSON.pages[j].elements[k].elements;
+              if (panel[0].name === questionName) {
+                state.answerData[i].recommendation = panel[0].recommendation;
+                state.answerData[i].displayRecommendation = "";
+                if (state.answerData[i].recommendation) {
+                  state.answerData[i].displayRecommendation = converter.makeHtml(state.answerData[i].recommendation.default);
+                }
+                break;
+              }
+            }
+            break;
+          }
+        }
+      }
+      // filter results by dimensions and exclude questions that are not scored
       const results: any = {};
       state.answerData.forEach(answer => {
         const question = state.result!.getQuestionByName(answer.name);
