@@ -23,6 +23,7 @@
   }
   .score thead th:first-child {
     vertical-align: top;
+    background-color: #bfbfbf;
   }
   .score th:first-child {
     background-color:#EFEFEF;
