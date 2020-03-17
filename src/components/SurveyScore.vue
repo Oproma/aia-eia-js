@@ -1,8 +1,4 @@
 <style scoped>
-  table.score {
-    border-spacing: 0.2rem;
-    border-collapse: separate;
-  }
   .report-card thead th div {
     padding: 0.75rem;
     border: 1px solid #dee2e6;
@@ -75,7 +71,7 @@
     <b-tabs content-class="mt-3">
       <b-tab title="Score" active>
         <div class="table-responsive">
-          <b-table-simple class="score" borderless>
+          <b-table-simple class="score" bordered>
             <b-thead>
               <b-tr>
                 <b-th>Dimensions</b-th>
