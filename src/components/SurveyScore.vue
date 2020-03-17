@@ -62,9 +62,16 @@
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
   }
+  .btn-export {
+    float: right;
+    margin-top: -0.2rem;
+    margin-bottom: -3rem !important;
+    padding: .5em !important;
+  }
 </style>
 <template>
   <b-container>
+    <input type="button" value="Export" class="btn btn-primary btn-export"/>
     <b-tabs content-class="mt-3">
       <b-tab title="Score" active>
         <div class="table-responsive">
@@ -148,7 +155,7 @@ import { Model } from "survey-vue";
     }
   }
 })
-export default class SurveyProgress extends Vue {
+export default class SurveyScore extends Vue {
   @Prop() public survey!: Model;
   public target: string = "accountability";
 }
