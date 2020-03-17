@@ -5088,34 +5088,34 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability1.2Panel-AS",
+                    "name": "accountability1.2Panel-NS",
                     "elements": [
                         {
                             "type": "radiogroup",
                             "name": "accountability2",
                             "title": {
-                                "default": "What's the severity of unintended outcomes occuring?",
+                                "default": "Are there potential unintended outcomes(moral, material, physical) that could occur when this system is in use? What type of damages would it cause, select all which apply:",
                                 "fr": ""
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0",
+                                    "value": "item1",
                                     "text": {
-                                        "default": "High",
+                                        "default": "Material",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.5",
+                                    "value": "item2",
                                     "text": {
-                                        "default": "Medium",
+                                        "default": "Moral",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-1",
+                                    "value": "item3",
                                     "text": {
-                                        "default": "Low",
+                                        "default": "Physical",
                                         "fr": ""
                                     }
                                 }
@@ -5131,40 +5131,40 @@
                             "type": "radiogroup",
                             "name": "accountability3",
                             "title": {
-                                "default": "Describe your companies level of maturity implementing complex programs, processes, and technology",
+                                "default": "Does your organization have experience implementing responsible and ethical programs, processes, and technology? To what extent is the review of ethics built in to your practice?",
                                 "fr": ""
                             },
                             "choices": [
                                 {
                                     "value": "item1-0",
                                     "text": {
-                                        "default": "Initial, processes are unpredictable, poorly controlled, reactive",
+                                        "default": "Initial, there is limited awareness of ethical trade-offs in our organization.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.5",
+                                    "value": "item2-0.25",
                                     "text": {
-                                        "default": "Managed, processes are planned, documented, performed, monitored, and controlled at the project level. Often reactive.",
+                                        "default": "Managed, ethical and responsible processes are planned, documented, performed, monitored, and controlled at the project level. Often reactive.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-1",
+                                    "value": "item3-0.5",
                                     "text": {
                                         "default": "Defined, processes are well characterized and understood. Processes, standards, procedures, tools, etc are defined at the organizational level. Proactive.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-1.5",
+                                    "value": "item4-0.75",
                                     "text": {
                                         "default": "Quantitatively managed, processes aer controlled using statistical and other quantitiative techiques.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-2",
+                                    "value": "item5-1",
                                     "text": {
                                         "default": "Optimizing, process performance continually improved through incremental and innovative technological improvements.",
                                         "fr": ""
@@ -5228,14 +5228,14 @@
                             "type": "radiogroup",
                             "name": "accountability5",
                             "title": {
-                                "default": "Is there a level of technical knowledge required to operate your system? Are users made aware prior to use?",
+                                "default": "Is there a level of specialized knowledge required to operate your system? Are users made aware prior to use?",
                                 "fr": ""
                             },
                             "choices": [
                                 {
                                     "value": "item1-1",
                                     "text": {
-                                        "default": "No, systems is available to all usere with all degrees of knowledge",
+                                        "default": "No, systems is available to all users with all degrees of knowledge",
                                         "fr": ""
                                     }
                                 },
@@ -5256,7 +5256,21 @@
                                 {
                                     "value": "item4-0",
                                     "text": {
-                                        "default": "Yes, users are not notified",
+                                        "default": "Yes, users have been notified and the appropriate training has been made available to all users. For internal users, training has been delivered or will delivered prior to deployment",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0",
+                                    "text": {
+                                        "default": "For internal users, training has been delivered or will delivered prior to deployment",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item6-0",
+                                    "text": {
+                                        "default": "Yes, users won't use the tool if it's too complicated",
                                         "fr": ""
                                     }
                                 }
@@ -5284,28 +5298,28 @@
                                     }
                                 },
                                 {
-                                    "value": "item2-0.5",
+                                    "value": "item2-0.25",
                                     "text": {
                                         "default": "Initial, organization considers risks in an ad hoc manner without following defined processes or polices.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-1",
+                                    "value": "item3-0.5",
                                     "text": {
                                         "default": "Repeatable but intuative, There is an emerging understanding that risks are important and need to be considered. Some approaches to risk assessment exist, but the process is still immature and under development.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-1.5",
+                                    "value": "item4-0.75",
                                     "text": {
                                         "default": "Defined process, an organization-wide risk management policy defines when and how to conduect risk assessments. Risk assessment follows a defined process that is documented and available to all staff through training.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-2",
+                                    "value": "item5-1",
                                     "text": {
                                         "default": "Managed and measurable, the assessment of risk is a standard procedure (eg. ISO 31000) and exceptions to following the procedure would be noticed by management. It is likely that risk management is a defined management function with senior level responsiblity. Senior management have determined the levels of risk that the organiation will tolerate and have standards measures for risk\/ return ratios.",
                                         "fr": ""
@@ -5362,7 +5376,7 @@
                                 {
                                     "value": "item5-0.2",
                                     "text": {
-                                        "default": "If a third party or member of the public is aware of the project, there is a mechanism and review process to ensure their question is addressed in a timely manner.",
+                                        "default": "If a third party (eg. government body, civil society organization, etc) or member of the public is aware of the project, there is a mechanism and review process to ensure their question is addressed in a timely manner.",
                                         "fr": ""
                                     }
                                 }
@@ -5387,21 +5401,42 @@
                             "type": "radiogroup",
                             "name": "accountability8",
                             "title": {
-                                "default": "Is there ongoing monitoring of the system to ensure that the objectives are continuously being met?",
+                                "default": "What type of technology are you using?",
                                 "fr": ""
                             },
                             "choices": [
                                 {
                                     "value": "item1-1",
                                     "text": {
-                                        "default": "Yes",
+                                        "default": "Image and object recognition: analyzing large datasests to automate the recognition, classification, reinforcement, and context associated with an image or object.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0",
+                                    "value": "item2-0.5",
                                     "text": {
-                                        "default": "No",
+                                        "default": "Text and speech analysis: analyzing large datasets to recognize, process, and tag text, speech, voice, and make recommendations based on the tagging.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Risk assessment: Analyzing large datasets to identify patterns and and recommend courses of action and in some cases trigger specific actions.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.5",
+                                    "text": {
+                                        "default": "Content generation: Analyzing large dataset to categorize, process, triage, personalize, and serve specific content for specific contexts.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.5",
+                                    "text": {
+                                        "default": "Process optimization and workflow automation: Analyzing large datasets to identify anomalies, cluster patterns, predict outcomes or ways to optimize and automate specific workflows.",
                                         "fr": ""
                                     }
                                 }
@@ -5417,7 +5452,7 @@
                             "type": "radiogroup",
                             "name": "accountability9",
                             "title": {
-                                "default": "Were all labour laws or procedures followed throughout the development life-cycle of this project?",
+                                "default": "Is there ongoing monitoring of the system to ensure that the system is operating as intended?",
                                 "fr": ""
                             },
                             "choices": [
@@ -5441,38 +5476,27 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability3.3Panel-NS",
+                    "name": "accountability3.3Panel-AS",
                     "elements": [
                         {
-                            "type": "checkbox",
+                            "type": "radiogroup",
                             "name": "accountability10",
                             "title": {
-                                "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
+                                "default": "Were all labour laws or procedures in your jurisdiction followed throughout the development life-cycle of this project?",
                                 "fr": ""
                             },
                             "choices": [
                                 {
-                                    "value": "item1",
+                                    "value": "item1-1",
                                     "text": {
-                                        "default": "Yes, inputs are reviewed internally as part of a general technology review",
+                                        "default": "Yes",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2",
+                                    "value": "item2-0",
                                     "text": {
-                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:\n- Analysis of the systems training\/testing data\n- Multiple tests with different training\/testing data, for example, gather more training data for certain subsets (e.g., parts\/slices of the feature space), or gather test data for categories of interest\n- Testing of different models \n- Testing for right degree of transparency to mitigate any potential abuse\n- System is built so users can set their own degree of sensitivity\n- The smallest set of inputs necessary were used to make it clear which factors are affeting the model \n- The simplest model to meet the performance goal was used\n- Model learns on casual relationships not correlations when and where possible \n- Model is trained to match true goal \n- Model has been constrained to produce input-output relationships that reflect domain expert knowledge\n- Metrics used address the particular benefits and risks of your specific context \n- The model's sensitivity has been trained for different subsets of examples",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3",
-                                    "text": {
-                                        "default": "Yes, inputs are reviewed by a trusted third-party independent of a technology review",
+                                        "default": "No",
                                         "fr": ""
                                     }
                                 }
@@ -5494,8 +5518,56 @@
                     "name": "accountability4.1Panel-AS",
                     "elements": [
                         {
+                            "type": "checkbox",
+                            "name": "accountability11-M1",
+                            "title": {
+                                "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed internally as part of a general technology review",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:\n- Analysis of the systems training\/testing data\n- Multiple tests with different training\/testing data, for example, gather more training data for certain subsets (e.g., parts\/slices of the feature space), or gather test data for categories of interest\n- Testing of different models \n- Testing for right degree of transparency to mitigate any potential abuse\n- System is built so users can set their own degree of sensitivity\n- The smallest set of inputs necessary were used to make it clear which factors are affeting the model \n- The simplest model to meet the performance goal was used\n- Model learns on casual relationships not correlations when and where possible \n- Model is trained to match true goal \n- Model has been constrained to produce input-output relationships that reflect domain expert knowledge\n- Metrics used address the particular benefits and risks of your specific context \n- The model's sensitivity has been trained for different subsets of examples",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "Yes, inputs are reviewed by a trusted third-party independent of a technology review",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0",
+                                    "text": {
+                                        "default": "No third third-party review is completed",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "accountability4.2Panel-AS",
+                    "elements": [
+                        {
                             "type": "radiogroup",
-                            "name": "accountability11",
+                            "name": "accountability12",
                             "title": {
                                 "default": "Is the personal data information flow in the system compliant with EU GDPR?",
                                 "fr": ""
@@ -5511,7 +5583,7 @@
                                 {
                                     "value": "item2-0",
                                     "text": {
-                                        "default": "No",
+                                        "default": "No, assessment hasn't been performed yet",
                                         "fr": ""
                                     }
                                 },
@@ -5528,11 +5600,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability4.2Panel-AS",
+                    "name": "accountability4.3Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability12",
+                            "name": "accountability13",
                             "title": {
                                 "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
                                 "fr": ""
@@ -5562,14 +5634,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability5",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "accountability4.3Panel-AS",
+                    "name": "accountability5.1Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability13-M1",
+                            "name": "accountability14-M1",
                             "title": {
                                 "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
                                 "fr": ""
@@ -5596,7 +5677,7 @@
                                 {
                                     "value": "item3-0.5",
                                     "text": {
-                                        "default": "Yes, the log recrods all the recommendations or decisions made by the system and are easy to identify",
+                                        "default": "Yes, the log records all the recommendations or decisions made by the system and are easy to identify",
                                         "fr": ""
                                     }
                                 }
@@ -5606,11 +5687,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability4.4Panel-AS",
+                    "name": "accountability5.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability14",
+                            "name": "accountability15",
                             "title": {
                                 "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud? What's the ToR?",
                                 "fr": ""
@@ -5636,64 +5717,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability4.5Panel-AS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "accountability15-M1",
-                            "title": {
-                                "default": "What are the recourse mechanism for a decision or action that does not meet the objectives of the system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.25",
-                                    "text": {
-                                        "default": "Decision is able to be reversed",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.25",
-                                    "text": {
-                                        "default": "Update will be made to the process",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.25",
-                                    "text": {
-                                        "default": "If an issue with the system has been identified that could cause harm to an individual or community, it is immediatly taken off-line until it is remediated",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.25",
-                                    "text": {
-                                        "default": "Users are notified",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Accountability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accountability5",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "accountability5.1Panel-AS",
+                    "name": "accountability5.3Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5723,13 +5747,13 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability5.2Panel-AS",
+                    "name": "accountability5.4Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
                             "name": "accountability17-M1",
                             "title": {
-                                "default": "Will there be thresholds in place for which a decision would be flagged for human oversight?",
+                                "default": "Is there a process in place for determining if the automated activity will be flagged for human oversight?",
                                 "fr": ""
                             },
                             "description": {
@@ -5846,7 +5870,7 @@
                             "type": "radiogroup",
                             "name": "biasFairness3",
                             "title": {
-                                "default": "Are the objectives of the system clear to the users and subjects?",
+                                "default": "Are the objectives of the system clear to the users?",
                                 "fr": ""
                             },
                             "choices": [
@@ -5867,16 +5891,25 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness2",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "biasFairness1.4Panel-BFS",
+                    "name": "biasFairness2.1Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
                             "name": "biasFairness4-M1",
                             "title": {
-                                "default": "Has this system been designed and trained in a way so as not to create, reinforce, or reproduce discrimination based on the following areas:",
+                                "default": "Has the algoroithm been designed and trained in a way so as not to create, reinforce, or reproduce bias based on the following areas:",
                                 "fr": ""
                             },
                             "description": {
@@ -5950,19 +5983,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Bias and fairness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "biasFairness2",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.1Panel-BFS",
+                    "name": "biasFairness2.2Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -5992,7 +6016,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.2Panel-BFS",
+                    "name": "biasFairness2.3Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
@@ -6030,10 +6054,19 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness3",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "biasFairness2.3Panel-BFS",
+                    "name": "biasFairness3.1Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6063,7 +6096,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.4Panel-BFS",
+                    "name": "biasFairness3.2Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6093,7 +6126,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.5Panel-BFS",
+                    "name": "biasFairness3.3Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6120,19 +6153,10 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Bias and fairness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "biasFairness3",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "biasFairness3.1Panel-BFS",
+                    "name": "biasFairness3.4Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
@@ -6195,42 +6219,116 @@
                             "type": "radiogroup",
                             "name": "miscellaneous1",
                             "title": {
-                                "default": "What type of technology are you using?",
+                                "default": "If this unintended outcome(s) were to occur, who would it impact? Select all which apply\"",
                                 "fr": ""
                             },
                             "choices": [
                                 {
-                                    "value": "item1",
+                                    "value": "item1-0",
                                     "text": {
-                                        "default": "Image and object recognition: analyzing large datasests to automate the recognition, classification, and context associated with an image or object.",
+                                        "default": "The general population",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2",
+                                    "value": "item2-0",
                                     "text": {
-                                        "default": "Text and speech analysis: analyzing large datasets to recognize, process, and tag text, speech, voice, and make recommendations based on the tagging.",
+                                        "default": "A segment of the population",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3",
+                                    "value": "item3-0.5",
                                     "text": {
-                                        "default": "Risk assessment: Analyzing large datasets to identify patterns and and recommend courses of action and in some cases trigger specific actions.",
+                                        "default": "Your organization",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4",
+                                    "value": "item4-1",
                                     "text": {
-                                        "default": "Content generation: Analyzing large dataset to categorize, process, triage, personalize, and serve specific content for specific contexts.",
+                                        "default": "A different organization",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "miscellaneous1.2Panel-NS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "miscellaneous2",
+                            "title": {
+                                "default": "What's the severity of this\/these unintended outcome(s)?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "High",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5",
+                                    "value": "item2-0",
                                     "text": {
-                                        "default": "Process optimization and workflow automation: Analyzing large datasets to identify anomalies, cluster patterns, predict outcomes or ways to optimize and automate specific workflows.",
+                                        "default": "Medium",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "Low",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "miscellaneous1.3Panel-NS",
+                    "elements": [
+                        {
+                            "type": "",
+                            "name": "miscellaneous4",
+                            "title": {
+                                "default": "How have the rights of individuals been protected through the development of the algorithm?",
+                                "fr": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "miscellaneous1.4Panel-NS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "miscellaneous5",
+                            "title": {
+                                "default": "Are the objectives of the system clear to the operators?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
                                         "fr": ""
                                     }
                                 }
@@ -6260,28 +6358,28 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-2",
+                                    "value": "item1-1",
                                     "text": {
                                         "default": "System is transparent, it is possible to know for certain how and why a system made a particular decision, or in the case of a robot, acted the way it did.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-1",
+                                    "value": "item2-0.5",
                                     "text": {
                                         "default": "System is opaque, it is possible through post-decision or post-action, to analyze through various processes (eg. counterfactual or repeatability testing) to draw an accurate conculsion on how the decision was made or the action was taken.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0",
+                                    "value": "item3-0.5",
                                     "text": {
                                         "default": "System is a black box, but detailed records of the design processes and decision making have been kept throughout the entire process.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0",
+                                    "value": "item4-0.5",
                                     "text": {
                                         "default": "System is a black box, it is possible to make best guesses on why a decision was rendered or a decision was taken, but it's not certain.",
                                         "fr": ""
@@ -6536,7 +6634,7 @@
                             "type": "checkbox",
                             "name": "dataQualityRights1-M1",
                             "title": {
-                                "default": "How does the system ensure that rights, values, and principles of the public have been protected?",
+                                "default": "How does the system ensure that rights, values, and principles of the public have been protected through the data collection process?",
                                 "fr": ""
                             },
                             "description": {
@@ -6629,7 +6727,7 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights1.3Panel-NS",
+                    "name": "dataQualityRights1.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
@@ -6640,70 +6738,77 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1",
+                                    "value": "item1-1",
                                     "text": {
                                         "default": "No",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2",
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Yes, age",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
                                     "text": {
                                         "default": "Yes, name",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3",
+                                    "value": "item4-0.5",
                                     "text": {
                                         "default": "Yes, address",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4",
+                                    "value": "item5-0.5",
                                     "text": {
                                         "default": "Yes, gender",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5",
+                                    "value": "item6-0.5",
                                     "text": {
                                         "default": "Yes, ethnicity",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6",
+                                    "value": "item7-0",
                                     "text": {
                                         "default": "Yes, status",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7",
+                                    "value": "item8-0",
                                     "text": {
                                         "default": "Yes, degree of accessibility",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item8",
+                                    "value": "item9-0",
                                     "text": {
                                         "default": "Yes, level of education",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item9",
+                                    "value": "item10-0",
                                     "text": {
                                         "default": "Yes, income",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item10",
+                                    "value": "item11-0",
                                     "text": {
                                         "default": "Yes, marital status",
                                         "fr": ""
@@ -7063,16 +7168,25 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights4",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "dataQualityRights3.4Panel-DQRS",
+                    "name": "dataQualityRights4.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
                             "name": "dataQualityRights10",
                             "title": {
-                                "default": "How is the data being collected, used, and stored being mamanged?",
+                                "default": "How is the data being collected, used, and stored being managed?",
                                 "fr": ""
                             },
                             "choices": [
@@ -7096,11 +7210,59 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights3.5Panel-DQRS",
+                    "name": "dataQualityRights4.2Panel-DQRS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "dataQualityRights11-M1",
+                            "title": {
+                                "default": "What are the recourse mechanisms for a decision or action that does not meet the objectives of the system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.25",
+                                    "text": {
+                                        "default": "Decision is able to be reversed",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.25",
+                                    "text": {
+                                        "default": "Update will be made to the process",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.25",
+                                    "text": {
+                                        "default": "If an issue with the system has been identified that could cause harm to an individual or community, it is immediatly taken off-line until it is remediated",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.25",
+                                    "text": {
+                                        "default": "Users are notified",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "dataQualityRights4.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "dataQualityRights11",
+                            "name": "dataQualityRights12",
                             "title": {
                                 "default": "Does training data rely on decisions\/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
                                 "fr": ""
