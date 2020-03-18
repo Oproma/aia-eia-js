@@ -1,10 +1,10 @@
 {
-  "name": "aia-eia-js",
+  "name": "rai-trustindex",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/canada-ca/aia-eia"
+    "url": "https://github.com/Oproma/rai-trustindex"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
