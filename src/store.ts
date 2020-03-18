@@ -354,6 +354,13 @@ const store: StoreOptions<RootState> = {
           if (results[scoreType] === undefined) {
             results[scoreType] = [];
           }
+          // rebuild the display value since surveyjs appears to separate the
+          // choices with commas
+          answer.displayValue = "";
+          for (let i = 0; i < answer.data.length; i++) {
+            answer.displayValue += answer.data[i].displayValue;
+          }
+          // push the answer to the results map
           results[scoreType].push(answer);
         }
       });
