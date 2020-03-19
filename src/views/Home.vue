@@ -45,6 +45,8 @@
 import { Component, Vue } from "vue-property-decorator";
 import { Model } from "survey-vue";
 import showdown from "showdown";
+import $ from "jquery";
+import "bootstrap";
 
 import DesignAssistant from "@/components/DesignAssistant.vue"; // @ is an alias to /src
 import ActionButtonBar from "@/components/ActionButtonBar.vue";
@@ -81,7 +83,7 @@ export default class Home extends Vue {
     this.$store.commit("updateResult", this.Survey);
   }
 
-  created() {
+created() {
     this.Survey.onComplete.add(result => {
       this.$store.commit("updateResult", result);
     });
@@ -114,6 +116,9 @@ export default class Home extends Vue {
     this.Survey.onAfterRenderPage.add((sender, options) => {
       const node = options.htmlElement.getElementsByTagName("h4")[0];
       node.classList.add('section-header');
+      $('[data-toggle="tooltip"').tooltip({
+        boundary: 'viewport'
+      });
     });
 
     // Fix all the question labels as they're using <H5> instead of <label>
@@ -130,6 +135,10 @@ export default class Home extends Vue {
             ' <strong class="required">(' + requiredText + ")</strong>";
         }
 
+        let tooltipDescriptionHTML = "";
+        if (options.question.tooltipdescription) {
+          tooltipDescriptionHTML = `<i class="fas fa-info-circle ml-2" data-toggle="tooltip" title="${options.question.tooltipdescription.default}"></i>`;
+        }
         title.outerHTML =
           '<label for="' +
           options.question.inputId +
@@ -138,6 +147,7 @@ export default class Home extends Vue {
           '"><span class="field-name">' +
           title.innerText +
           "</span>" +
+          tooltipDescriptionHTML +
           questionRequiredHTML +
           "</label>";
       }

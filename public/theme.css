@@ -125,6 +125,23 @@ main h1, main h2, main .h1, main .h2 {
   margin-bottom: 11.5px !important;
 }
 
+.info-tooltip {
+  color: #007bff;
+}
+
+.bs-tooltip-top .arrow:before {
+  border-top-color: #fff !important;
+}
+.tooltip .tooltip-inner {
+  color: #000 !important;
+  background-color: #fff !important;
+  box-shadow: 1px 3px 10px rgba(77,77,77,0.75);
+  transition: box-shadow .2s ease-in-out;
+}
+.tooltip.show  {
+  opacity: 1 !important;
+}
+
 .field-name {
   font-weight: 700;
 }
