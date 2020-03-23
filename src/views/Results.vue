@@ -48,7 +48,7 @@
     <SurveyScore :survey="Survey" />
     <br />
     <div class="d-flex justify-content-center">
-      <img :src="`${publicPath}img/radar-chart.jpg`" /> 
+      <RadarChart />
     </div>
     <br />
     <div class="container-fluid">
@@ -144,6 +144,7 @@ import Score from "@/components/Score.vue";
 import ActionButtonBar from "@/components/ActionButtonBar.vue";
 import Result from "@/components/Result.vue";
 import SurveyScore from "@/components/SurveyScore.vue";
+import RadarChart from "@/components/RadarChart.vue";
 import Obligations from "@/components/Obligations.vue";
 import SurveyFile from "@/interfaces/SurveyFile";
 import i18n from "@/plugins/i18n";
@@ -155,7 +156,8 @@ import surveyJSON from "@/survey-enfr.json";
     Result,
     Score,
     SurveyScore,
-    Obligations,
+    RadarChart,
+    Obligations
   },
   computed: {
     score: function() {
