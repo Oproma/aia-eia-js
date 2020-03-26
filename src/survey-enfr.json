@@ -5009,25 +5009,10 @@
                                 "default": "Contact information",
                                 "fr": ""
                             }
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Project Details",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accountability1",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "accountability1.1Panel-NS",
-                    "elements": [
+                        },
                         {
                             "type": "radiogroup",
-                            "name": "accountability1",
+                            "name": "projectDetails9",
                             "title": {
                                 "default": "Why are you using AI for this project?",
                                 "fr": ""
@@ -5085,14 +5070,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Project Details",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability1",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "accountability1.2Panel-NS",
+                    "name": "accountability1.1Panel-NS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability2",
+                            "name": "accountability1",
                             "title": {
                                 "default": "Are there potential unintended outcomes(moral, material, physical) that could occur when this system is in use? What type of damages would it cause, select all which apply:",
                                 "fr": ""
@@ -5125,6 +5119,47 @@
                 },
                 {
                     "type": "panel",
+                    "name": "accountability1.2Panel-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "accountability2",
+                            "title": {
+                                "default": "Has a risk benefit analysis of all aspects of this system including looking at aspects avoidance, mitigation, transference, and acceptance been completed?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Google: The use of several metrics rather than a single one will help you to understand tradeoffs between different kinds of errors and experiences.\n\n1) Consider metrics including feedback from user surveys, quantities that track overall system performance and short- and long-term product heath (e.g., click-through rate and customer lifetime value, respectively), and false positive and false negative rates sliced across different subgroups.\n\n2) Ensure that your metrics are appropriate for the context and goals of your system, e.g., a fire alarm system should have high recall, even if that means the occasional false alarm.\n\nThere are ISO Standards that can be referenced here, however, we should find best practices that are open.",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Yes, we have done analysis including, bot not limited to, feedback from user surveys, tracking of system performance, short and long-term product health (eg. click-through rae and customer lifetime values), and false positive and false negative rates sliced across different subgroups.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "Yes, we have ensured that the metrics are appropriate for the context (eg. fire alarm systms should have high recall, even if that means the occasional false alarm)",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
                     "name": "accountability1.3Panel-AS",
                     "elements": [
                         {
@@ -5138,7 +5173,7 @@
                                 {
                                     "value": "item1-0",
                                     "text": {
-                                        "default": "Initial, there is limited awareness of ethical trade-offs in our organization.",
+                                        "default": "Initial, there is limited discussion about different trade-offs of the system within our organization.",
                                         "fr": ""
                                     }
                                 },
@@ -5182,56 +5217,6 @@
                             "type": "radiogroup",
                             "name": "accountability4",
                             "title": {
-                                "default": "Has a risk benefit analysis of all aspects of this system been completed?",
-                                "fr": ""
-                            },
-                            "recommendation": {
-                                "default": "Google: The use of several metrics rather than a single one will help you to understand tradeoffs between different kinds of errors and experiences.\n\n1) Consider metrics including feedback from user surveys, quantities that track overall system performance and short- and long-term product heath (e.g., click-through rate and customer lifetime value, respectively), and false positive and false negative rates sliced across different subgroups.\n\n2) Ensure that your metrics are appropriate for the context and goals of your system, e.g., a fire alarm system should have high recall, even if that means the occasional false alarm.\n\nThere are ISO Standards that can be referenced here, however, we should find best practices that are open.",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "No",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "Yes, we have done analysis including, bot not limited to, feedback from user surveys, tracking of system performance, short and long-term product health (eg. click-through rae and customer lifetime values), and false positive and false negative rates sliced across different subgroups.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-1",
-                                    "text": {
-                                        "default": "Yes, we have ensured that the metrics are appropriate for the context (eg. fire alarm systms should have high recall, even if that means the occasional false alarm)",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Accountability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accountability2",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "accountability2.1Panel-AS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "accountability5",
-                            "title": {
                                 "default": "Is there a level of specialized knowledge required to operate your system? Are users made aware prior to use?",
                                 "fr": ""
                             },
@@ -5262,14 +5247,14 @@
                                     }
                                 },
                                 {
-                                    "value": "item4-0",
+                                    "value": "item4-0.5",
                                     "text": {
                                         "default": "Yes, users have been notified and the appropriate training has been made available to all users. For internal users, training has been delivered or will delivered prior to deployment",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0",
+                                    "value": "item5-0.5",
                                     "text": {
                                         "default": "For internal users, training has been delivered or will delivered prior to deployment",
                                         "fr": ""
@@ -5285,14 +5270,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability2",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "accountability2.2Panel-AS",
+                    "name": "accountability2.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability6",
+                            "name": "accountability5",
                             "title": {
                                 "default": "Does your organization have a risk management process in place?",
                                 "fr": ""
@@ -5343,75 +5337,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability2.3Panel-AS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "accountability7-M1",
-                            "title": {
-                                "default": "Does your organization have a strong governance model in place to ensure appropriate action is taken in advance of the system operating?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.2",
-                                    "text": {
-                                        "default": "Governance board includes diverse and complete representation including members who represent each area of the organization.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.2",
-                                    "text": {
-                                        "default": "Governance board includes a minimum of one individual with reasonable experience and knoweldge in ethics.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.2",
-                                    "text": {
-                                        "default": "There is a mechanism and review process for items raised by individuals or groups working on the project to present information including potential issues, including but not limited to, risks (eg. biases, maturity of process, lack of fairness, etc)",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.2",
-                                    "text": {
-                                        "default": "There is a mechanism and review process for credible third parties to review project and comment on any issues, including but not limited, potential risks of the project (eg. biases, maturity of process, lack of fairness, etc)",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item5-0.2",
-                                    "text": {
-                                        "default": "If a third party (eg. government body, civil society organization, etc) or member of the public is aware of the project, there is a mechanism and review process to ensure their question is addressed in a timely manner.",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "title": {
-                "default": "Accountability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accountability3",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "accountability3.1Panel-AS",
+                    "name": "accountability2.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability8",
+                            "name": "accountability6",
                             "title": {
                                 "default": "What type of technology are you using?",
                                 "fr": ""
@@ -5458,11 +5388,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability3.2Panel-AS",
+                    "name": "accountability2.3Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability9",
+                            "name": "accountability7",
                             "title": {
                                 "default": "Is there ongoing monitoring of the system to ensure that the system is operating as intended?",
                                 "fr": ""
@@ -5492,11 +5422,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability3.3Panel-AS",
+                    "name": "accountability2.4Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability10",
+                            "name": "accountability8",
                             "title": {
                                 "default": "Were all labour laws or procedures in your jurisdiction followed throughout the development life-cycle of this project?",
                                 "fr": ""
@@ -5531,15 +5461,15 @@
             }
         },
         {
-            "name": "accountability4",
+            "name": "accountability3",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "accountability4.1Panel-AS",
+                    "name": "accountability3.1Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability11-M1",
+                            "name": "accountability9-M1",
                             "title": {
                                 "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
                                 "fr": ""
@@ -5587,11 +5517,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability4.2Panel-AS",
+                    "name": "accountability3.2Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability12",
+                            "name": "accountability10",
                             "title": {
                                 "default": "Is the personal data information flow in the system compliant with EU GDPR?",
                                 "fr": ""
@@ -5624,11 +5554,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability4.3Panel-AS",
+                    "name": "accountability3.3Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability13",
+                            "name": "accountability11",
                             "title": {
                                 "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
                                 "fr": ""
@@ -5658,29 +5588,24 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Accountability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "accountability5",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "accountability5.1Panel-AS",
+                    "name": "accountability3.4Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability14-M1",
+                            "name": "accountability12-M1",
                             "title": {
                                 "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
                                 "fr": ""
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "ISO 9001 provides controls for documentation of the system. Here is a helpful checklist to walk you through 9001 https:\/\/www.iso-9001-checklist.co.uk\/7.5.3-control-of-documented-information-explained.htm",
                                 "fr": ""
                             },
                             "choices": [
@@ -5708,44 +5633,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability4",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "accountability5.2Panel-AS",
+                    "name": "accountability4.1Panel-AS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "accountability15",
-                            "title": {
-                                "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud? What's the ToR?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Yes",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "Not sure",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "panel",
-                    "name": "accountability5.3Panel-AS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "accountability16",
+                            "name": "accountability13",
                             "title": {
                                 "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
                                 "fr": ""
@@ -5775,11 +5679,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "accountability5.4Panel-AS",
+                    "name": "accountability4.2Panel-AS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability17-M1",
+                            "name": "accountability14-M1",
                             "title": {
                                 "default": "Is there a process in place for determining if the automated activity will be flagged for human oversight?",
                                 "fr": ""
@@ -5817,6 +5721,50 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "panel",
+                    "name": "accountability4.3Panel-AS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "accountability15",
+                            "title": {
+                                "default": "Does your organization have a framework, standard, or set of controls in place to evaluate responsible AI development and deployment in your organization?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Yes, a frameowrk based on key principles of the organization",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-1",
+                                    "text": {
+                                        "default": "Yes, evaluatable standards or controls",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-1",
+                                    "text": {
+                                        "default": "No, we leverage a measurable framework from a credible institution",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0",
+                                    "text": {
+                                        "default": "No, we haven't developed this yet",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "title": {
@@ -5838,10 +5786,6 @@
                                 "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
                                 "fr": ""
                             },
-                            "recommendation": {
-                                "default": "NEED",
-                                "fr": ""
-                            },
                             "choices": [
                                 {
                                     "value": "item1-0",
@@ -5860,7 +5804,7 @@
                                 {
                                     "value": "item3-1",
                                     "text": {
-                                        "default": "No users will be individuals or groups from vulnerable populations",
+                                        "default": "No there are currently no identified vulnerable populations which should trigger a review",
                                         "fr": ""
                                     }
                                 }
@@ -5876,21 +5820,35 @@
                             "type": "radiogroup",
                             "name": "biasFairness2",
                             "title": {
-                                "default": "Is it possible for one or more individuals or groups of users to benefit more than other individuals or groups from this system?",
+                                "default": "If this unintended outcome(s) were to occur, who would it impact? Select all which apply\"",
                                 "fr": ""
                             },
                             "choices": [
                                 {
                                     "value": "item1-0",
                                     "text": {
-                                        "default": "Yes",
+                                        "default": "The general population",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-1",
+                                    "value": "item2-0",
                                     "text": {
-                                        "default": "No, outcomes are completely equitable amongst all segmentations",
+                                        "default": "A segment of the population",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Your organization",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-1",
+                                    "text": {
+                                        "default": "A different organization",
                                         "fr": ""
                                     }
                                 }
@@ -5906,25 +5864,32 @@
                             "type": "radiogroup",
                             "name": "biasFairness3",
                             "title": {
-                                "default": "Are the objectives of the system clear to the users?",
+                                "default": "What's the severity of this\/these unintended outcome(s)?",
                                 "fr": ""
                             },
                             "recommendation": {
-                                "default": "Maps to EU assessment question \"have the usage scenarious for the product been specified and clearly communicated?\"",
+                                "default": "Slavka shared reference material",
                                 "fr": ""
                             },
                             "choices": [
                                 {
-                                    "value": "item1-1",
+                                    "value": "item1-0",
                                     "text": {
-                                        "default": "Yes",
+                                        "default": "High",
                                         "fr": ""
                                     }
                                 },
                                 {
                                     "value": "item2-0",
                                     "text": {
-                                        "default": "No",
+                                        "default": "Medium",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "Low",
                                         "fr": ""
                                     }
                                 }
@@ -5949,6 +5914,174 @@
                             "type": "checkbox",
                             "name": "biasFairness4-M1",
                             "title": {
+                                "default": "Does your organization have a review model in place including looking at aspects of diversity and complete representation to ensure alternative perspectives or viewpoints are taken in to account in advance of the system operating?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Diversity and inclusion is not only an important aspect of how a business establishes their operations, but how they conduct their busienss, this is a good guide on establishing a Diversity and Inclusion Strategic Plan and Maturity Model within an organization - https:\/\/www.diversitybestpractices.com\/sites\/diversitybestpractices.com\/files\/attachments\/2018\/01\/kaiser_final_part_2_3.pdf.",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.2",
+                                    "text": {
+                                        "default": "Governance board includes diverse and complete representation including members who represent each area of the organization including those with legal and financial responsibilities.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.2",
+                                    "text": {
+                                        "default": "Governance board includes a minimum of one individual with reasonable experience and knoweldge in ethics.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.2",
+                                    "text": {
+                                        "default": "There is a mechanism and review process for items raised by individuals or groups working on the project to present information including potential issues, including but not limited to, risks (eg. biases, maturity of process, lack of fairness, etc)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.2",
+                                    "text": {
+                                        "default": "There is a mechanism and review process for credible third parties to review project and comment on any issues, including but not limited, potential risks of the project (eg. biases, maturity of process, lack of fairness, etc)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.2",
+                                    "text": {
+                                        "default": "If a third party (eg. government body, civil society organization, etc) or member of the public is aware of the project, there is a mechanism and review process to ensure their question is addressed in a timely manner.",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "biasFairness2.2Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "biasFairness5-M1",
+                            "title": {
+                                "default": "How does the system ensure that rights, values, and principles of the public have been protected through the data collection process?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "To be referenced somewhere else (w\/question about transparency):\n6) Access to fundamental resources, knowledge and digital tools must be guaranteed for all.\n\n7) We should support the development of commons algorithms \u2014 and of open data needed to train them \u2014 and expand their use, as a socially equitable objective.\n\nEU - 1) Respect for (& Enhancement of) Human Autonomy: AI systems should be designed not only to uphold rights, values and principles, but also to protect citizens in all their diversity from governmental and private abuses made possible by AI technology, ensuring a fair distribution of the benefits created by AI technologies, protect and enhance a plurality of human values, and enhance self-determination and autonomy of individual users and communities. \n\n2) Respect for (& Enhancement of) Human Autonomy (Assessment list): \n - Is the user informed in case of risks on human mental integrity (nudging) by the product?\n - Is useful and necessary information provided to the user of the service\/product to enable the latter to take a decision in full self-determination?\n - Does the AI system indicate to users that a decision, content, advice, or outcome, is the result of an algorithmic decision of any kind?\n - Do users have the facility to interrogate algorithmic decisions in order to fully understand their purpose, provenance, the data relied on, etc.?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.2",
+                                    "text": {
+                                        "default": "The system is equally available to all segmentations",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.2",
+                                    "text": {
+                                        "default": "The user is informed on the potential risks on human mental integrity (eg. nudging) when this product is being used.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.2",
+                                    "text": {
+                                        "default": "Useful information about the design, testing, and development of the system (including, but not limited to, decision criteria, inputs for training the model) are provided in a clear and easy to access manner to the user.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.2",
+                                    "text": {
+                                        "default": "Notification is provided in a clear and easy to understand way that there was a machine involved in the creation of a decision, content, advice, outcome, or action.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.2",
+                                    "text": {
+                                        "default": "Results of ongoing testing, training, and monitoring of the system are open and available.",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "biasFairness2.3Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "biasFairness6",
+                            "title": {
+                                "default": "Are the objectives of the system clear to the users?",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Maps to EU assessment question \"have the usage scenarious for the product been specified and clearly communicated?\"",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Yes, objectives are clear",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Clear documentation about these objectives have been provided to the intended user",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "No, it's not necessary for the user to understand the objectives of the system",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness3",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "biasFairness3.1Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "biasFairness7-M1",
+                            "title": {
                                 "default": "Has the algoroithm been designed and trained in a way so as not to create, reinforce, or reproduce bias based on the following areas:",
                                 "fr": ""
                             },
@@ -5962,63 +6095,77 @@
                             },
                             "choices": [
                                 {
-                                    "value": "item1-0.2",
+                                    "value": "item1-0.1",
                                     "text": {
                                         "default": "Socio-economic capacity",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item2-0.2",
+                                    "value": "item2-0.1",
                                     "text": {
                                         "default": "Physical attributes",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.2",
+                                    "value": "item3-0.1",
                                     "text": {
                                         "default": "Level of education",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.2",
+                                    "value": "item4-0.1",
                                     "text": {
                                         "default": "Sexual orientation",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.2",
+                                    "value": "item5-0.1",
                                     "text": {
                                         "default": "Ethnicity",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.2",
+                                    "value": "item6-0.1",
                                     "text": {
                                         "default": "Cultural association(s)",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.2",
+                                    "value": "item7-0.1",
                                     "text": {
                                         "default": "Religious affiliation(s)",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item8-0.2",
+                                    "value": "item8-0.1",
+                                    "text": {
+                                        "default": "Mental health",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item9-0.1",
+                                    "text": {
+                                        "default": "Gender",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item10-0.1",
                                     "text": {
                                         "default": "Age",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item9-0.2",
+                                    "value": "item11-0.1",
                                     "text": {
                                         "default": "Degree of ability",
                                         "fr": ""
@@ -6030,13 +6177,146 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.2Panel-BFS",
+                    "name": "biasFairness3.2Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "biasFairness8-M1",
+                            "title": {
+                                "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all that apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.11",
+                                    "text": {
+                                        "default": "The collection of private information only takes place if a user consents or for authorized surveillance purposes.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.11",
+                                    "text": {
+                                        "default": "Data related to personal thoughts and emotions are not used in situations where the system coudl case harm, especially in circumstances where moral judgements (eg. lifestyle choices could be made).",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.11",
+                                    "text": {
+                                        "default": "Users are able to disconnect or stop sharing information with the system at any point in time. If a disruption in service occurs, data collection is an direct dependency vs an indirect dependency.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.11",
+                                    "text": {
+                                        "default": "Only users have the ability to set profile preferences, changes to the these preferences can easily be done at any time.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.11",
+                                    "text": {
+                                        "default": "Access to personal information is limited to only individuals who require it for the direct functioning of the system.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item6-0.11",
+                                    "text": {
+                                        "default": "Individuals have the ability to access their poersonal data inclduing, but not limited to, the collection, use, and sharing of this data at any time.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item7-0.11",
+                                    "text": {
+                                        "default": "Individuals have the ability to donate their personal data to research organizations.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item8-0.11",
+                                    "text": {
+                                        "default": "Data integrity is assured. The system does not use private data to imitate or alter a persons appearance, voice, or other individual characteristics in order to damage one's reputation or manipulate other people.",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item9-0.11",
+                                    "text": {
+                                        "default": "The system does not curtail people's real or percieved liberty.",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness4",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "biasFairness4.1Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "checkbox",
+                            "name": "biasFairness9-M1",
+                            "title": {
+                                "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
+                                "fr": ""
+                            },
+                            "description": {
+                                "default": "Select all that apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Not applicable",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Testing has been completed to ensure that the model is not memorizing or exposing sensitive data",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Use of data is minimized while maintaining",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "biasFairness4.2Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "biasFairness5",
+                            "name": "biasFairness10",
                             "title": {
-                                "default": "Was training for diversity and inclusion completed for everyone working on the development of this system?",
+                                "default": "Was training for diversity and inclusion completed for all individuals working on the design and development of this system?",
                                 "fr": ""
                             },
                             "recommendation": {
@@ -6054,6 +6334,13 @@
                                 {
                                     "value": "item2-0",
                                     "text": {
+                                        "default": "Only those who worked on the design and input aspects",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
                                         "default": "No",
                                         "fr": ""
                                     }
@@ -6064,11 +6351,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness2.3Panel-BFS",
+                    "name": "biasFairness4.3Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness6-M1",
+                            "name": "biasFairness11-M1",
                             "title": {
                                 "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
                                 "fr": ""
@@ -6106,23 +6393,14 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Bias and fairness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "biasFairness3",
-            "elements": [
+                },
                 {
                     "type": "panel",
-                    "name": "biasFairness3.1Panel-BFS",
+                    "name": "biasFairness4.4Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "biasFairness7",
+                            "name": "biasFairness12",
                             "title": {
                                 "default": "Can the deployment of this system restrict an individual from access to a specific business product or service offering?",
                                 "fr": ""
@@ -6145,14 +6423,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness5",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "biasFairness3.2Panel-BFS",
+                    "name": "biasFairness5.1Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "biasFairness8",
+                            "name": "biasFairness13",
                             "title": {
                                 "default": "Will the user have the ability to challenge decisions\/recommendations made by the use case?",
                                 "fr": ""
@@ -6178,11 +6465,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness3.3Panel-BFS",
+                    "name": "biasFairness5.2Panel-BFS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "biasFairness9",
+                            "name": "biasFairness14",
                             "title": {
                                 "default": "Does this system impact an end-user or consumer's economic interest, health, access or mobility, licensing and permit issuance, or any otherwise impact their lives?",
                                 "fr": ""
@@ -6208,13 +6495,43 @@
                 },
                 {
                     "type": "panel",
-                    "name": "biasFairness3.4Panel-BFS",
+                    "name": "biasFairness5.3Panel-BFS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "biasFairness15",
+                            "title": {
+                                "default": "Does training data rely on decisions\/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "biasFairness5.4Panel-BFS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness10-M1",
+                            "name": "biasFairness16-M1",
                             "title": {
-                                "default": "The decision or action made by the system could have the following impact:",
+                                "default": "The decision or action made by the system could have the potential adverse impact:",
                                 "fr": ""
                             },
                             "description": {
@@ -6270,105 +6587,6 @@
                         {
                             "type": "radiogroup",
                             "name": "miscellaneous1",
-                            "title": {
-                                "default": "If this unintended outcome(s) were to occur, who would it impact? Select all which apply\"",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "The general population",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "A segment of the population",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.5",
-                                    "text": {
-                                        "default": "Your organization",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-1",
-                                    "text": {
-                                        "default": "A different organization",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "panel",
-                    "name": "miscellaneous1.2Panel-NS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "miscellaneous2",
-                            "title": {
-                                "default": "What's the severity of this\/these unintended outcome(s)?",
-                                "fr": ""
-                            },
-                            "recommendation": {
-                                "default": "Slavka shared reference material",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0",
-                                    "text": {
-                                        "default": "High",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0",
-                                    "text": {
-                                        "default": "Medium",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0",
-                                    "text": {
-                                        "default": "Low",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "panel",
-                    "name": "miscellaneous1.3Panel-NS",
-                    "elements": [
-                        {
-                            "type": "",
-                            "name": "miscellaneous4",
-                            "title": {
-                                "default": "How have the rights of individuals been protected through the development of the algorithm?",
-                                "fr": ""
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "panel",
-                    "name": "miscellaneous1.4Panel-NS",
-                    "elements": [
-                        {
-                            "type": "radiogroup",
-                            "name": "miscellaneous5",
                             "title": {
                                 "default": "Are the objectives of the system clear to the operators?",
                                 "fr": ""
@@ -6496,6 +6714,384 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability1.3Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability3",
+                            "title": {
+                                "default": "Are the terms of reference easy to understand by the intended audience?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "Not sure",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability2",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability2.1Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability4",
+                            "title": {
+                                "default": "Is the information about how the system operates easy to understand? Select all which apply:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Simple counterfactual explanations are provided to users",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Easy to understand visuals",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Access to support team for conversational explanations",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0",
+                                    "text": {
+                                        "default": "Not available",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability2.2Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability5",
+                            "title": {
+                                "default": "Are the terms and conditions of the system easy to understand?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Terms and Conditions for the system use plain language and are easy to understand",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Terms and conditions take less than thirty minutes to read and understand by target audience",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "Terms and conditions are comprehensive and as a result difficult to turn into plain language and take more than thirty minutes to read",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability2.3Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability6",
+                            "title": {
+                                "default": "To what extent is it possible for the operator of the system to analyze the training data? Select all which apply",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.5",
+                                    "text": {
+                                        "default": "Full access to data, including automated decisioning data, manual changes to data, manual processing of the decision, etc)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "Access to all automatically collected data is available",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.5",
+                                    "text": {
+                                        "default": "Access to all key decision parameters",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.25",
+                                    "text": {
+                                        "default": "Some gaps in special cases of the decision (think manual workflows that fall off of the automated workflow where somebody makes a change or makes a one-off decision\/edit to the data)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0",
+                                    "text": {
+                                        "default": "Access to data is limited",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability3",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability3.1Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability7",
+                            "title": {
+                                "default": "Is it possible to retrain your model and compare resutls when training data or other factors are changed?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability3.2Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability8",
+                            "title": {
+                                "default": "Can you gather test data for different categories of interest?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability3.3Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability9",
+                            "title": {
+                                "default": "Can you design a new model or are you constrained to an already trained model?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes, a new model can be trained",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.5",
+                                    "text": {
+                                        "default": "No, the existing model must be used, but can be augmented",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0",
+                                    "text": {
+                                        "default": "No, the exsting model must be used and can't be augmented",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability4",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability4.1Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability10",
+                            "title": {
+                                "default": "Would it be possible for an independent user to change the vectors (parameters) of the model so it is more accurate for their context?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "explainabilityInterpretability4.2Panel-EIS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "explainabilityInterpretability11",
+                            "title": {
+                                "default": "To what extent was user testing completed to ensure the goals and objectives of the users are being met? Select all which apply",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "I would point it more toward, has user experience been geared toward interpretability and is the notion of interpretability available to the system aligned with the interpretability expectations of the users in that context. The point here is that: I can show you a big workflow diagram and tell my boss I have explained what's going in the system to you, but you might be curious why you are denied a loan - so in that case the in-built interpretability doesn't work for you but I have ticked my box and can confidently answer yes to this question be cause the question does not relate in any way to interpretability but overall experience and the answers do not guide me as to whether this was done successfully - ie potentially answers should point more to how successful was UX as opposed to whether its done or not",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.2",
+                                    "text": {
+                                        "default": "User experience testing has been done since the start of the project",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.2",
+                                    "text": {
+                                        "default": "User experience testing will be done at every major interval of the project",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.2",
+                                    "text": {
+                                        "default": "User experience testing was done before the launch of the project",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.2",
+                                    "text": {
+                                        "default": "Users are able to test how different inputs affect the model output",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.2",
+                                    "text": {
+                                        "default": "Users are able to provide feedback on their representation",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item6-0",
+                                    "text": {
+                                        "default": "No user experience testing was done",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "title": {
@@ -6534,42 +7130,49 @@
                                     }
                                 },
                                 {
-                                    "value": "item2-0.17",
+                                    "value": "item2-0.125",
                                     "text": {
                                         "default": "Rigorous unit tests to test each component of the system in isolation.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item3-0.17",
+                                    "value": "item3-0.125",
                                     "text": {
                                         "default": "Integration tests to understand how individual ML components interact with other parts of the overall system.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item4-0.17",
+                                    "value": "item4-0.125",
                                     "text": {
                                         "default": "Proactive detection to determine drift by testing the statistics of the inputs to the AI system to ensure they are not changing in unexpected ways.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item5-0.17",
+                                    "value": "item5-0.125",
                                     "text": {
-                                        "default": "A high quality dataset was used to test the system and ensure that it continues to behave as expeted.",
+                                        "default": "A diverse dataset covering most states of the input variables with many individual examples was used to test the system and ensure that it continues to behave as expeted.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item6-0.17",
+                                    "value": "item6-0.125",
+                                    "text": {
+                                        "default": "Edge cases and extreme scenarios have been studied and experimented with to ensure acceptable system performance under all intended use cases of the system",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item7-0.125",
                                     "text": {
                                         "default": "Iterative user testing to incorporate a diverse set of users needs in the development cycles.",
                                         "fr": ""
                                     }
                                 },
                                 {
-                                    "value": "item7-0.17",
+                                    "value": "item8-0.125",
                                     "text": {
                                         "default": "Quality engineering principles like poka-yoke have been used to build quality checks into a system so that unintended failures either cannont happen or trigger an immediate response.",
                                         "fr": ""
@@ -6587,7 +7190,37 @@
                             "type": "radiogroup",
                             "name": "robustness2",
                             "title": {
-                                "default": "Does the system have a minimum performance level for the solution to be viable?",
+                                "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-1",
+                                    "text": {
+                                        "default": "Yes",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0",
+                                    "text": {
+                                        "default": "Not sure",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "name": "robustness1.3Panel-RS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "robustness3",
+                            "title": {
+                                "default": "Is there tracking of system performance in place, are there established criteria where the system is considered not fit for purpose (eg the usage is outside of what is considered appropriate for the system to provide a decision\/ outcome?",
                                 "fr": ""
                             },
                             "choices": [
@@ -6608,16 +7241,25 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Robustness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "robustness2",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "robustness1.3Panel-RS",
+                    "name": "robustness2.1Panel-RS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "robustness3-M1",
+                            "name": "robustness4-M1",
                             "title": {
-                                "default": "Have you ensured that your system is robust enough to deal with errors or inconsistencies during the design, development, execution, deployment and use phase of the AI system, and to adequately cope with erroneous outcomes?",
+                                "default": "Have you ensured that your system is robust enough to deal with the edge cases and extreme scenarios (eg. load inputs, adversarial attacks) to adequately mitigate erroneous outcomes to the best extent possible?",
                                 "fr": ""
                             },
                             "description": {
@@ -6688,6 +7330,50 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "panel",
+                    "name": "robustness2.2Panel-RS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "robustness5",
+                            "title": {
+                                "default": "What contingencies are incorporated in the model and or system?",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.33",
+                                    "text": {
+                                        "default": "Established procedures for certain functions are clearly outlined and understood",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.33",
+                                    "text": {
+                                        "default": "There are established procedures for each type of recognized exception (eg denial of service, manual processing, etc.)",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.33",
+                                    "text": {
+                                        "default": "Regular review of system failures occuring are considered and added to subsequent documentation",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0.2",
+                                    "text": {
+                                        "default": "Other",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "title": {
@@ -6703,67 +7389,8 @@
                     "name": "dataQualityRights1.1Panel-DQRS",
                     "elements": [
                         {
-                            "type": "checkbox",
-                            "name": "dataQualityRights1-M1",
-                            "title": {
-                                "default": "How does the system ensure that rights, values, and principles of the public have been protected through the data collection process?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all which apply:",
-                                "fr": ""
-                            },
-                            "recommendation": {
-                                "default": "To be referenced somewhere else (w\/question about transparency):\n6) Access to fundamental resources, knowledge and digital tools must be guaranteed for all.\n\n7) We should support the development of commons algorithms \u2014 and of open data needed to train them \u2014 and expand their use, as a socially equitable objective.\n\nEU - 1) Respect for (& Enhancement of) Human Autonomy: AI systems should be designed not only to uphold rights, values and principles, but also to protect citizens in all their diversity from governmental and private abuses made possible by AI technology, ensuring a fair distribution of the benefits created by AI technologies, protect and enhance a plurality of human values, and enhance self-determination and autonomy of individual users and communities. \n\n2) Respect for (& Enhancement of) Human Autonomy (Assessment list): \n - Is the user informed in case of risks on human mental integrity (nudging) by the product?\n - Is useful and necessary information provided to the user of the service\/product to enable the latter to take a decision in full self-determination?\n - Does the AI system indicate to users that a decision, content, advice, or outcome, is the result of an algorithmic decision of any kind?\n - Do users have the facility to interrogate algorithmic decisions in order to fully understand their purpose, provenance, the data relied on, etc.?",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.2",
-                                    "text": {
-                                        "default": "The system is equally available to all segmentations",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.2",
-                                    "text": {
-                                        "default": "The user is informed on the potential risks on human mental integrity (eg. nudging) when this product is being used.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.2",
-                                    "text": {
-                                        "default": "Useful information about the design, testing, and development of the system (including, but not limited to, decision criteria, inputs for training the model) are provided in a clear and easy to access manner to the user.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.2",
-                                    "text": {
-                                        "default": "Notification is provided in a clear and easy to understand way that there was a machine involved in the creation of a decision, content, advice, outcome, or action.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item5-0.2",
-                                    "text": {
-                                        "default": "Results of ongoing testing, training, and monitoring of the system are open and available.",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "panel",
-                    "name": "dataQualityRights1.2Panel-DQRS",
-                    "elements": [
-                        {
                             "type": "radiogroup",
-                            "name": "dataQualityRights2",
+                            "name": "dataQualityRights1",
                             "title": {
                                 "default": "How was the data being used for the system collected?",
                                 "fr": ""
@@ -6803,11 +7430,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights1.3Panel-DQRS",
+                    "name": "dataQualityRights1.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "dataQualityRights3",
+                            "name": "dataQualityRights2",
                             "title": {
                                 "default": "Does data used for training or use of the system include personal information?",
                                 "fr": ""
@@ -6893,106 +7520,14 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Data quality and rights",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataQualityRights2",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "dataQualityRights2.1Panel-DQRS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "dataQualityRights4-M1",
-                            "title": {
-                                "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all that apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-0.11",
-                                    "text": {
-                                        "default": "The collection of private information only takes place if a user consents or for authorized surveillance purposes.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.11",
-                                    "text": {
-                                        "default": "Data related to personal thoughts and emotions are not used in situations where the system coudl case harm, especially in circumstances where moral judgements (eg. lifestyle choices could be made).",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.11",
-                                    "text": {
-                                        "default": "Users are able to disconnect or stop sharing information with the system at any point in time.  If a disruption in service occurs, data collection is an direct dependency vs an indirect dependency.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item4-0.11",
-                                    "text": {
-                                        "default": "Only users have the ability to set profile preferences, changes to the these preferences can easily be done at any time.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item5-0.11",
-                                    "text": {
-                                        "default": "Access to personal information is limited to only individuals who require it for the direct functioning of the system.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item6-0.11",
-                                    "text": {
-                                        "default": "Individuals have the ability to access their poersonal data inclduing, but not limited to, the collection, use, and sharing of this data at any time.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item7-0.11",
-                                    "text": {
-                                        "default": "Individuals have the ability to donate their personal data to research organizations.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item8-0.11",
-                                    "text": {
-                                        "default": "Data integrity is assured. The system does not use private data to imitate or alter a persons appearance, voice, or other individual characteristics in order to damage one's reputation or manipulate other people.",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item9-0.11",
-                                    "text": {
-                                        "default": "The system does not curtail people's real or percieved liberty.",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights2.2Panel-DQRS",
+                    "name": "dataQualityRights1.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "dataQualityRights5",
+                            "name": "dataQualityRights3",
                             "title": {
                                 "default": "Can the system be developed or implemented without the collection and use of sensitve data?",
                                 "fr": ""
@@ -7022,14 +7557,23 @@
                             ]
                         }
                     ]
-                },
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights2",
+            "elements": [
                 {
                     "type": "panel",
-                    "name": "dataQualityRights2.3Panel-DQRS",
+                    "name": "dataQualityRights2.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights6-M1",
+                            "name": "dataQualityRights4-M1",
                             "title": {
                                 "default": "Is data used in the training or implementation of this system handeled with care?",
                                 "fr": ""
@@ -7088,64 +7632,14 @@
                             ]
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Data quality and rights",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataQualityRights3",
-            "elements": [
-                {
-                    "type": "panel",
-                    "name": "dataQualityRights3.1Panel-DQRS",
-                    "elements": [
-                        {
-                            "type": "checkbox",
-                            "name": "dataQualityRights7-M1",
-                            "title": {
-                                "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
-                                "fr": ""
-                            },
-                            "description": {
-                                "default": "Select all that apply:",
-                                "fr": ""
-                            },
-                            "choices": [
-                                {
-                                    "value": "item1-1",
-                                    "text": {
-                                        "default": "Not applicable",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item2-0.5",
-                                    "text": {
-                                        "default": "Testing has been completed to ensure that the model is not memorizing or exposing sensitive data",
-                                        "fr": ""
-                                    }
-                                },
-                                {
-                                    "value": "item3-0.5",
-                                    "text": {
-                                        "default": "Use of data is minimized while maintaining",
-                                        "fr": ""
-                                    }
-                                }
-                            ]
-                        }
-                    ]
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights3.2Panel-DQRS",
+                    "name": "dataQualityRights2.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights8-M1",
+                            "name": "dataQualityRights5-M1",
                             "title": {
                                 "default": "Has training and implementation data been reviewed for quality?",
                                 "fr": ""
@@ -7189,11 +7683,11 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights3.3Panel-DQRS",
+                    "name": "dataQualityRights2.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights9-M1",
+                            "name": "dataQualityRights6-M1",
                             "title": {
                                 "default": "Has your system been trained on data that accurately represents your entire user base?",
                                 "fr": ""
@@ -7260,15 +7754,15 @@
             }
         },
         {
-            "name": "dataQualityRights4",
+            "name": "dataQualityRights3",
             "elements": [
                 {
                     "type": "panel",
-                    "name": "dataQualityRights4.1Panel-DQRS",
+                    "name": "dataQualityRights3.1Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "dataQualityRights10",
+                            "name": "dataQualityRights7",
                             "title": {
                                 "default": "How is the data being collected, used, and stored being managed?",
                                 "fr": ""
@@ -7294,17 +7788,21 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights4.2Panel-DQRS",
+                    "name": "dataQualityRights3.2Panel-DQRS",
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights11-M1",
+                            "name": "dataQualityRights8-M1",
                             "title": {
                                 "default": "What are the recourse mechanisms for a decision or action that does not meet the objectives of the system?",
                                 "fr": ""
                             },
                             "description": {
                                 "default": "Select all which apply:",
+                                "fr": ""
+                            },
+                            "recommendation": {
+                                "default": "Think about the different users that you have and determine what the best course of action would be to inform them throughout the use of the system if there is an issue.",
                                 "fr": ""
                             },
                             "choices": [
@@ -7342,13 +7840,13 @@
                 },
                 {
                     "type": "panel",
-                    "name": "dataQualityRights4.3Panel-DQRS",
+                    "name": "dataQualityRights3.3Panel-DQRS",
                     "elements": [
                         {
                             "type": "radiogroup",
-                            "name": "dataQualityRights12",
+                            "name": "dataQualityRights9",
                             "title": {
-                                "default": "Does training data rely on decisions\/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
+                                "default": "Do you have clear policies around storing and handling testing data to evaluate model performance such that there is no data leakage to intentionally or unintentionally influence results from model performance and the evaluation of the overall mode?l",
                                 "fr": ""
                             },
                             "choices": [
@@ -7363,6 +7861,66 @@
                                     "value": "item2-0",
                                     "text": {
                                         "default": "No",
+                                        "fr": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights4",
+            "elements": [
+                {
+                    "type": "panel",
+                    "name": "dataQualityRights4.1Panel-DQRS",
+                    "elements": [
+                        {
+                            "type": "radiogroup",
+                            "name": "dataQualityRights10",
+                            "title": {
+                                "default": "Are there regular assessments of the system to protect against data drift? Regular assessments are done on the following:",
+                                "fr": ""
+                            },
+                            "choices": [
+                                {
+                                    "value": "item1-0.33",
+                                    "text": {
+                                        "default": "Checks to the underlying population",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item2-0.33",
+                                    "text": {
+                                        "default": "Analysis of new use cases",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item3-0.33",
+                                    "text": {
+                                        "default": "Analysis of exceptional cases",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item4-0",
+                                    "text": {
+                                        "default": "None",
+                                        "fr": ""
+                                    }
+                                },
+                                {
+                                    "value": "item5-0.25",
+                                    "text": {
+                                        "default": "Other",
                                         "fr": ""
                                     }
                                 }
