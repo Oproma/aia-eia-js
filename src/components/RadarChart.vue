@@ -4,25 +4,26 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Dimensions from "@/enums/Dimensions";
 const d3 = require("d3");
 
 @Component
 export default class RadarChart extends Vue {
   mounted() {
-    const dimensions: { [key: string]: number } = {
-      Accountability: 0,
-      Explainability: 1,
-      "Data quality and rights": 2,
-      "Bias and fairness": 3,
-      Robustness: 4
+    const dimensions: { [key: string]: string } = {
+      Accountability: Dimensions.ACCOUNTABILITY,
+      Explainability: Dimensions.EXPLAINABILITY_AND_INTERPRETABILITY,
+      "Data quality and rights": Dimensions.DATA_QUALITY_AND_RIGHTS,
+      "Bias and fairness": Dimensions.BIAS_AND_FAIRNESS,
+      Robustness: Dimensions.ROBUSTNESS
     };
     const score = this.$store.getters.calcScore;
     const data: any[] = [[]];
-    for (let dimension in dimensions) {
-      let value =
-        score[dimensions[dimension]] / score[5 + dimensions[dimension]];
+    for (let name in dimensions) {
+      const dimension = dimensions[name];
+      const value = score[dimension].score / score[dimension].max;
       data[0].push({
-        axis: dimension,
+        axis: name,
         value: value
       });
     }

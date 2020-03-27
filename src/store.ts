@@ -5,6 +5,7 @@ import { RootState } from "./types";
 import { IQuestion, QuestionSelectBase, SurveyModel, JsonObject } from "survey-vue";
 import isEmpty from "lodash.isempty";
 import showdown from "showdown";
+import Dimensions from "@/enums/Dimensions";
 
 JsonObject.metaData.addProperty("question", "score");
 JsonObject.metaData.addProperty("question", "recommendation");
@@ -30,6 +31,17 @@ function addItemsInArray(val: any[]) {
     }
   });
   return total;
+}
+
+function isScored(question: QuestionSelectBase): boolean {
+  if (
+    question.getType() === "radiogroup" ||
+    question.getType() === "checkbox"
+  ) {
+    // Check the suffix for "-RS" or "-MS" for valid score questions.
+    return getScoreDimension(question) !== Dimensions.NOT_SCORED;
+  }
+  return false;
 }
 
 function hasScore(question: IQuestion): boolean {
@@ -102,6 +114,13 @@ function getScoreTypeHelper(name: String): Number {
   return 0;
 }
 
+function getScoreDimension(question: QuestionSelectBase): string {
+  if (question.score && question.score.dimension) {
+    return question.score.dimension;
+  }
+  return Dimensions.NOT_SCORED;
+}
+
 function getScoreType(question: IQuestion): Number {
   var result = getScoreTypeHelper(question.name);
 
@@ -172,33 +191,27 @@ function calculateFinalScore(
   let robustnessScore = 0;
   let maxRobustnessScore = 0;
 
-  questionNames.forEach(name => {
-    const currentQuestion = survey.getQuestionByName(name);
-    const currentQuestionType = getScoreType(currentQuestion);
-    const currentQuestionMaxScore = getMaxScoreForQuestion(<QuestionSelectBase>(currentQuestion));
 
-    switch (currentQuestionType) {
-      case 4: // accountability
-        accountabilityScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
-        maxAccountabilityscore += currentQuestionMaxScore;
-        break;
-      case 5: // data quality and rights
-        dataQualityRightsScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
-        maxDataQualityRightsScore += currentQuestionMaxScore;
-        break;
-      case 6: // explainability and interpretability
-        explainabilityInterpretabilityScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
-        maxExplainabilityInterpretabilityScore += currentQuestionMaxScore;
-        break;
-      case 7: // bias and fairness
-        biasFairnessScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
-        maxBiasFairnessScore += currentQuestionMaxScore;
-        break;
-      case 8: // robustness
-        robustnessScore += Math.min(getValue(survey.data[name]), currentQuestionMaxScore);
-        maxRobustnessScore += currentQuestionMaxScore;
-        break;
+  const score: any = {};
+  const dimensions: any = Dimensions;
+  const keys: string[] = Object.keys(Dimensions);
+  for (let key in keys) {
+    const dimension = dimensions[keys[key]];
+    if (dimension === Dimensions.NOT_SCORED) {
+      continue;
     }
+    score[dimension] = { score: 0, max: 0 };
+  }
+
+  questionNames.forEach(name => {
+    const question = <QuestionSelectBase>survey.getQuestionByName(name);
+    const dimension = getScoreDimension(question);
+    const maxScore = getMaxScoreForQuestion(question);
+    if (dimension === Dimensions.NOT_SCORED) {
+      return;
+    }
+    score[dimension].score += Math.min(getValue(survey.data[name]), maxScore);
+    score[dimension].max += maxScore;
 
   //   if (currentQuestionType === 2) {
   //     // no real risk of injection since we are just getting a value, worst case it breaks our score
@@ -241,10 +254,7 @@ function calculateFinalScore(
   // }
 
   // return [rawRiskScore, mitigationScore, total, level];
-  return [dataQualityRightsScore, explainabilityInterpretabilityScore,
-    biasFairnessScore, accountabilityScore, robustnessScore, maxDataQualityRightsScore,
-    maxExplainabilityInterpretabilityScore, maxBiasFairnessScore, maxAccountabilityscore,
-    maxRobustnessScore];
+  return score;
 }
 
 const store: StoreOptions<RootState> = {
@@ -276,7 +286,7 @@ const store: StoreOptions<RootState> = {
         state.questionNames = result
           .getAllQuestions()
           .filter(question => {
-            return hasScore(question);
+            return isScored(<QuestionSelectBase>question);
           })
           .map(question => {
             return question.name;
@@ -289,66 +299,44 @@ const store: StoreOptions<RootState> = {
       return !isEmpty(state.toolData);
     },
     calcScore: state => {
-      if (state.result === undefined) return [0, 0, 0, 0, 0, 1, 1, 1, 1, 1];
+      if (state.result === undefined) { 
+        return null;
+      }
       return calculateFinalScore(state.result, state.questionNames);
     },
     results: state => {
       if (state.result === undefined) {
         return null;
       }
-      const getScoreTypeHelper = function (name: string) : string {
-        if (name) {
-          if (name.endsWith("-NS")) {
-            return "not_scored";
-          } else if (name.endsWith("-AS")) {
-            return "accountability";
-          } else if (name.endsWith("-EIS")) {
-            return "explainability_interpretability";
-          } else if (name.endsWith("-DQRS")) {
-            return "data_quality_and_rights";
-          } else if (name.endsWith("-BFS")) {
-            return "bias_and_fairness";
-          } else if (name.endsWith("-RS")) {
-            return "robustness";
-          }
-        }
-        return "null";
-      };
-      const getScoreType = function (question: IQuestion): string {
-        var result = getScoreTypeHelper(question.name);
-        if (result === "null") {
-          result = getScoreTypeHelper(question.parent.name);
-        }
-        return result;
-      };
       // fetch custom data from questions and attach it to the answers
       const converter = new showdown.Converter();
       for (let i = 0; i < state.answerData.length; i++) {
         const question = state.result.getQuestionByName(state.answerData[i].name);
         state.answerData[i].recommendation = question.recommendation;
-                state.answerData[i].displayRecommendation = "";
-                if (state.answerData[i].recommendation) {
-                  state.answerData[i].displayRecommendation = converter.makeHtml(state.answerData[i].recommendation.default);
-                }
+        state.answerData[i].displayRecommendation = "";
+        if (state.answerData[i].recommendation) {
+          state.answerData[i].displayRecommendation = converter.makeHtml(state.answerData[i].recommendation.default);
+        }
       }
       // filter results by dimensions and exclude questions that are not scored
       const results: any = {};
       state.answerData.forEach(answer => {
-        const question = state.result!.getQuestionByName(answer.name);
-        const scoreType = getScoreType(question);
-        if (scoreType !== "null" && scoreType !== "not_scored") {
-          if (results[scoreType] === undefined) {
-            results[scoreType] = [];
-          }
-          // rebuild the display value since surveyjs appears to separate the
-          // choices with commas
-          answer.displayValue = "";
-          for (let i = 0; i < answer.data.length; i++) {
-            answer.displayValue += answer.data[i].displayValue;
-          }
-          // push the answer to the results map
-          results[scoreType].push(answer);
+        const question = <QuestionSelectBase>state.result!.getQuestionByName(answer.name);
+        const dimension = getScoreDimension(question);
+        if (dimension == Dimensions.NOT_SCORED) {
+          return;
         }
+        if (results[dimension] === undefined) {
+          results[dimension] = [];
+        }
+        // rebuild the display value since surveyjs appears to separate the
+        // choices with commas
+        answer.displayValue = "";
+        for (let i = 0; i < answer.data.length; i++) {
+          answer.displayValue += answer.data[i].displayValue;
+        }
+        // push the answer to the results map
+        results[dimension].push(answer);
       });
       return results;
     },

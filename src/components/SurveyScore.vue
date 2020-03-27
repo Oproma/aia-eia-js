@@ -115,11 +115,11 @@
           </b-table-simple>
         </div>
         <b-nav tabs class="flip">
-          <b-nav-item :active="target === 'accountability'" @click="target = 'accountability'">Accountability</b-nav-item>
-          <b-nav-item :active="target === 'explainability_interpretability'" @click="target = 'explainability_interpretability'">Explainability</b-nav-item>
-          <b-nav-item :active="target === 'data_quality_and_rights'" @click="target = 'data_quality_and_rights'">Data quality and rights</b-nav-item>
-          <b-nav-item :active="target === 'bias_and_fairness'" @click="target = 'bias_and_fairness'">Bias and fairness</b-nav-item>
-          <b-nav-item :active="target === 'robustness'" @click="target = 'robustness'">Robustness</b-nav-item>
+          <b-nav-item :active="target === Dimensions.ACCOUNTABILITY" @click="target = Dimensions.ACCOUNTABILITY">Accountability</b-nav-item>
+          <b-nav-item :active="target === Dimensions.EXPLAINABILITY_AND_INTERPRETABILITY" @click="target = Dimensions.EXPLAINABILITY_AND_INTERPRETABILITY">Explainability</b-nav-item>
+          <b-nav-item :active="target === Dimensions.DATA_QUALITY_AND_RIGHTS" @click="target = Dimensions.DATA_QUALITY_AND_RIGHTS">Data quality and rights</b-nav-item>
+          <b-nav-item :active="target === Dimensions.BIAS_AND_FAIRNESS" @click="target = Dimensions.BIAS_AND_FAIRNESS">Bias and fairness</b-nav-item>
+          <b-nav-item :active="target === Dimensions.ROBUSTNESS" @click="target = Dimensions.ROBUSTNESS">Robustness</b-nav-item>
         </b-nav>
       </b-tab>
     </b-tabs>
@@ -128,24 +128,26 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import Dimensions from "@/enums/Dimensions";
 import { Model } from "survey-vue";
 
 @Component({
   computed: {
     items: function() {
-      const dimensions: {[key: string]: number} = {
-        "Accountability": 0,
-        "Explainability": 1,
-        "Data quality and rights": 2,
-        "Bias and fairness": 3,
-        "Robustness": 4
+      const dimensions: {[key: string]: string} = {
+        "Accountability": Dimensions.ACCOUNTABILITY,
+        "Explainability": Dimensions.EXPLAINABILITY_AND_INTERPRETABILITY,
+        "Data quality and rights": Dimensions.DATA_QUALITY_AND_RIGHTS,
+        "Bias and fairness": Dimensions.BIAS_AND_FAIRNESS,
+        "Robustness": Dimensions.ROBUSTNESS
       }
       const score = this.$store.getters.calcScore;
       const items = [];
-      for (var dimension in dimensions) {
-        const perc: number = ((score[dimensions[dimension]]/score[5 + dimensions[dimension]])*100);
+      for (let name in dimensions) {
+        const dimension = dimensions[name];
+        const perc = (score[dimension].score / score[dimension].max) * 100;
         items.push({
-          dimensions: dimension,
+          dimensions: name,
           needs_to_improve: (perc < 50 ? 'fa-check-circle' : 'fa-circle'),
           acceptable: (perc >= 50 && perc < 75 ? 'fa-check-circle' : 'fa-circle'),
           proficient: (perc >= 75 && perc <= 100 ? 'fa-check-circle' : 'fa-circle')
@@ -156,10 +158,15 @@ import { Model } from "survey-vue";
     results: function () {
       return this.$store.getters.results;
     }
+  },
+  data: function() {
+    return {
+      Dimensions: Dimensions
+    }
   }
 })
 export default class SurveyScore extends Vue {
   @Prop() public survey!: Model;
-  public target: string = "accountability";
+  public target: string = Dimensions.ACCOUNTABILITY;
 }
 </script>
