@@ -6,6 +6,7 @@ import { IQuestion, QuestionSelectBase, SurveyModel, JsonObject } from "survey-v
 import isEmpty from "lodash.isempty";
 import showdown from "showdown";
 
+JsonObject.metaData.addProperty("question", "score");
 JsonObject.metaData.addProperty("question", "recommendation");
 JsonObject.metaData.addProperty("question", "alttext");
 
@@ -119,12 +120,9 @@ function getScoreType(question: IQuestion): Number {
 }
 
 function getMaxScoreForQuestion(question: QuestionSelectBase): number {
-  var valueName = question.getValueName();
   var max = 0;
-
-  var found = valueName.match(/-M[0-9]+-?/g);
-  if (found !== null) {
-    max = parseFloat(found[0].replace(/\D+/g, ''));
+  if (question.score && question.score.max) {
+    max = question.score.max;
   } else {
     var questionType = question.getType();
     var value = 0;

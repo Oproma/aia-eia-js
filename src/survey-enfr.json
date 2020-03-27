@@ -5473,7 +5473,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability9-M1",
+                            "name": "accountability9",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
                                 "fr": ""
@@ -5599,7 +5602,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability12-M1",
+                            "name": "accountability12",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
                                 "fr": ""
@@ -5687,7 +5693,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "accountability14-M1",
+                            "name": "accountability14",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is there a process in place for determining if the automated activity will be flagged for human oversight?",
                                 "fr": ""
@@ -5916,7 +5925,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness4-M1",
+                            "name": "biasFairness4",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Does your organization have a review model in place including looking at aspects of diversity and complete representation to ensure alternative perspectives or viewpoints are taken in to account in advance of the system operating?",
                                 "fr": ""
@@ -5975,7 +5987,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness5-M1",
+                            "name": "biasFairness5",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "How does the system ensure that rights, values, and principles of the public have been protected through the data collection process?",
                                 "fr": ""
@@ -6084,7 +6099,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness7-M1",
+                            "name": "biasFairness7",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Has the algoroithm been designed and trained in a way so as not to create, reinforce, or reproduce bias based on the following areas:",
                                 "fr": ""
@@ -6185,7 +6203,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness8-M1",
+                            "name": "biasFairness8",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
                                 "fr": ""
@@ -6277,7 +6298,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness9-M1",
+                            "name": "biasFairness9",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
                                 "fr": ""
@@ -6359,7 +6383,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness11-M1",
+                            "name": "biasFairness11",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
                                 "fr": ""
@@ -6533,7 +6560,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "biasFairness16-M1",
+                            "name": "biasFairness16",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "The decision or action made by the system could have the potential adverse impact:",
                                 "fr": ""
@@ -7116,7 +7146,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "robustness1-M1",
+                            "name": "robustness1",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Has the system been tested to ensure quality development was conducted?",
                                 "fr": ""
@@ -7265,7 +7298,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "robustness4-M1",
+                            "name": "robustness4",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Have you ensured that your system is robust enough to deal with the edge cases and extreme scenarios (eg. load inputs, adversarial attacks) to adequately mitigate erroneous outcomes to the best extent possible?",
                                 "fr": ""
@@ -7581,7 +7617,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights4-M1",
+                            "name": "dataQualityRights4",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Is data used in the training or implementation of this system handeled with care?",
                                 "fr": ""
@@ -7647,7 +7686,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights5-M1",
+                            "name": "dataQualityRights5",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Has training and implementation data been reviewed for quality?",
                                 "fr": ""
@@ -7695,7 +7737,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights6-M1",
+                            "name": "dataQualityRights6",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "Has your system been trained on data that accurately represents your entire user base?",
                                 "fr": ""
@@ -7800,7 +7845,10 @@
                     "elements": [
                         {
                             "type": "checkbox",
-                            "name": "dataQualityRights8-M1",
+                            "name": "dataQualityRights8",
+                            "score": {
+                                "max": 1.0
+                            },
                             "title": {
                                 "default": "What are the recourse mechanisms for a decision or action that does not meet the objectives of the system?",
                                 "fr": ""
