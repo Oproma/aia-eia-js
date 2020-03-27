@@ -115,7 +115,9 @@ created() {
 
     this.Survey.onAfterRenderPage.add((sender, options) => {
       const node = options.htmlElement.getElementsByTagName("h4")[0];
-      node.classList.add('section-header');
+      if (node) {
+        node.classList.add('section-header');
+      }
       $('[data-toggle="tooltip"').tooltip({
         boundary: 'viewport'
       });
