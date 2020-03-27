@@ -22,7 +22,7 @@
             "elements": [
                 {
                     "type": "text",
-                    "name": "projectDetails1",
+                    "name": "BAEDF",
                     "title": {
                         "default": "Title of project",
                         "fr": ""
@@ -30,7 +30,7 @@
                 },
                 {
                     "type": "comment",
-                    "name": "projectDetails2",
+                    "name": "A02D4",
                     "title": {
                         "default": "Project Description",
                         "fr": ""
@@ -38,7 +38,7 @@
                 },
                 {
                     "type": "text",
-                    "name": "projectDetails3",
+                    "name": "6C352",
                     "title": {
                         "default": "Company or Organization",
                         "fr": ""
@@ -46,7 +46,7 @@
                 },
                 {
                     "type": "dropdown",
-                    "name": "projectDetails4",
+                    "name": "0267E",
                     "title": {
                         "default": "Industry",
                         "fr": ""
@@ -3226,7 +3226,7 @@
                 },
                 {
                     "type": "dropdown",
-                    "name": "projectDetails5",
+                    "name": "381B6",
                     "title": {
                         "default": "Country",
                         "fr": ""
@@ -4984,7 +4984,7 @@
                 },
                 {
                     "type": "text",
-                    "name": "projectDetails6",
+                    "name": "235F8",
                     "title": {
                         "default": "City",
                         "fr": ""
@@ -4992,7 +4992,7 @@
                 },
                 {
                     "type": "text",
-                    "name": "projectDetails7",
+                    "name": "9BAD4",
                     "title": {
                         "default": "Representative",
                         "fr": ""
@@ -5000,7 +5000,7 @@
                 },
                 {
                     "type": "text",
-                    "name": "projectDetails8",
+                    "name": "80D33",
                     "title": {
                         "default": "Contact information",
                         "fr": ""
@@ -5008,7 +5008,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "projectDetails9",
+                    "name": "C2610",
                     "title": {
                         "default": "Why are you using AI for this project?",
                         "fr": ""
@@ -5080,7 +5080,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "accountability1",
+                    "name": "E7CBC",
                     "title": {
                         "default": "Are there potential unintended outcomes(moral, material, physical) that could occur when this system is in use? What type of damages would it cause, select all which apply:",
                         "fr": ""
@@ -5111,7 +5111,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability2",
+                    "name": "8892C",
                     "score": {
                         "dimension": "A"
                     },
@@ -5149,7 +5149,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability3",
+                    "name": "FB449",
                     "score": {
                         "dimension": "A"
                     },
@@ -5197,7 +5197,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability4",
+                    "name": "BA335",
                     "score": {
                         "dimension": "A"
                     },
@@ -5265,7 +5265,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "accountability5",
+                    "name": "62CB7",
                     "score": {
                         "dimension": "A"
                     },
@@ -5317,7 +5317,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability6",
+                    "name": "05AA0",
                     "score": {
                         "dimension": "A"
                     },
@@ -5365,7 +5365,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability7",
+                    "name": "CDD6C",
                     "score": {
                         "dimension": "A"
                     },
@@ -5396,7 +5396,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability8",
+                    "name": "B09AA",
                     "score": {
                         "dimension": "A"
                     },
@@ -5436,7 +5436,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "accountability9",
+                    "name": "214D0",
                     "score": {
                         "dimension": "A",
                         "max": 1.0
@@ -5486,7 +5486,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability10",
+                    "name": "E7848",
                     "score": {
                         "dimension": "A"
                     },
@@ -5520,7 +5520,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability11",
+                    "name": "FABC6",
                     "score": {
                         "dimension": "A"
                     },
@@ -5554,7 +5554,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "accountability12",
+                    "name": "F211C",
                     "score": {
                         "dimension": "A",
                         "max": 1.0
@@ -5606,7 +5606,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "accountability13",
+                    "name": "9463F",
                     "score": {
                         "dimension": "A"
                     },
@@ -5637,7 +5637,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "accountability14",
+                    "name": "FF34A",
                     "score": {
                         "dimension": "A",
                         "max": 1.0
@@ -5680,7 +5680,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "accountability15",
+                    "name": "B71A6",
                     "score": {
                         "dimension": "A"
                     },
@@ -5730,7 +5730,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness1",
+                    "name": "D85E8",
                     "score": {
                         "dimension": "B"
                     },
@@ -5764,7 +5764,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness2",
+                    "name": "A0F6A",
                     "score": {
                         "dimension": "B"
                     },
@@ -5805,7 +5805,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness3",
+                    "name": "4435F",
                     "score": {
                         "dimension": "B"
                     },
@@ -5852,7 +5852,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "biasFairness4",
+                    "name": "71FC3",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -5909,7 +5909,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "biasFairness5",
+                    "name": "1C8CF",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -5966,7 +5966,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness6",
+                    "name": "56654",
                     "score": {
                         "dimension": "B"
                     },
@@ -6013,7 +6013,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "biasFairness7",
+                    "name": "22F17",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -6112,7 +6112,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "biasFairness8",
+                    "name": "1577E",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -6202,7 +6202,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "biasFairness9",
+                    "name": "AF269",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -6241,7 +6241,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness10",
+                    "name": "D3651",
                     "score": {
                         "dimension": "B"
                     },
@@ -6279,7 +6279,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "biasFairness11",
+                    "name": "4805F",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -6322,7 +6322,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness12",
+                    "name": "C9FE9",
                     "score": {
                         "dimension": "B"
                     },
@@ -6358,7 +6358,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness13",
+                    "name": "C8371",
                     "score": {
                         "dimension": "B"
                     },
@@ -6385,7 +6385,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness14",
+                    "name": "41411",
                     "score": {
                         "dimension": "B"
                     },
@@ -6412,7 +6412,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "biasFairness15",
+                    "name": "1B4C3",
                     "score": {
                         "dimension": "B"
                     },
@@ -6439,7 +6439,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "biasFairness16",
+                    "name": "6B15A",
                     "score": {
                         "dimension": "B",
                         "max": 1.0
@@ -6494,7 +6494,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "miscellaneous1",
+                    "name": "53BC0",
                     "score": {
                         "dimension": "T"
                     },
@@ -6530,7 +6530,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability1",
+                    "name": "E51EB",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6575,7 +6575,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability2",
+                    "name": "1FB1A",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6624,7 +6624,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability3",
+                    "name": "1CE3D",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6660,7 +6660,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability4",
+                    "name": "4A201",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6701,7 +6701,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability5",
+                    "name": "4DF04",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6735,7 +6735,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability6",
+                    "name": "C9882",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6792,7 +6792,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability7",
+                    "name": "FE3D1",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6819,7 +6819,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability8",
+                    "name": "F593F",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6846,7 +6846,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability9",
+                    "name": "B3F92",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6889,7 +6889,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability10",
+                    "name": "9B650",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6916,7 +6916,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "explainabilityInterpretability11",
+                    "name": "504B1",
                     "score": {
                         "dimension": "EI"
                     },
@@ -6984,7 +6984,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "robustness1",
+                    "name": "A94E7",
                     "score": {
                         "dimension": "R",
                         "max": 1.0
@@ -7062,7 +7062,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "robustness2",
+                    "name": "B6B11",
                     "score": {
                         "dimension": "R"
                     },
@@ -7089,7 +7089,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "robustness3",
+                    "name": "A47B7",
                     "score": {
                         "dimension": "R"
                     },
@@ -7125,7 +7125,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "robustness4",
+                    "name": "F1954",
                     "score": {
                         "dimension": "R",
                         "max": 1.0
@@ -7203,7 +7203,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "robustness5",
+                    "name": "BA6C6",
                     "score": {
                         "dimension": "R"
                     },
@@ -7253,7 +7253,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights1",
+                    "name": "7F9D0",
                     "score": {
                         "dimension": "D"
                     },
@@ -7294,7 +7294,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights2",
+                    "name": "69E03",
                     "score": {
                         "dimension": "D"
                     },
@@ -7384,7 +7384,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights3",
+                    "name": "3CFCB",
                     "score": {
                         "dimension": "D"
                     },
@@ -7427,7 +7427,7 @@
             "elements": [
                 {
                     "type": "checkbox",
-                    "name": "dataQualityRights4",
+                    "name": "D54A7",
                     "score": {
                         "dimension": "D",
                         "max": 1.0
@@ -7491,7 +7491,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "dataQualityRights5",
+                    "name": "61060",
                     "score": {
                         "dimension": "D",
                         "max": 1.0
@@ -7537,7 +7537,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "dataQualityRights6",
+                    "name": "79336",
                     "score": {
                         "dimension": "D",
                         "max": 1.0
@@ -7610,7 +7610,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights7",
+                    "name": "466C3",
                     "score": {
                         "dimension": "D"
                     },
@@ -7637,7 +7637,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "name": "dataQualityRights8",
+                    "name": "9049E",
                     "score": {
                         "dimension": "D",
                         "max": 1.0
@@ -7687,7 +7687,7 @@
                 },
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights9",
+                    "name": "1F036",
                     "score": {
                         "dimension": "D"
                     },
@@ -7723,7 +7723,7 @@
             "elements": [
                 {
                     "type": "radiogroup",
-                    "name": "dataQualityRights10",
+                    "name": "FE677",
                     "score": {
                         "dimension": "D"
                     },
