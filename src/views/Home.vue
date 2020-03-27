@@ -135,9 +135,10 @@ created() {
             ' <strong class="required">(' + requiredText + ")</strong>";
         }
 
-        let tooltipDescriptionHTML = "";
-        if (options.question.tooltipdescription) {
-          tooltipDescriptionHTML = `<i class="fas fa-info-circle ml-2" data-toggle="tooltip" title="${options.question.tooltipdescription.default}"></i>`;
+        let altTextHTML = "";
+        if (options.question.alttext) {
+          const altText = converter.makeHtml(options.question.alttext.default.replace(/"/g, "&quot;"))
+          altTextHTML = `<i class="fas fa-info-circle ml-2" data-toggle="tooltip" data-html="true" title="${altText}"></i>`;
         }
         title.outerHTML =
           '<label for="' +
@@ -147,7 +148,7 @@ created() {
           '"><span class="field-name">' +
           title.innerText +
           "</span>" +
-          tooltipDescriptionHTML +
+          altTextHTML +
           questionRequiredHTML +
           "</label>";
       }

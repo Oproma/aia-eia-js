@@ -138,8 +138,21 @@ main h1, main h2, main .h1, main .h2 {
   box-shadow: 1px 3px 10px rgba(77,77,77,0.75);
   transition: box-shadow .2s ease-in-out;
 }
+.tooltip .tooltip-inner p {
+  margin: 0 !important;
+}
 .tooltip.show  {
   opacity: 1 !important;
+}
+@media screen and (min-width: 400px) {
+  .tooltip .tooltip-inner {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .tooltip .tooltip-inner {
+    max-width: 600px;
+  } 
 }
 
 .field-name {

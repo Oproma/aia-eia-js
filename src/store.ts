@@ -7,6 +7,7 @@ import isEmpty from "lodash.isempty";
 import showdown from "showdown";
 
 JsonObject.metaData.addProperty("question", "recommendation");
+JsonObject.metaData.addProperty("question", "alttext");
 
 Vue.use(Vuex);
 

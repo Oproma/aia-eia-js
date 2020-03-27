@@ -5017,6 +5017,10 @@
                                 "default": "Why are you using AI for this project?",
                                 "fr": ""
                             },
+                            "alttext": {
+                                "default": "Are any features in your model redundant or unnecessary? Use the simplest model that meets your performance goals. - Google Responsible AI Practices",
+                                "fr": ""
+                            },
                             "choices": [
                                 {
                                     "value": "item1",
@@ -6680,6 +6684,10 @@
                             },
                             "recommendation": {
                                 "default": "IEEE EAD - Recommendation: Develop new standards that describe measurable, testable levels of transparency, so that systems can be objectively assessed and levels of compliance determined. For designers, such standards will provide a guide for self-assessing transparency during development and suggest mechanisms for improving transparency. The mechanisms by which transparency is provided will vary significantly, including but not limited to, the following use cases: - For users of care or domestic robots, a \u201Cwhydid-you-do-that button\u201D which, when pressed, causes the robot to explain the action it just took. - For validation or certification agencies, the algorithms underlying the A\/IS and how they have been verified. - For accident investigators, secure storage of sensor and internal state data comparable to a flight data recorder or black box.",
+                                "fr": ""
+                            },
+                            "alttext": {
+                                "default": "Maps to EU assessment item - \"have criteria for deployment for the product been set and made availbale to the user?\"",
                                 "fr": ""
                             },
                             "choices": [
