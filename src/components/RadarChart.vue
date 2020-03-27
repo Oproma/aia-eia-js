@@ -41,7 +41,7 @@ export default class RadarChart extends Vue {
       margin: margin,
       maxValue: 1,
       levels: 5,
-      roundStrokes: true
+      roundStrokes: false
     };
     this.draw("#chart", data, options);
   }
