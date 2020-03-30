@@ -5113,7 +5113,12 @@
                     "type": "radiogroup",
                     "name": "8892C",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.5": 0.5,
+                            "item3-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Has a risk benefit analysis of all aspects of this system including looking at aspects avoidance, mitigation, transference, and acceptance been completed?",
@@ -5151,7 +5156,14 @@
                     "type": "radiogroup",
                     "name": "FB449",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.25": 0.25,
+                            "item3-0.5": 0.5,
+                            "item4-0.75": 0.75,
+                            "item5-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Does your organization have experience implementing responsible and ethical programs, processes, and technology? To what extent is the review of ethics built in to your practice?",
@@ -5199,7 +5211,15 @@
                     "type": "radiogroup",
                     "name": "BA335",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0.5": 0.5,
+                            "item5-0.5": 0.5,
+                            "item6-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is there a level of specialized knowledge required to operate your system? Are users made aware prior to use?",
@@ -5267,7 +5287,14 @@
                     "type": "radiogroup",
                     "name": "62CB7",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.25": 0.25,
+                            "item3-0.5": 0.5,
+                            "item4-0.75": 0.75,
+                            "item5-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Does your organization have a risk management process in place?",
@@ -5319,7 +5346,14 @@
                     "type": "radiogroup",
                     "name": "05AA0",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0.5": 0.5,
+                            "item5-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "What type of technology are you using?",
@@ -5367,7 +5401,11 @@
                     "type": "radiogroup",
                     "name": "CDD6C",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is there ongoing monitoring of the system to ensure that the system is operating as intended?",
@@ -5398,7 +5436,11 @@
                     "type": "radiogroup",
                     "name": "B09AA",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Were all labour laws or procedures in your jurisdiction followed throughout the development life-cycle of this project?",
@@ -5439,7 +5481,13 @@
                     "name": "214D0",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-1": 1.0,
+                            "item3-1": 1.0,
+                            "item4-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is there a robust review of the inputs of your system, including but not limited to the data and algorithms used to train and operate the system?",
@@ -5488,7 +5536,12 @@
                     "type": "radiogroup",
                     "name": "E7848",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0,
+                            "item3-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Is the personal data information flow in the system compliant with EU GDPR?",
@@ -5522,7 +5575,12 @@
                     "type": "radiogroup",
                     "name": "FABC6",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0,
+                            "item3-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Is the personal data information flow in the system compliant with California Privacy Protection?",
@@ -5557,7 +5615,12 @@
                     "name": "F211C",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "Is there a log which determines who has generated and had access to the inputs of the system?",
@@ -5608,7 +5671,11 @@
                     "type": "radiogroup",
                     "name": "9463F",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Is there a fallback mechanism in place such that a concurrent process without the system can be utilized?",
@@ -5640,7 +5707,12 @@
                     "name": "FF34A",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is there a process in place for determining if the automated activity will be flagged for human oversight?",
@@ -5682,7 +5754,13 @@
                     "type": "radiogroup",
                     "name": "B71A6",
                     "score": {
-                        "dimension": "A"
+                        "dimension": "A",
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-1": 1.0,
+                            "item3-1": 1.0,
+                            "item4-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Does your organization have a framework, standard, or set of controls in place to evaluate responsible AI development and deployment in your organization?",
@@ -5732,7 +5810,12 @@
                     "type": "radiogroup",
                     "name": "D85E8",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.5": 0.5,
+                            "item3-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Is your user base comprised of individuals or groups from vulnerable populations?",
@@ -5766,7 +5849,12 @@
                     "type": "radiogroup",
                     "name": "A0F6A",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item2-0": 0.0,
+                            "item3-0.5": 0.5,
+                            "item4-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "If this unintended outcome(s) were to occur, who would it impact? Select all which apply\"",
@@ -5807,7 +5895,8 @@
                     "type": "radiogroup",
                     "name": "4435F",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {}
                     },
                     "title": {
                         "default": "What's the severity of this\/these unintended outcome(s)?",
@@ -5855,7 +5944,14 @@
                     "name": "71FC3",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.2": 0.2,
+                            "item2-0.2": 0.2,
+                            "item3-0.2": 0.2,
+                            "item4-0.2": 0.2,
+                            "item5-0.2": 0.2
+                        }
                     },
                     "title": {
                         "default": "Does your organization have a review model in place including looking at aspects of diversity and complete representation to ensure alternative perspectives or viewpoints are taken in to account in advance of the system operating?",
@@ -5912,7 +6008,14 @@
                     "name": "1C8CF",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.2": 0.2,
+                            "item2-0.2": 0.2,
+                            "item3-0.2": 0.2,
+                            "item4-0.2": 0.2,
+                            "item5-0.2": 0.2
+                        }
                     },
                     "title": {
                         "default": "How does the system ensure that rights, values, and principles of the public have been protected through the data collection process?",
@@ -5968,7 +6071,12 @@
                     "type": "radiogroup",
                     "name": "56654",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-0.5": 0.5,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Are the objectives of the system clear to the users?",
@@ -6016,7 +6124,20 @@
                     "name": "22F17",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.1": 0.1,
+                            "item2-0.1": 0.1,
+                            "item3-0.1": 0.1,
+                            "item4-0.1": 0.1,
+                            "item5-0.1": 0.1,
+                            "item6-0.1": 0.1,
+                            "item7-0.1": 0.1,
+                            "item8-0.1": 0.1,
+                            "item9-0.1": 0.1,
+                            "item10-0.1": 0.1,
+                            "item11-0.1": 0.1
+                        }
                     },
                     "title": {
                         "default": "Has the algoroithm been designed and trained in a way so as not to create, reinforce, or reproduce bias based on the following areas:",
@@ -6115,7 +6236,18 @@
                     "name": "1577E",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.11": 0.11,
+                            "item2-0.11": 0.11,
+                            "item3-0.11": 0.11,
+                            "item4-0.11": 0.11,
+                            "item5-0.11": 0.11,
+                            "item6-0.11": 0.11,
+                            "item7-0.11": 0.11,
+                            "item8-0.11": 0.11,
+                            "item9-0.11": 0.11
+                        }
                     },
                     "title": {
                         "default": "Is privacy and intamacy of an indvidual or group protected in both the development and implementation of your system?",
@@ -6205,7 +6337,12 @@
                     "name": "AF269",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "Does your system have learning capabilities? If so, what are the protections in place for safeguarding user privacy?",
@@ -6243,7 +6380,11 @@
                     "type": "radiogroup",
                     "name": "D3651",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Was training for diversity and inclusion completed for all individuals working on the design and development of this system?",
@@ -6282,7 +6423,12 @@
                     "name": "4805F",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "Is psychological, behavioral, geographical or any other societal inferences be used for targeting (or other predictions)?",
@@ -6324,7 +6470,11 @@
                     "type": "radiogroup",
                     "name": "C9FE9",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Can the deployment of this system restrict an individual from access to a specific business product or service offering?",
@@ -6360,7 +6510,11 @@
                     "type": "radiogroup",
                     "name": "C8371",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Will the user have the ability to challenge decisions\/recommendations made by the use case?",
@@ -6387,7 +6541,11 @@
                     "type": "radiogroup",
                     "name": "41411",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Does this system impact an end-user or consumer's economic interest, health, access or mobility, licensing and permit issuance, or any otherwise impact their lives?",
@@ -6414,7 +6572,11 @@
                     "type": "radiogroup",
                     "name": "1B4C3",
                     "score": {
-                        "dimension": "B"
+                        "dimension": "B",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Does training data rely on decisions\/outcomes previously made by individuals to influence the outcomes? Was this data reviewed for bias?",
@@ -6442,7 +6604,13 @@
                     "name": "6B15A",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0,
+                            "item3-0": 0.0,
+                            "item4-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "The decision or action made by the system could have the potential adverse impact:",
@@ -6496,7 +6664,11 @@
                     "type": "radiogroup",
                     "name": "53BC0",
                     "score": {
-                        "dimension": "T"
+                        "dimension": "T",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Are the objectives of the system clear to the operators?",
@@ -6532,7 +6704,13 @@
                     "type": "radiogroup",
                     "name": "E51EB",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "Is it possible to discover how your system renders a decision or performs a function?",
@@ -6577,7 +6755,13 @@
                     "type": "radiogroup",
                     "name": "1FB1A",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.25": 0.25,
+                            "item4-0.25": 0.25
+                        }
                     },
                     "title": {
                         "default": "Are you willing to share information about how your system renders a decision or performs a function in an easy to understand way? Information should include, but not be limited to, data sources, development processess, and consulted stakeholders.",
@@ -6630,7 +6814,8 @@
                     "type": "radiogroup",
                     "name": "1CE3D",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {}
                     },
                     "title": {
                         "default": "Are the terms of reference easy to understand by the intended audience?",
@@ -6666,7 +6851,13 @@
                     "type": "radiogroup",
                     "name": "4A201",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is the information about how the system operates easy to understand? Select all which apply:",
@@ -6707,7 +6898,12 @@
                     "type": "radiogroup",
                     "name": "4DF04",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-0.5": 0.5,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Are the terms and conditions of the system easy to understand?",
@@ -6741,7 +6937,14 @@
                     "type": "radiogroup",
                     "name": "C9882",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-0.5": 0.5,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0.25": 0.25,
+                            "item5-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "To what extent is it possible for the operator of the system to analyze the training data? Select all which apply",
@@ -6798,7 +7001,11 @@
                     "type": "radiogroup",
                     "name": "FE3D1",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is it possible to retrain your model and compare resutls when training data or other factors are changed?",
@@ -6825,7 +7032,11 @@
                     "type": "radiogroup",
                     "name": "F593F",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Can you gather test data for different categories of interest?",
@@ -6852,7 +7063,12 @@
                     "type": "radiogroup",
                     "name": "B3F92",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Can you design a new model or are you constrained to an already trained model?",
@@ -6895,7 +7111,11 @@
                     "type": "radiogroup",
                     "name": "9B650",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Would it be possible for an independent user to change the vectors (parameters) of the model so it is more accurate for their context?",
@@ -6922,7 +7142,15 @@
                     "type": "radiogroup",
                     "name": "504B1",
                     "score": {
-                        "dimension": "EI"
+                        "dimension": "EI",
+                        "choices": {
+                            "item1-0.2": 0.2,
+                            "item2-0.2": 0.2,
+                            "item3-0.2": 0.2,
+                            "item4-0.2": 0.2,
+                            "item5-0.2": 0.2,
+                            "item6-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "To what extent was user testing completed to ensure the goals and objectives of the users are being met? Select all which apply",
@@ -6991,7 +7219,17 @@
                     "name": "A94E7",
                     "score": {
                         "dimension": "R",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.125": 0.125,
+                            "item3-0.125": 0.125,
+                            "item4-0.125": 0.125,
+                            "item5-0.125": 0.125,
+                            "item6-0.125": 0.125,
+                            "item7-0.125": 0.125,
+                            "item8-0.125": 0.125
+                        }
                     },
                     "title": {
                         "default": "Has the system been tested to ensure quality development was conducted?",
@@ -7068,7 +7306,11 @@
                     "type": "radiogroup",
                     "name": "B6B11",
                     "score": {
-                        "dimension": "R"
+                        "dimension": "R",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is the entire supply chain secure? eg. is data or any aspect of the system being stored on the cloud?",
@@ -7095,7 +7337,11 @@
                     "type": "radiogroup",
                     "name": "A47B7",
                     "score": {
-                        "dimension": "R"
+                        "dimension": "R",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Is there tracking of system performance in place, are there established criteria where the system is considered not fit for purpose (eg the usage is outside of what is considered appropriate for the system to provide a decision\/ outcome?",
@@ -7132,7 +7378,17 @@
                     "name": "F1954",
                     "score": {
                         "dimension": "R",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.14": 0.14,
+                            "item3-0.14": 0.14,
+                            "item4-0.14": 0.14,
+                            "item5-0.14": 0.14,
+                            "item6-0.14": 0.14,
+                            "item7-0.14": 0.14,
+                            "item8-0.14": 0.14
+                        }
                     },
                     "title": {
                         "default": "Have you ensured that your system is robust enough to deal with the edge cases and extreme scenarios (eg. load inputs, adversarial attacks) to adequately mitigate erroneous outcomes to the best extent possible?",
@@ -7209,7 +7465,13 @@
                     "type": "radiogroup",
                     "name": "BA6C6",
                     "score": {
-                        "dimension": "R"
+                        "dimension": "R",
+                        "choices": {
+                            "item1-0.33": 0.33,
+                            "item2-0.33": 0.33,
+                            "item3-0.33": 0.33,
+                            "item4-0.2": 0.2
+                        }
                     },
                     "title": {
                         "default": "What contingencies are incorporated in the model and or system?",
@@ -7259,7 +7521,13 @@
                     "type": "radiogroup",
                     "name": "7F9D0",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-1": 1.0,
+                            "item3-0.5": 0.5,
+                            "item4-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "How was the data being used for the system collected?",
@@ -7300,7 +7568,15 @@
                     "type": "radiogroup",
                     "name": "69E03",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0.5": 0.5,
+                            "item4-0.5": 0.5,
+                            "item5-0.5": 0.5,
+                            "item6-0.5": 0.5
+                        }
                     },
                     "title": {
                         "default": "Does data used for training or use of the system include personal information?",
@@ -7390,7 +7666,12 @@
                     "type": "radiogroup",
                     "name": "3CFCB",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0.5": 0.5,
+                            "item3-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Can the system be developed or implemented without the collection and use of sensitve data?",
@@ -7434,7 +7715,14 @@
                     "name": "D54A7",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item2-0.17": 0.17,
+                            "item3-0.17": 0.17,
+                            "item4-0.17": 0.17,
+                            "item5-0.17": 0.17,
+                            "item6-0.17": 0.17
+                        }
                     },
                     "title": {
                         "default": "Is data used in the training or implementation of this system handeled with care?",
@@ -7498,7 +7786,13 @@
                     "name": "61060",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.25": 0.25,
+                            "item3-0.75": 0.75,
+                            "item4-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "Has training and implementation data been reviewed for quality?",
@@ -7544,7 +7838,15 @@
                     "name": "79336",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-0.2": 0.2,
+                            "item3-0.2": 0.2,
+                            "item4-0.2": 0.2,
+                            "item5-0.2": 0.2,
+                            "item6-0.2": 0.2
+                        }
                     },
                     "title": {
                         "default": "Has your system been trained on data that accurately represents your entire user base?",
@@ -7622,7 +7924,11 @@
                     "type": "radiogroup",
                     "name": "466C3",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-0": 0.0,
+                            "item2-1": 1.0
+                        }
                     },
                     "title": {
                         "default": "How is the data being collected, used, and stored being managed?",
@@ -7650,7 +7956,13 @@
                     "name": "9049E",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0
+                        "max": 1.0,
+                        "choices": {
+                            "item1-0.25": 0.25,
+                            "item2-0.25": 0.25,
+                            "item3-0.25": 0.25,
+                            "item4-0.25": 0.25
+                        }
                     },
                     "title": {
                         "default": "What are the recourse mechanisms for a decision or action that does not meet the objectives of the system?",
@@ -7699,7 +8011,11 @@
                     "type": "radiogroup",
                     "name": "1F036",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-1": 1.0,
+                            "item2-0": 0.0
+                        }
                     },
                     "title": {
                         "default": "Do you have clear policies around storing and handling testing data to evaluate model performance such that there is no data leakage to intentionally or unintentionally influence results from model performance and the evaluation of the overall mode?l",
@@ -7735,7 +8051,14 @@
                     "type": "radiogroup",
                     "name": "FE677",
                     "score": {
-                        "dimension": "D"
+                        "dimension": "D",
+                        "choices": {
+                            "item1-0.33": 0.33,
+                            "item2-0.33": 0.33,
+                            "item3-0.33": 0.33,
+                            "item4-0": 0.0,
+                            "item5-0.25": 0.25
+                        }
                     },
                     "title": {
                         "default": "Are there regular assessments of the system to protect against data drift? Regular assessments are done on the following:",
