@@ -5019,49 +5019,49 @@
                     },
                     "choices": [
                         {
-                            "value": "item1",
+                            "value": "itemA95B59",
                             "text": {
                                 "default": "Advance operational efficiencies",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2",
+                            "value": "itemAB3515",
                             "text": {
                                 "default": "Improve quality",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3",
+                            "value": "itemA5D57B",
                             "text": {
                                 "default": "Lower transaction costs",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4",
+                            "value": "itemA7CC24",
                             "text": {
                                 "default": "Innovation",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5",
+                            "value": "itemA61317",
                             "text": {
                                 "default": "Augment human processes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6",
+                            "value": "itemADD2F9",
                             "text": {
                                 "default": "Improve consistency",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7",
+                            "value": "itemA8117D",
                             "text": {
                                 "default": "other",
                                 "fr": ""
@@ -5087,21 +5087,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1",
+                            "value": "itemA5408D",
                             "text": {
                                 "default": "Material",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2",
+                            "value": "itemA7DF45",
                             "text": {
                                 "default": "Moral",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3",
+                            "value": "itemAABD4E",
                             "text": {
                                 "default": "Physical",
                                 "fr": ""
@@ -5115,9 +5115,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.5": 0.5,
-                            "item3-1": 1.0
+                            "itemA0E748": 0.0,
+                            "itemACE1FC": 0.5,
+                            "itemA4DF7E": 1.0
                         }
                     },
                     "title": {
@@ -5130,21 +5130,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA0E748",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemACE1FC",
                             "text": {
                                 "default": "Yes, we have done analysis including, bot not limited to, feedback from user surveys, tracking of system performance, short and long-term product health (eg. click-through rae and customer lifetime values), and false positive and false negative rates sliced across different subgroups.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemA4DF7E",
                             "text": {
                                 "default": "Yes, we have ensured that the metrics are appropriate for the context (eg. fire alarm systms should have high recall, even if that means the occasional false alarm)",
                                 "fr": ""
@@ -5158,11 +5158,11 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.25": 0.25,
-                            "item3-0.5": 0.5,
-                            "item4-0.75": 0.75,
-                            "item5-1": 1.0
+                            "itemACFDAF": 0.0,
+                            "itemA99F90": 0.25,
+                            "itemAAEAA9": 0.5,
+                            "itemA373B0": 0.75,
+                            "itemAEEF81": 1.0
                         }
                     },
                     "title": {
@@ -5171,35 +5171,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemACFDAF",
                             "text": {
                                 "default": "Initial, there is limited discussion about different trade-offs of the system within our organization.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.25",
+                            "value": "itemA99F90",
                             "text": {
                                 "default": "Managed, ethical and responsible processes are planned, documented, performed, monitored, and controlled at the project level. Often reactive.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemAAEAA9",
                             "text": {
                                 "default": "Defined, processes are well characterized and understood. Processes, standards, procedures, tools, etc are defined at the organizational level. Proactive.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.75",
+                            "value": "itemA373B0",
                             "text": {
                                 "default": "Quantitatively managed, processes aer controlled using statistical and other quantitiative techiques.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-1",
+                            "value": "itemAEEF81",
                             "text": {
                                 "default": "Optimizing, process performance continually improved through incremental and innovative technological improvements.",
                                 "fr": ""
@@ -5213,12 +5213,12 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0.5": 0.5,
-                            "item5-0.5": 0.5,
-                            "item6-0": 0.0
+                            "itemAF1882": 1.0,
+                            "itemA2C200": 0.5,
+                            "itemA23A35": 0.5,
+                            "itemA92BF7": 0.5,
+                            "itemA9C525": 0.5,
+                            "itemAE9C4A": 0.0
                         }
                     },
                     "title": {
@@ -5231,42 +5231,42 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAF1882",
                             "text": {
                                 "default": "No, systems is available to all users with all degrees of knowledge",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA2C200",
                             "text": {
                                 "default": "Yes, users have been clearly notified in advance that there is a degree of knowledge required to operate the system.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA23A35",
                             "text": {
                                 "default": "Yes, any recipient of the outcomes of this system are made aware that a qualified person is operating the system.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.5",
+                            "value": "itemA92BF7",
                             "text": {
                                 "default": "Yes, users have been notified and the appropriate training has been made available to all users. For internal users, training has been delivered or will delivered prior to deployment",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.5",
+                            "value": "itemA9C525",
                             "text": {
                                 "default": "For internal users, training has been delivered or will delivered prior to deployment",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0",
+                            "value": "itemAE9C4A",
                             "text": {
                                 "default": "Yes, users won't use the tool if it's too complicated",
                                 "fr": ""
@@ -5289,11 +5289,11 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.25": 0.25,
-                            "item3-0.5": 0.5,
-                            "item4-0.75": 0.75,
-                            "item5-1": 1.0
+                            "itemA3598E": 0.0,
+                            "itemAA7EC0": 0.25,
+                            "itemA45E90": 0.5,
+                            "itemA7A99E": 0.75,
+                            "itemA68762": 1.0
                         }
                     },
                     "title": {
@@ -5306,35 +5306,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA3598E",
                             "text": {
                                 "default": "Not yet, risk assessment for processes for technology and business decisions do not currently occur.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.25",
+                            "value": "itemAA7EC0",
                             "text": {
                                 "default": "Initial, organization considers risks in an ad hoc manner without following defined processes or polices.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA45E90",
                             "text": {
                                 "default": "Repeatable but intuative, There is an emerging understanding that risks are important and need to be considered. Some approaches to risk assessment exist, but the process is still immature and under development.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.75",
+                            "value": "itemA7A99E",
                             "text": {
                                 "default": "Defined process, an organization-wide risk management policy defines when and how to conduect risk assessments. Risk assessment follows a defined process that is documented and available to all staff through training.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-1",
+                            "value": "itemA68762",
                             "text": {
                                 "default": "Managed and measurable, the assessment of risk is a standard procedure (eg. ISO 31000) and exceptions to following the procedure would be noticed by management. It is likely that risk management is a defined management function with senior level responsiblity. Senior management have determined the levels of risk that the organiation will tolerate and have standards measures for risk\/ return ratios.",
                                 "fr": ""
@@ -5348,11 +5348,11 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0.5": 0.5,
-                            "item5-0.5": 0.5
+                            "itemA3B229": 1.0,
+                            "itemA225B1": 0.5,
+                            "itemAB729E": 0.5,
+                            "itemA27287": 0.5,
+                            "itemAE3D90": 0.5
                         }
                     },
                     "title": {
@@ -5361,35 +5361,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA3B229",
                             "text": {
                                 "default": "Image and object recognition: analyzing large datasests to automate the recognition, classification, reinforcement, and context associated with an image or object.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA225B1",
                             "text": {
                                 "default": "Text and speech analysis: analyzing large datasets to recognize, process, and tag text, speech, voice, and make recommendations based on the tagging.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemAB729E",
                             "text": {
                                 "default": "Risk assessment: Analyzing large datasets to identify patterns and and recommend courses of action and in some cases trigger specific actions.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.5",
+                            "value": "itemA27287",
                             "text": {
                                 "default": "Content generation: Analyzing large dataset to categorize, process, triage, personalize, and serve specific content for specific contexts.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.5",
+                            "value": "itemAE3D90",
                             "text": {
                                 "default": "Process optimization and workflow automation: Analyzing large datasets to identify anomalies, cluster patterns, predict outcomes or ways to optimize and automate specific workflows.",
                                 "fr": ""
@@ -5403,8 +5403,8 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA7E774": 1.0,
+                            "itemAB4ED7": 0.0
                         }
                     },
                     "title": {
@@ -5417,14 +5417,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA7E774",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAB4ED7",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -5438,8 +5438,8 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA14D70": 1.0,
+                            "itemA8CE69": 0.0
                         }
                     },
                     "title": {
@@ -5452,14 +5452,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA14D70",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA8CE69",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -5483,10 +5483,10 @@
                         "dimension": "A",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-1": 1.0,
-                            "item3-1": 1.0,
-                            "item4-0": 0.0
+                            "itemA4B948": 0.5,
+                            "itemA3DDD3": 1.0,
+                            "itemAD6BCC": 1.0,
+                            "itemAFE602": 0.0
                         }
                     },
                     "title": {
@@ -5503,28 +5503,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemA4B948",
                             "text": {
                                 "default": "Yes, inputs are reviewed internally as part of a general technology review",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemA3DDD3",
                             "text": {
                                 "default": "Yes, inputs are reviewed internally independent of an technology review and include at least one of the following activities:\n- Analysis of the systems training\/testing data\n- Multiple tests with different training\/testing data, for example, gather more training data for certain subsets (e.g., parts\/slices of the feature space), or gather test data for categories of interest\n- Testing of different models \n- Testing for right degree of transparency to mitigate any potential abuse\n- System is built so users can set their own degree of sensitivity\n- The smallest set of inputs necessary were used to make it clear which factors are affeting the model \n- The simplest model to meet the performance goal was used\n- Model learns on casual relationships not correlations when and where possible \n- Model is trained to match true goal \n- Model has been constrained to produce input-output relationships that reflect domain expert knowledge\n- Metrics used address the particular benefits and risks of your specific context \n- The model's sensitivity has been trained for different subsets of examples",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemAD6BCC",
                             "text": {
                                 "default": "Yes, inputs are reviewed by a trusted third-party independent of a technology review",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemAFE602",
                             "text": {
                                 "default": "No third third-party review is completed",
                                 "fr": ""
@@ -5538,9 +5538,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0,
-                            "item3-1": 1.0
+                            "itemA75856": 1.0,
+                            "itemA52734": 0.0,
+                            "itemA79505": 1.0
                         }
                     },
                     "title": {
@@ -5549,21 +5549,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA75856",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA52734",
                             "text": {
                                 "default": "No, assessment hasn't been performed yet",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemA79505",
                             "text": {
                                 "default": "Not applicable",
                                 "fr": ""
@@ -5577,9 +5577,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0,
-                            "item3-1": 1.0
+                            "itemAB8401": 1.0,
+                            "itemA9752E": 0.0,
+                            "itemA2CA06": 1.0
                         }
                     },
                     "title": {
@@ -5588,21 +5588,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAB8401",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA9752E",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemA2CA06",
                             "text": {
                                 "default": "Not applicable",
                                 "fr": ""
@@ -5617,9 +5617,9 @@
                         "dimension": "A",
                         "max": 1.0,
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5
+                            "itemA202E1": 0.0,
+                            "itemA5DE57": 0.5,
+                            "itemA48BA0": 0.5
                         }
                     },
                     "title": {
@@ -5636,21 +5636,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA202E1",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA5DE57",
                             "text": {
                                 "default": "Yes, the log identifies the authority or delegated authority responsible",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA48BA0",
                             "text": {
                                 "default": "Yes, the log records all the recommendations or decisions made by the system and are easy to identify",
                                 "fr": ""
@@ -5673,8 +5673,8 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-1": 1.0
+                            "itemA19879": 0.0,
+                            "itemA354A1": 1.0
                         }
                     },
                     "title": {
@@ -5687,14 +5687,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA19879",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemA354A1",
                             "text": {
                                 "default": "Yes, there is a contigency plan in place if the system is not available",
                                 "fr": ""
@@ -5709,9 +5709,9 @@
                         "dimension": "A",
                         "max": 1.0,
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0": 0.0
+                            "itemA39F22": 1.0,
+                            "itemAE62E4": 0.5,
+                            "itemA352B5": 0.0
                         }
                     },
                     "title": {
@@ -5728,21 +5728,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA39F22",
                             "text": {
                                 "default": "System is only used to assist a decision maker",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemAE62E4",
                             "text": {
                                 "default": "System will be replacing a decision that would otherwise be made by a human no judgement or discretion is required",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemA352B5",
                             "text": {
                                 "default": "System will be replacing a decision that would otherwise be made by a human and judgement or discretion is required",
                                 "fr": ""
@@ -5756,10 +5756,10 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-1": 1.0,
-                            "item3-1": 1.0,
-                            "item4-0": 0.0
+                            "itemAA7C9B": 0.5,
+                            "itemAE6179": 1.0,
+                            "itemA6F094": 1.0,
+                            "itemA151C6": 0.0
                         }
                     },
                     "title": {
@@ -5768,28 +5768,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemAA7C9B",
                             "text": {
                                 "default": "Yes, a frameowrk based on key principles of the organization",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemAE6179",
                             "text": {
                                 "default": "Yes, evaluatable standards or controls",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemA6F094",
                             "text": {
                                 "default": "No, we leverage a measurable framework from a credible institution",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemA151C6",
                             "text": {
                                 "default": "No, we haven't developed this yet",
                                 "fr": ""
@@ -5812,9 +5812,9 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.5": 0.5,
-                            "item3-1": 1.0
+                            "itemA00F07": 0.0,
+                            "itemA96E95": 0.5,
+                            "itemA4952A": 1.0
                         }
                     },
                     "title": {
@@ -5823,21 +5823,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA00F07",
                             "text": {
                                 "default": "Most users will be individuals or groups from vulnerable populations",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA96E95",
                             "text": {
                                 "default": "Some users will be individuals or groups from vulnerable populations",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-1",
+                            "value": "itemA4952A",
                             "text": {
                                 "default": "No there are currently no identified vulnerable populations which should trigger a review",
                                 "fr": ""
@@ -5851,9 +5851,9 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item2-0": 0.0,
-                            "item3-0.5": 0.5,
-                            "item4-1": 1.0
+                            "itemAAB8AD": 0.0,
+                            "itemA4CF53": 0.5,
+                            "itemAD6A9B": 1.0
                         }
                     },
                     "title": {
@@ -5862,28 +5862,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemAA35A8",
                             "text": {
                                 "default": "The general population",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAAB8AD",
                             "text": {
                                 "default": "A segment of the population",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA4CF53",
                             "text": {
                                 "default": "Your organization",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-1",
+                            "value": "itemAD6A9B",
                             "text": {
                                 "default": "A different organization",
                                 "fr": ""
@@ -5908,21 +5908,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA31DFA",
                             "text": {
                                 "default": "High",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA89016",
                             "text": {
                                 "default": "Medium",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemAED0BB",
                             "text": {
                                 "default": "Low",
                                 "fr": ""
@@ -5946,11 +5946,11 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.2": 0.2,
-                            "item2-0.2": 0.2,
-                            "item3-0.2": 0.2,
-                            "item4-0.2": 0.2,
-                            "item5-0.2": 0.2
+                            "itemA14629": 0.2,
+                            "itemAFDC95": 0.2,
+                            "itemADA33F": 0.2,
+                            "itemA74430": 0.2,
+                            "itemA4C27A": 0.2
                         }
                     },
                     "title": {
@@ -5967,35 +5967,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.2",
+                            "value": "itemA14629",
                             "text": {
                                 "default": "Governance board includes diverse and complete representation including members who represent each area of the organization including those with legal and financial responsibilities.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.2",
+                            "value": "itemAFDC95",
                             "text": {
                                 "default": "Governance board includes a minimum of one individual with reasonable experience and knoweldge in ethics.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.2",
+                            "value": "itemADA33F",
                             "text": {
                                 "default": "There is a mechanism and review process for items raised by individuals or groups working on the project to present information including potential issues, including but not limited to, risks (eg. biases, maturity of process, lack of fairness, etc)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.2",
+                            "value": "itemA74430",
                             "text": {
                                 "default": "There is a mechanism and review process for credible third parties to review project and comment on any issues, including but not limited, potential risks of the project (eg. biases, maturity of process, lack of fairness, etc)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.2",
+                            "value": "itemA4C27A",
                             "text": {
                                 "default": "If a third party (eg. government body, civil society organization, etc) or member of the public is aware of the project, there is a mechanism and review process to ensure their question is addressed in a timely manner.",
                                 "fr": ""
@@ -6010,11 +6010,11 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.2": 0.2,
-                            "item2-0.2": 0.2,
-                            "item3-0.2": 0.2,
-                            "item4-0.2": 0.2,
-                            "item5-0.2": 0.2
+                            "itemAC637B": 0.2,
+                            "itemAB26CF": 0.2,
+                            "itemA9E317": 0.2,
+                            "itemA9CF08": 0.2,
+                            "itemA7DF83": 0.2
                         }
                     },
                     "title": {
@@ -6031,35 +6031,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.2",
+                            "value": "itemAC637B",
                             "text": {
                                 "default": "The system is equally available to all segmentations",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.2",
+                            "value": "itemAB26CF",
                             "text": {
                                 "default": "The user is informed on the potential risks on human mental integrity (eg. nudging) when this product is being used.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.2",
+                            "value": "itemA9E317",
                             "text": {
                                 "default": "Useful information about the design, testing, and development of the system (including, but not limited to, decision criteria, inputs for training the model) are provided in a clear and easy to access manner to the user.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.2",
+                            "value": "itemA9CF08",
                             "text": {
                                 "default": "Notification is provided in a clear and easy to understand way that there was a machine involved in the creation of a decision, content, advice, outcome, or action.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.2",
+                            "value": "itemA7DF83",
                             "text": {
                                 "default": "Results of ongoing testing, training, and monitoring of the system are open and available.",
                                 "fr": ""
@@ -6073,9 +6073,9 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-0.5": 0.5,
-                            "item3-0": 0.0
+                            "itemAC210D": 0.5,
+                            "itemAEEB13": 0.5,
+                            "itemA074BD": 0.0
                         }
                     },
                     "title": {
@@ -6088,21 +6088,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemAC210D",
                             "text": {
                                 "default": "Yes, objectives are clear",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemAEEB13",
                             "text": {
                                 "default": "Clear documentation about these objectives have been provided to the intended user",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemA074BD",
                             "text": {
                                 "default": "No, it's not necessary for the user to understand the objectives of the system",
                                 "fr": ""
@@ -6126,17 +6126,17 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.1": 0.1,
-                            "item2-0.1": 0.1,
-                            "item3-0.1": 0.1,
-                            "item4-0.1": 0.1,
-                            "item5-0.1": 0.1,
-                            "item6-0.1": 0.1,
-                            "item7-0.1": 0.1,
-                            "item8-0.1": 0.1,
-                            "item9-0.1": 0.1,
-                            "item10-0.1": 0.1,
-                            "item11-0.1": 0.1
+                            "itemA89E02": 0.1,
+                            "itemA83E75": 0.1,
+                            "itemAB015E": 0.1,
+                            "itemA1EC52": 0.1,
+                            "itemA433A7": 0.1,
+                            "itemA6A457": 0.1,
+                            "itemA30DB7": 0.1,
+                            "itemA1AE82": 0.1,
+                            "itemA7C3E5": 0.1,
+                            "itemAE6FAD": 0.1,
+                            "itemAA93BD": 0.1
                         }
                     },
                     "title": {
@@ -6153,77 +6153,77 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.1",
+                            "value": "itemA89E02",
                             "text": {
                                 "default": "Socio-economic capacity",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.1",
+                            "value": "itemA83E75",
                             "text": {
                                 "default": "Physical attributes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.1",
+                            "value": "itemAB015E",
                             "text": {
                                 "default": "Level of education",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.1",
+                            "value": "itemA1EC52",
                             "text": {
                                 "default": "Sexual orientation",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.1",
+                            "value": "itemA433A7",
                             "text": {
                                 "default": "Ethnicity",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.1",
+                            "value": "itemA6A457",
                             "text": {
                                 "default": "Cultural association(s)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7-0.1",
+                            "value": "itemA30DB7",
                             "text": {
                                 "default": "Religious affiliation(s)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item8-0.1",
+                            "value": "itemA1AE82",
                             "text": {
                                 "default": "Mental health",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item9-0.1",
+                            "value": "itemA7C3E5",
                             "text": {
                                 "default": "Gender",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item10-0.1",
+                            "value": "itemAE6FAD",
                             "text": {
                                 "default": "Age",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item11-0.1",
+                            "value": "itemAA93BD",
                             "text": {
                                 "default": "Degree of ability",
                                 "fr": ""
@@ -6238,15 +6238,15 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.11": 0.11,
-                            "item2-0.11": 0.11,
-                            "item3-0.11": 0.11,
-                            "item4-0.11": 0.11,
-                            "item5-0.11": 0.11,
-                            "item6-0.11": 0.11,
-                            "item7-0.11": 0.11,
-                            "item8-0.11": 0.11,
-                            "item9-0.11": 0.11
+                            "itemAD1BDC": 0.11,
+                            "itemA90EF1": 0.11,
+                            "itemA7CDEE": 0.11,
+                            "itemA44372": 0.11,
+                            "itemA01B9E": 0.11,
+                            "itemA2B090": 0.11,
+                            "itemAACFA1": 0.11,
+                            "itemAA34FF": 0.11,
+                            "itemA44302": 0.11
                         }
                     },
                     "title": {
@@ -6259,63 +6259,63 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.11",
+                            "value": "itemAD1BDC",
                             "text": {
                                 "default": "The collection of private information only takes place if a user consents or for authorized surveillance purposes.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.11",
+                            "value": "itemA90EF1",
                             "text": {
                                 "default": "Data related to personal thoughts and emotions are not used in situations where the system coudl case harm, especially in circumstances where moral judgements (eg. lifestyle choices could be made).",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.11",
+                            "value": "itemA7CDEE",
                             "text": {
                                 "default": "Users are able to disconnect or stop sharing information with the system at any point in time. If a disruption in service occurs, data collection is an direct dependency vs an indirect dependency.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.11",
+                            "value": "itemA44372",
                             "text": {
                                 "default": "Only users have the ability to set profile preferences, changes to the these preferences can easily be done at any time.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.11",
+                            "value": "itemA01B9E",
                             "text": {
                                 "default": "Access to personal information is limited to only individuals who require it for the direct functioning of the system.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.11",
+                            "value": "itemA2B090",
                             "text": {
                                 "default": "Individuals have the ability to access their poersonal data inclduing, but not limited to, the collection, use, and sharing of this data at any time.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7-0.11",
+                            "value": "itemAACFA1",
                             "text": {
                                 "default": "Individuals have the ability to donate their personal data to research organizations.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item8-0.11",
+                            "value": "itemAA34FF",
                             "text": {
                                 "default": "Data integrity is assured. The system does not use private data to imitate or alter a persons appearance, voice, or other individual characteristics in order to damage one's reputation or manipulate other people.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item9-0.11",
+                            "value": "itemA44302",
                             "text": {
                                 "default": "The system does not curtail people's real or percieved liberty.",
                                 "fr": ""
@@ -6339,9 +6339,9 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5
+                            "itemAE5E0E": 1.0,
+                            "itemA30473": 0.5,
+                            "itemA4FD04": 0.5
                         }
                     },
                     "title": {
@@ -6354,21 +6354,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAE5E0E",
                             "text": {
                                 "default": "Not applicable",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA30473",
                             "text": {
                                 "default": "Testing has been completed to ensure that the model is not memorizing or exposing sensitive data",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA4FD04",
                             "text": {
                                 "default": "Use of data is minimized while maintaining",
                                 "fr": ""
@@ -6382,8 +6382,8 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item3-0": 0.0
+                            "itemABBD06": 1.0,
+                            "itemA624F7": 0.0
                         }
                     },
                     "title": {
@@ -6396,21 +6396,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemABBD06",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA39EB2",
                             "text": {
                                 "default": "Only those who worked on the design and input aspects",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemA624F7",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6425,9 +6425,9 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5
+                            "itemA24402": 1.0,
+                            "itemA3AB8E": 0.5,
+                            "itemAF42BB": 0.5
                         }
                     },
                     "title": {
@@ -6444,21 +6444,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA24402",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA3AB8E",
                             "text": {
                                 "default": "Yes, however we have engaged with social scientists, humanists, and other relevant experts to understand and accounted for various perspectives. Including, but not limited to, how the system will function over time.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemAF42BB",
                             "text": {
                                 "default": "Yes, however, goals have been set to ensure the system works fairly across anticipated use cases, inlcuding across different regions, with different languages, with different segmentations",
                                 "fr": ""
@@ -6472,8 +6472,8 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-1": 1.0
+                            "itemA34F49": 0.0,
+                            "itemAA87C9": 1.0
                         }
                     },
                     "title": {
@@ -6482,14 +6482,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA34F49",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemAA87C9",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6512,8 +6512,8 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemAA5148": 1.0,
+                            "itemA960F9": 0.0
                         }
                     },
                     "title": {
@@ -6522,14 +6522,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAA5148",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA960F9",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6543,8 +6543,8 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-1": 1.0
+                            "itemA359B4": 0.0,
+                            "itemA574CD": 1.0
                         }
                     },
                     "title": {
@@ -6553,14 +6553,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA359B4",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemA574CD",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6574,8 +6574,8 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA6E936": 1.0,
+                            "itemA34C7B": 0.0
                         }
                     },
                     "title": {
@@ -6584,14 +6584,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA6E936",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA34C7B",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6606,10 +6606,10 @@
                         "dimension": "B",
                         "max": 1.0,
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0,
-                            "item3-0": 0.0,
-                            "item4-0": 0.0
+                            "itemA22061": 1.0,
+                            "itemA0A5A0": 0.0,
+                            "itemAB333A": 0.0,
+                            "itemA2B512": 0.0
                         }
                     },
                     "title": {
@@ -6622,28 +6622,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA22061",
                             "text": {
                                 "default": "not applicable",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA0A5A0",
                             "text": {
                                 "default": "Health and well-being of an individual or group",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemAB333A",
                             "text": {
                                 "default": "Economic interests of an individual or group",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemA2B512",
                             "text": {
                                 "default": "Ongoing sustainability of an environmental ecosystem",
                                 "fr": ""
@@ -6666,8 +6666,8 @@
                     "score": {
                         "dimension": "T",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemACD980": 1.0,
+                            "itemA794F6": 0.0
                         }
                     },
                     "title": {
@@ -6676,14 +6676,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemACD980",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA794F6",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -6706,10 +6706,10 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0.5": 0.5
+                            "itemA8AB44": 1.0,
+                            "itemA58099": 0.5,
+                            "itemADD756": 0.5,
+                            "itemAABDB4": 0.5
                         }
                     },
                     "title": {
@@ -6722,28 +6722,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA8AB44",
                             "text": {
                                 "default": "System is transparent, it is possible to know for certain how and why a system made a particular decision, or in the case of a robot, acted the way it did.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA58099",
                             "text": {
                                 "default": "System is opaque, it is possible through post-decision or post-action, to analyze through various processes (eg. counterfactual or repeatability testing) to draw an accurate conculsion on how the decision was made or the action was taken.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemADD756",
                             "text": {
                                 "default": "System is a black box, but detailed records of the design processes and decision making have been kept throughout the entire process.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.5",
+                            "value": "itemAABDB4",
                             "text": {
                                 "default": "System is a black box, it is possible to make best guesses on why a decision was rendered or a decision was taken, but it's not certain.",
                                 "fr": ""
@@ -6757,10 +6757,10 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.25": 0.25,
-                            "item4-0.25": 0.25
+                            "itemAF650B": 1.0,
+                            "itemA82BB0": 0.5,
+                            "itemA32981": 0.25,
+                            "itemA7A3D9": 0.25
                         }
                     },
                     "title": {
@@ -6774,35 +6774,35 @@
                     "alttext": {
                         "default": "Maps to EU assessment item - \"have criteria for deployment for the product been set and made availbale to the user?\"",
                         "fr": "",
-                        "item1-1": {
+                        "itemAF650B": {
                             "default": "\"The Principle of Explicability: \u201COperate transparently\u201D Transparency is key to building and maintaining citizen\u2019s trust in the developers of AI systems and AI systems themselves. Both technological and business model transparency matter from an ethical standpoint. Technological transparency implies that AI systems be auditable, comprehensible and intelligible by human beings at varying levels of comprehension and expertise. Business model transparency means that human beings are knowingly informed of the intention of developers and technology implementers of AI systems.\"",
                             "fr": ""
                         }
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAF650B",
                             "text": {
                                 "default": "Openly, with the public",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA82BB0",
                             "text": {
                                 "default": "If users make a special request",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.25",
+                            "value": "itemA32981",
                             "text": {
                                 "default": "With certification bodies for verification of the system",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.25",
+                            "value": "itemA7A3D9",
                             "text": {
                                 "default": "With authorities if required",
                                 "fr": ""
@@ -6823,14 +6823,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemAAA696",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAE4B46",
                             "text": {
                                 "default": "Not sure",
                                 "fr": ""
@@ -6853,10 +6853,10 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0": 0.0
+                            "itemAE6861": 0.5,
+                            "itemA220E8": 0.5,
+                            "itemAA7355": 0.5,
+                            "itemAF164B": 0.0
                         }
                     },
                     "title": {
@@ -6865,28 +6865,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemAE6861",
                             "text": {
                                 "default": "Simple counterfactual explanations are provided to users",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA220E8",
                             "text": {
                                 "default": "Easy to understand visuals",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemAA7355",
                             "text": {
                                 "default": "Access to support team for conversational explanations",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemAF164B",
                             "text": {
                                 "default": "Not available",
                                 "fr": ""
@@ -6900,9 +6900,9 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-0.5": 0.5,
-                            "item3-0": 0.0
+                            "itemA4DD46": 0.5,
+                            "itemA40789": 0.5,
+                            "itemAF7383": 0.0
                         }
                     },
                     "title": {
@@ -6911,21 +6911,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemA4DD46",
                             "text": {
                                 "default": "Terms and Conditions for the system use plain language and are easy to understand",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA40789",
                             "text": {
                                 "default": "Terms and conditions take less than thirty minutes to read and understand by target audience",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemAF7383",
                             "text": {
                                 "default": "Terms and conditions are comprehensive and as a result difficult to turn into plain language and take more than thirty minutes to read",
                                 "fr": ""
@@ -6939,11 +6939,11 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-0.5": 0.5,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0.25": 0.25,
-                            "item5-0": 0.0
+                            "itemAF6D59": 0.5,
+                            "itemADE566": 0.5,
+                            "itemA5D795": 0.5,
+                            "itemA1E1FE": 0.25,
+                            "itemA42642": 0.0
                         }
                     },
                     "title": {
@@ -6952,35 +6952,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.5",
+                            "value": "itemAF6D59",
                             "text": {
                                 "default": "Full access to data, including automated decisioning data, manual changes to data, manual processing of the decision, etc)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemADE566",
                             "text": {
                                 "default": "Access to all automatically collected data is available",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA5D795",
                             "text": {
                                 "default": "Access to all key decision parameters",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.25",
+                            "value": "itemA1E1FE",
                             "text": {
                                 "default": "Some gaps in special cases of the decision (think manual workflows that fall off of the automated workflow where somebody makes a change or makes a one-off decision\/edit to the data)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0",
+                            "value": "itemA42642",
                             "text": {
                                 "default": "Access to data is limited",
                                 "fr": ""
@@ -7003,8 +7003,8 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA1A89C": 1.0,
+                            "itemAD9B01": 0.0
                         }
                     },
                     "title": {
@@ -7013,14 +7013,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA1A89C",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAD9B01",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -7034,8 +7034,8 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA23933": 1.0,
+                            "itemA7B003": 0.0
                         }
                     },
                     "title": {
@@ -7044,14 +7044,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA23933",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA7B003",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -7065,9 +7065,9 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0": 0.0
+                            "itemA4627D": 1.0,
+                            "itemA45980": 0.5,
+                            "itemA76900": 0.0
                         }
                     },
                     "title": {
@@ -7076,21 +7076,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA4627D",
                             "text": {
                                 "default": "Yes, a new model can be trained",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA45980",
                             "text": {
                                 "default": "No, the existing model must be used, but can be augmented",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemA76900",
                             "text": {
                                 "default": "No, the exsting model must be used and can't be augmented",
                                 "fr": ""
@@ -7113,8 +7113,8 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA5A96B": 1.0,
+                            "itemAA1E40": 0.0
                         }
                     },
                     "title": {
@@ -7123,14 +7123,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA5A96B",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAA1E40",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -7144,12 +7144,12 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "item1-0.2": 0.2,
-                            "item2-0.2": 0.2,
-                            "item3-0.2": 0.2,
-                            "item4-0.2": 0.2,
-                            "item5-0.2": 0.2,
-                            "item6-0": 0.0
+                            "itemA2D8BD": 0.2,
+                            "itemAD3D28": 0.2,
+                            "itemA904D1": 0.2,
+                            "itemA10874": 0.2,
+                            "itemA5335C": 0.2,
+                            "itemA61776": 0.0
                         }
                     },
                     "title": {
@@ -7162,42 +7162,42 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.2",
+                            "value": "itemA2D8BD",
                             "text": {
                                 "default": "User experience testing has been done since the start of the project",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.2",
+                            "value": "itemAD3D28",
                             "text": {
                                 "default": "User experience testing will be done at every major interval of the project",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.2",
+                            "value": "itemA904D1",
                             "text": {
                                 "default": "User experience testing was done before the launch of the project",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.2",
+                            "value": "itemA10874",
                             "text": {
                                 "default": "Users are able to test how different inputs affect the model output",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.2",
+                            "value": "itemA5335C",
                             "text": {
                                 "default": "Users are able to provide feedback on their representation",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0",
+                            "value": "itemA61776",
                             "text": {
                                 "default": "No user experience testing was done",
                                 "fr": ""
@@ -7221,14 +7221,14 @@
                         "dimension": "R",
                         "max": 1.0,
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.125": 0.125,
-                            "item3-0.125": 0.125,
-                            "item4-0.125": 0.125,
-                            "item5-0.125": 0.125,
-                            "item6-0.125": 0.125,
-                            "item7-0.125": 0.125,
-                            "item8-0.125": 0.125
+                            "itemAD160E": 0.0,
+                            "itemAEC1A4": 0.125,
+                            "itemA5D66B": 0.125,
+                            "itemA4D2FA": 0.125,
+                            "itemA1C8F3": 0.125,
+                            "itemA6DB38": 0.125,
+                            "itemAC88AB": 0.125,
+                            "itemAC5768": 0.125
                         }
                     },
                     "title": {
@@ -7245,56 +7245,56 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemAD160E",
                             "text": {
                                 "default": "None yet",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.125",
+                            "value": "itemAEC1A4",
                             "text": {
                                 "default": "Rigorous unit tests to test each component of the system in isolation.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.125",
+                            "value": "itemA5D66B",
                             "text": {
                                 "default": "Integration tests to understand how individual ML components interact with other parts of the overall system.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.125",
+                            "value": "itemA4D2FA",
                             "text": {
                                 "default": "Proactive detection to determine drift by testing the statistics of the inputs to the AI system to ensure they are not changing in unexpected ways.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.125",
+                            "value": "itemA1C8F3",
                             "text": {
                                 "default": "A diverse dataset covering most states of the input variables with many individual examples was used to test the system and ensure that it continues to behave as expeted.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.125",
+                            "value": "itemA6DB38",
                             "text": {
                                 "default": "Edge cases and extreme scenarios have been studied and experimented with to ensure acceptable system performance under all intended use cases of the system",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7-0.125",
+                            "value": "itemAC88AB",
                             "text": {
                                 "default": "Iterative user testing to incorporate a diverse set of users needs in the development cycles.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item8-0.125",
+                            "value": "itemAC5768",
                             "text": {
                                 "default": "Quality engineering principles like poka-yoke have been used to build quality checks into a system so that unintended failures either cannont happen or trigger an immediate response.",
                                 "fr": ""
@@ -7308,8 +7308,8 @@
                     "score": {
                         "dimension": "R",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA4020B": 1.0,
+                            "itemAA7ABE": 0.0
                         }
                     },
                     "title": {
@@ -7318,14 +7318,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA4020B",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAA7ABE",
                             "text": {
                                 "default": "Not sure",
                                 "fr": ""
@@ -7339,8 +7339,8 @@
                     "score": {
                         "dimension": "R",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemA7084A": 1.0,
+                            "itemAA137C": 0.0
                         }
                     },
                     "title": {
@@ -7349,14 +7349,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA7084A",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemAA137C",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -7380,14 +7380,14 @@
                         "dimension": "R",
                         "max": 1.0,
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.14": 0.14,
-                            "item3-0.14": 0.14,
-                            "item4-0.14": 0.14,
-                            "item5-0.14": 0.14,
-                            "item6-0.14": 0.14,
-                            "item7-0.14": 0.14,
-                            "item8-0.14": 0.14
+                            "itemA79699": 0.0,
+                            "itemAF25AF": 0.14,
+                            "itemA8351D": 0.14,
+                            "itemA25314": 0.14,
+                            "itemAF8ED9": 0.14,
+                            "itemA85213": 0.14,
+                            "itemAC9302": 0.14,
+                            "itemAFB89A": 0.14
                         }
                     },
                     "title": {
@@ -7404,56 +7404,56 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA79699",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.14",
+                            "value": "itemAF25AF",
                             "text": {
                                 "default": "Yes, have ensured that there is a mitigation plan in place for any individual, group, or organization who has an incentive to make the system misbehave.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.14",
+                            "value": "itemA8351D",
                             "text": {
                                 "default": "Yes, the unintended consequences resulting in a mistake from the system have assessed and mitigated to the best extent possible.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.14",
+                            "value": "itemA25314",
                             "text": {
                                 "default": "Yes, a rigorous threat model to understand all possible attack vectors has been implemented.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.14",
+                            "value": "itemAF8ED9",
                             "text": {
                                 "default": "Yes, the system has been tested against adversarial attacks.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.14",
+                            "value": "itemA85213",
                             "text": {
                                 "default": "Yes, third party advesarial testing of the system was completed.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7-0.14",
+                            "value": "itemAC9302",
                             "text": {
                                 "default": "Yes, ongoing research is being conducted to ensure the latest tools are being applied.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item8-0.14",
+                            "value": "itemAFB89A",
                             "text": {
                                 "default": "Yes, preventative and precautionary measures have been taken.",
                                 "fr": ""
@@ -7467,10 +7467,10 @@
                     "score": {
                         "dimension": "R",
                         "choices": {
-                            "item1-0.33": 0.33,
-                            "item2-0.33": 0.33,
-                            "item3-0.33": 0.33,
-                            "item4-0.2": 0.2
+                            "itemA00CBB": 0.33,
+                            "itemA95B49": 0.33,
+                            "itemA5CD30": 0.33,
+                            "itemA58E22": 0.2
                         }
                     },
                     "title": {
@@ -7479,28 +7479,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.33",
+                            "value": "itemA00CBB",
                             "text": {
                                 "default": "Established procedures for certain functions are clearly outlined and understood",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.33",
+                            "value": "itemA95B49",
                             "text": {
                                 "default": "There are established procedures for each type of recognized exception (eg denial of service, manual processing, etc.)",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.33",
+                            "value": "itemA5CD30",
                             "text": {
                                 "default": "Regular review of system failures occuring are considered and added to subsequent documentation",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.2",
+                            "value": "itemA58E22",
                             "text": {
                                 "default": "Other",
                                 "fr": ""
@@ -7523,10 +7523,10 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-1": 1.0,
-                            "item3-0.5": 0.5,
-                            "item4-0": 0.0
+                            "itemAE6FDE": 1.0,
+                            "itemA77561": 1.0,
+                            "itemA8F903": 0.5,
+                            "itemAFF319": 0.0
                         }
                     },
                     "title": {
@@ -7535,28 +7535,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAE6FDE",
                             "text": {
                                 "default": "Collected by same organization as development of the system",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemA77561",
                             "text": {
                                 "default": "Purchased by a dependable third-party",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemA8F903",
                             "text": {
                                 "default": "Third-party aquisition with an unknown supply chain",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemAFF319",
                             "text": {
                                 "default": "Unclear",
                                 "fr": ""
@@ -7570,12 +7570,12 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0.5": 0.5,
-                            "item4-0.5": 0.5,
-                            "item5-0.5": 0.5,
-                            "item6-0.5": 0.5
+                            "itemA106B3": 1.0,
+                            "itemA7CC3A": 0.5,
+                            "itemAEBBEB": 0.5,
+                            "itemAFC5B0": 0.5,
+                            "itemA6CC56": 0.5,
+                            "itemA546F0": 0.5
                         }
                     },
                     "title": {
@@ -7584,77 +7584,77 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA106B3",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA7CC3A",
                             "text": {
                                 "default": "Yes, age",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.5",
+                            "value": "itemAEBBEB",
                             "text": {
                                 "default": "Yes, name",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.5",
+                            "value": "itemAFC5B0",
                             "text": {
                                 "default": "Yes, address",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.5",
+                            "value": "itemA6CC56",
                             "text": {
                                 "default": "Yes, gender",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.5",
+                            "value": "itemA546F0",
                             "text": {
                                 "default": "Yes, ethnicity",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item7-0",
+                            "value": "itemAB47A9",
                             "text": {
                                 "default": "Yes, status",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item8-0",
+                            "value": "itemACEA1C",
                             "text": {
                                 "default": "Yes, degree of accessibility",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item9-0",
+                            "value": "itemA7E34E",
                             "text": {
                                 "default": "Yes, level of education",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item10-0",
+                            "value": "itemA4D8DE",
                             "text": {
                                 "default": "Yes, income",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item11-0",
+                            "value": "itemA3C988",
                             "text": {
                                 "default": "Yes, marital status",
                                 "fr": ""
@@ -7668,9 +7668,9 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0.5": 0.5,
-                            "item3-0": 0.0
+                            "itemA7CAC9": 1.0,
+                            "itemA46211": 0.5,
+                            "itemA87387": 0.0
                         }
                     },
                     "title": {
@@ -7679,21 +7679,21 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemA7CAC9",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.5",
+                            "value": "itemA46211",
                             "text": {
                                 "default": "The use of sensitive data is minimized",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0",
+                            "value": "itemA87387",
                             "text": {
                                 "default": "Sensitive data is not able to be viewed by the user (or authorized users).",
                                 "fr": ""
@@ -7717,11 +7717,11 @@
                         "dimension": "D",
                         "max": 1.0,
                         "choices": {
-                            "item2-0.17": 0.17,
-                            "item3-0.17": 0.17,
-                            "item4-0.17": 0.17,
-                            "item5-0.17": 0.17,
-                            "item6-0.17": 0.17
+                            "itemA50AE8": 0.17,
+                            "itemA2AF6F": 0.17,
+                            "itemA0025B": 0.17,
+                            "itemA14E50": 0.17,
+                            "itemAE3AD4": 0.17
                         }
                     },
                     "title": {
@@ -7738,42 +7738,42 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA0CF54",
                             "text": {
                                 "default": "Standards for cyptography or security are followed.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.17",
+                            "value": "itemA50AE8",
                             "text": {
                                 "default": "Data is encrypted when in transit or rest.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.17",
+                            "value": "itemA2AF6F",
                             "text": {
                                 "default": "Anonymize and aggregate incoming data using best-practice data scrubbing pipelines.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.17",
+                            "value": "itemA0025B",
                             "text": {
                                 "default": "Provides users with clear notification when personal information is being collected, used, or shared.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.17",
+                            "value": "itemA14E50",
                             "text": {
                                 "default": "When and where possible, system leverages on-device processing.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.17",
+                            "value": "itemAE3AD4",
                             "text": {
                                 "default": "Where possible, independent data trusts are used to ensure users privacy.",
                                 "fr": ""
@@ -7788,10 +7788,10 @@
                         "dimension": "D",
                         "max": 1.0,
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.25": 0.25,
-                            "item3-0.75": 0.75,
-                            "item4-1": 1.0
+                            "itemA474D7": 0.0,
+                            "itemA12CD2": 0.25,
+                            "itemAF8C49": 0.75,
+                            "itemA17287": 1.0
                         }
                     },
                     "title": {
@@ -7804,28 +7804,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA474D7",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.25",
+                            "value": "itemA12CD2",
                             "text": {
                                 "default": "Yes, data has been reviewed by internal team",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.75",
+                            "value": "itemAF8C49",
                             "text": {
                                 "default": "Yes, data has been reviewed by a qualified third-party",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-1",
+                            "value": "itemA17287",
                             "text": {
                                 "default": "Yes, data is compliant with ISO 8000 or equivilant industry recognized standard",
                                 "fr": ""
@@ -7840,12 +7840,12 @@
                         "dimension": "D",
                         "max": 1.0,
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-0.2": 0.2,
-                            "item3-0.2": 0.2,
-                            "item4-0.2": 0.2,
-                            "item5-0.2": 0.2,
-                            "item6-0.2": 0.2
+                            "itemA39A4B": 0.0,
+                            "itemA1B141": 0.2,
+                            "itemAD865D": 0.2,
+                            "itemA9C235": 0.2,
+                            "itemA8D64C": 0.2,
+                            "itemAF3A23": 0.2
                         }
                     },
                     "title": {
@@ -7861,49 +7861,49 @@
                         "fr": ""
                     },
                     "alttext": {
-                        "item2-0.2": {
+                        "itemA1B141": {
                             "default": "Alt text: Google Responsible AI Practices - Training-serving skew\u2014the difference between performance during training and performance during serving\u2014is a persistent challenge. During training, try to identify potential skews and work to address them, including by adjusting your training data or objective function. During evaluation, continue to try to get evaluation data that is as representative as possible of the deployed setting.",
                             "fr": ""
                         }
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemA39A4B",
                             "text": {
                                 "default": "No",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.2",
+                            "value": "itemA1B141",
                             "text": {
                                 "default": "Yes, sample data used for training and testing accurately reflects user base including, but not limited to, age, location, gender, ethnicity, status, degree of accessibility, degree of accessibility, level of eduction, income.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.2",
+                            "value": "itemAD865D",
                             "text": {
                                 "default": "Yes, training data has been ensured that it is fit for purpose.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.2",
+                            "value": "itemA9C235",
                             "text": {
                                 "default": "Yes, sample data is accurate for current point in time.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.2",
+                            "value": "itemA8D64C",
                             "text": {
                                 "default": "Yes, sample data has been tested for accuracy.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item6-0.2",
+                            "value": "itemAF3A23",
                             "text": {
                                 "default": "Yes, sample data is complete.",
                                 "fr": ""
@@ -7926,8 +7926,8 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-0": 0.0,
-                            "item2-1": 1.0
+                            "itemAE42C8": 0.0,
+                            "itemA47278": 1.0
                         }
                     },
                     "title": {
@@ -7936,14 +7936,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0",
+                            "value": "itemAE42C8",
                             "text": {
                                 "default": "Through a third-party data service, terms and conditions are unknown.",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-1",
+                            "value": "itemA47278",
                             "text": {
                                 "default": "Through a third-party data service, terms and conditions ensure users data should be protected from theft, misuse, or data corruption",
                                 "fr": ""
@@ -7958,10 +7958,10 @@
                         "dimension": "D",
                         "max": 1.0,
                         "choices": {
-                            "item1-0.25": 0.25,
-                            "item2-0.25": 0.25,
-                            "item3-0.25": 0.25,
-                            "item4-0.25": 0.25
+                            "itemAB4834": 0.25,
+                            "itemAD0DD1": 0.25,
+                            "itemAD5CFD": 0.25,
+                            "itemA23AC6": 0.25
                         }
                     },
                     "title": {
@@ -7978,28 +7978,28 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.25",
+                            "value": "itemAB4834",
                             "text": {
                                 "default": "Decision is able to be reversed",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.25",
+                            "value": "itemAD0DD1",
                             "text": {
                                 "default": "Update will be made to the process",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.25",
+                            "value": "itemAD5CFD",
                             "text": {
                                 "default": "If an issue with the system has been identified that could cause harm to an individual or community, it is immediatly taken off-line until it is remediated",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0.25",
+                            "value": "itemA23AC6",
                             "text": {
                                 "default": "Users are notified",
                                 "fr": ""
@@ -8013,8 +8013,8 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-1": 1.0,
-                            "item2-0": 0.0
+                            "itemAE1DC0": 1.0,
+                            "itemA46205": 0.0
                         }
                     },
                     "title": {
@@ -8023,14 +8023,14 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-1",
+                            "value": "itemAE1DC0",
                             "text": {
                                 "default": "Yes",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0",
+                            "value": "itemA46205",
                             "text": {
                                 "default": "No",
                                 "fr": ""
@@ -8053,11 +8053,11 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "item1-0.33": 0.33,
-                            "item2-0.33": 0.33,
-                            "item3-0.33": 0.33,
-                            "item4-0": 0.0,
-                            "item5-0.25": 0.25
+                            "itemA12B80": 0.33,
+                            "itemA290E7": 0.33,
+                            "itemAFE12B": 0.33,
+                            "itemAB3ADE": 0.0,
+                            "itemABE768": 0.25
                         }
                     },
                     "title": {
@@ -8066,35 +8066,35 @@
                     },
                     "choices": [
                         {
-                            "value": "item1-0.33",
+                            "value": "itemA12B80",
                             "text": {
                                 "default": "Checks to the underlying population",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item2-0.33",
+                            "value": "itemA290E7",
                             "text": {
                                 "default": "Analysis of new use cases",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item3-0.33",
+                            "value": "itemAFE12B",
                             "text": {
                                 "default": "Analysis of exceptional cases",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item4-0",
+                            "value": "itemAB3ADE",
                             "text": {
                                 "default": "None",
                                 "fr": ""
                             }
                         },
                         {
-                            "value": "item5-0.25",
+                            "value": "itemABE768",
                             "text": {
                                 "default": "Other",
                                 "fr": ""
