@@ -5068,6 +5068,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFC2610",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -5108,6 +5116,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFE7CBC",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "radiogroup",
@@ -5152,6 +5168,23 @@
                         }
                     ]
                 },
+                {
+                    "type": "comment",
+                    "name": "QF8892C",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability2",
+            "elements": [
                 {
                     "type": "radiogroup",
                     "name": "QFB449",
@@ -5206,6 +5239,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFFB449",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "radiogroup",
@@ -5273,6 +5314,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFBA335",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -5281,7 +5330,7 @@
             }
         },
         {
-            "name": "accountability2",
+            "name": "accountability3",
             "elements": [
                 {
                     "type": "radiogroup",
@@ -5343,6 +5392,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF62CB7",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "Q05AA0",
                     "score": {
@@ -5398,6 +5455,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF05AA0",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability4",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "QCDD6C",
                     "score": {
@@ -5433,6 +5507,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFCDD6C",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QB09AA",
                     "score": {
@@ -5466,6 +5548,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFB09AA",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -5474,7 +5564,7 @@
             }
         },
         {
-            "name": "accountability3",
+            "name": "accountability5",
             "elements": [
                 {
                     "type": "checkbox",
@@ -5533,6 +5623,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF214D0",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QE7848",
                     "score": {
@@ -5572,6 +5670,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFE7848",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability6",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "QFABC6",
                     "score": {
@@ -5609,6 +5724,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFFABC6",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "checkbox",
@@ -5657,6 +5780,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFF211C",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -5665,7 +5796,7 @@
             }
         },
         {
-            "name": "accountability4",
+            "name": "accountability7",
             "elements": [
                 {
                     "type": "radiogroup",
@@ -5701,6 +5832,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF9463F",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "checkbox",
@@ -5751,6 +5890,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFFF34A",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Accountability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "accountability8",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "QB71A6",
                     "score": {
@@ -5796,6 +5952,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFB71A6",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -5846,6 +6010,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFD85E8",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QA0F6A",
                     "score": {
@@ -5892,6 +6064,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFA0F6A",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness2",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q4435F",
                     "score": {
@@ -5929,16 +6118,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Bias and fairness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "biasFairness2",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QF4435F",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "checkbox",
                     "name": "Q71FC3",
@@ -6004,6 +6192,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF71FC3",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness3",
+            "elements": [
+                {
                     "type": "checkbox",
                     "name": "Q1C8CF",
                     "score": {
@@ -6068,6 +6273,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF1C8CF",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "Q56654",
                     "score": {
@@ -6109,6 +6322,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF56654",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6117,7 +6338,7 @@
             }
         },
         {
-            "name": "biasFairness3",
+            "name": "biasFairness4",
             "elements": [
                 {
                     "type": "checkbox",
@@ -6232,6 +6453,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF22F17",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "checkbox",
                     "name": "Q1577E",
                     "score": {
@@ -6322,6 +6551,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF1577E",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6330,7 +6567,7 @@
             }
         },
         {
-            "name": "biasFairness4",
+            "name": "biasFairness5",
             "elements": [
                 {
                     "type": "checkbox",
@@ -6377,6 +6614,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFAF269",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QD3651",
                     "score": {
@@ -6418,6 +6663,23 @@
                         }
                     ]
                 },
+                {
+                    "type": "comment",
+                    "name": "QFD3651",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness6",
+            "elements": [
                 {
                     "type": "checkbox",
                     "name": "Q4805F",
@@ -6467,6 +6729,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF4805F",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QC9FE9",
                     "score": {
@@ -6496,6 +6766,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFC9FE9",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6504,7 +6782,7 @@
             }
         },
         {
-            "name": "biasFairness5",
+            "name": "biasFairness7",
             "elements": [
                 {
                     "type": "radiogroup",
@@ -6538,6 +6816,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFC8371",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "Q41411",
                     "score": {
@@ -6569,6 +6855,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF41411",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Bias and fairness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "biasFairness8",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q1B4C3",
                     "score": {
@@ -6598,6 +6901,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF1B4C3",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "checkbox",
@@ -6650,6 +6961,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF6B15A",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6690,6 +7009,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF53BC0",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6752,6 +7079,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFE51EB",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "Q1FB1A",
                     "score": {
@@ -6811,6 +7146,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF1FB1A",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability2",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q1CE3D",
                     "score": {
@@ -6837,16 +7189,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Explainability and Interpretability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "explainabilityInterpretability2",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QF1CE3D",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "radiogroup",
                     "name": "Q4A201",
@@ -6895,6 +7246,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF4A201",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability3",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q4DF04",
                     "score": {
@@ -6932,6 +7300,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF4DF04",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "radiogroup",
@@ -6987,6 +7363,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFC9882",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -6995,7 +7379,7 @@
             }
         },
         {
-            "name": "explainabilityInterpretability3",
+            "name": "explainabilityInterpretability4",
             "elements": [
                 {
                     "type": "radiogroup",
@@ -7029,6 +7413,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFFE3D1",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QF593F",
                     "score": {
@@ -7059,6 +7451,23 @@
                         }
                     ]
                 },
+                {
+                    "type": "comment",
+                    "name": "QFF593F",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability5",
+            "elements": [
                 {
                     "type": "radiogroup",
                     "name": "QB3F92",
@@ -7097,16 +7506,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Explainability and Interpretability",
-                "fr": ""
-            }
-        },
-        {
-            "name": "explainabilityInterpretability4",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QFB3F92",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "radiogroup",
                     "name": "Q9B650",
@@ -7138,6 +7546,23 @@
                         }
                     ]
                 },
+                {
+                    "type": "comment",
+                    "name": "QF9B650",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Explainability and Interpretability",
+                "fr": ""
+            }
+        },
+        {
+            "name": "explainabilityInterpretability6",
+            "elements": [
                 {
                     "type": "radiogroup",
                     "name": "Q504B1",
@@ -7204,6 +7629,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF504B1",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -7303,6 +7736,14 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFA94E7",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
+                {
                     "type": "radiogroup",
                     "name": "QB6B11",
                     "score": {
@@ -7334,6 +7775,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFB6B11",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Robustness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "robustness2",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "QA47B7",
                     "score": {
@@ -7363,16 +7821,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Robustness",
-                "fr": ""
-            }
-        },
-        {
-            "name": "robustness2",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QFA47B7",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "checkbox",
                     "name": "QF1954",
@@ -7462,6 +7919,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFF1954",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Robustness",
+                "fr": ""
+            }
+        },
+        {
+            "name": "robustness3",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "QBA6C6",
                     "score": {
@@ -7507,6 +7981,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFBA6C6",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -7563,6 +8045,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF7F9D0",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "radiogroup",
@@ -7663,6 +8153,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF69E03",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights2",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q3CFCB",
                     "score": {
@@ -7700,16 +8207,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Data quality and rights",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataQualityRights2",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QF3CFCB",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "checkbox",
                     "name": "QD54A7",
@@ -7782,6 +8288,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QFD54A7",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights3",
+            "elements": [
+                {
                     "type": "checkbox",
                     "name": "Q61060",
                     "score": {
@@ -7832,6 +8355,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF61060",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "checkbox",
@@ -7910,6 +8441,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF79336",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
@@ -7918,7 +8457,7 @@
             }
         },
         {
-            "name": "dataQualityRights3",
+            "name": "dataQualityRights4",
             "elements": [
                 {
                     "type": "radiogroup",
@@ -7950,6 +8489,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QF466C3",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 },
                 {
                     "type": "checkbox",
@@ -8008,6 +8555,23 @@
                     ]
                 },
                 {
+                    "type": "comment",
+                    "name": "QF9049E",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                }
+            ],
+            "title": {
+                "default": "Data quality and rights",
+                "fr": ""
+            }
+        },
+        {
+            "name": "dataQualityRights5",
+            "elements": [
+                {
                     "type": "radiogroup",
                     "name": "Q1F036",
                     "score": {
@@ -8037,16 +8601,15 @@
                             }
                         }
                     ]
-                }
-            ],
-            "title": {
-                "default": "Data quality and rights",
-                "fr": ""
-            }
-        },
-        {
-            "name": "dataQualityRights4",
-            "elements": [
+                },
+                {
+                    "type": "comment",
+                    "name": "QF1F036",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
+                },
                 {
                     "type": "radiogroup",
                     "name": "QFE677",
@@ -8101,6 +8664,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "comment",
+                    "name": "QFFE677",
+                    "title": {
+                        "default": "Feedback:",
+                        "fr": ""
+                    }
                 }
             ],
             "title": {
