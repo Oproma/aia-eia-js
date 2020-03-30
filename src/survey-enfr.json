@@ -6589,7 +6589,11 @@
                     },
                     "alttext": {
                         "default": "Maps to EU assessment item - \"have criteria for deployment for the product been set and made availbale to the user?\"",
-                        "fr": ""
+                        "fr": "",
+                        "item1-1": {
+                            "default": "\"The Principle of Explicability: \u201COperate transparently\u201D Transparency is key to building and maintaining citizen\u2019s trust in the developers of AI systems and AI systems themselves. Both technological and business model transparency matter from an ethical standpoint. Technological transparency implies that AI systems be auditable, comprehensible and intelligible by human beings at varying levels of comprehension and expertise. Business model transparency means that human beings are knowingly informed of the intention of developers and technology implementers of AI systems.\"",
+                            "fr": ""
+                        }
                     },
                     "choices": [
                         {
@@ -7553,6 +7557,12 @@
                     "recommendation": {
                         "default": "From Google Responsible AI Practices - For supervised systems, consider the relationship between the data labels you have, and the items you are trying to predict. If you are using a data label X as a proxy to predict a label Y, in which cases is the gap between X and Y problematic?",
                         "fr": ""
+                    },
+                    "alttext": {
+                        "item2-0.2": {
+                            "default": "Alt text: Google Responsible AI Practices - Training-serving skew\u2014the difference between performance during training and performance during serving\u2014is a persistent challenge. During training, try to identify potential skews and work to address them, including by adjusting your training data or objective function. During evaluation, continue to try to get evaluation data that is as representative as possible of the deployed setting.",
+                            "fr": ""
+                        }
                     },
                     "choices": [
                         {
