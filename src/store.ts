@@ -56,24 +56,26 @@ function parseEmbeddedValue(val: String): number {
   return 0;
 }
 
-function getValue(val: any) {
-  if (val === undefined) {
-    return 0;
-  }
-
+function getValue(question: QuestionSelectBase, val: any): number {
   if (Array.isArray(val)) {
-    return addItemsInArray(val);
+    let total = 0;
+    val.forEach(item => {
+      if (typeof item === "string") {
+        if (question.score && question.score.choices && question.score.choices.hasOwnProperty(item)) {
+          total += question.score.choices[item];
+        }
+      }
+    });
+    return total;
   }
 
   if (typeof val === "string") {
-    return parseEmbeddedValue(val);
+    if (question.score && question.score.choices && question.score.choices.hasOwnProperty(val)) {
+      return question.score.choices[val];
+    }
   }
 
-  if (typeof val !== "number") {
-    return 0;
-  }
-
-  return val;
+  return 0;
 }
 
 function getScoreDimension(question: QuestionSelectBase): string {
@@ -84,35 +86,31 @@ function getScoreDimension(question: QuestionSelectBase): string {
 }
 
 function getMaxScoreForQuestion(question: QuestionSelectBase): number {
-  var max = 0;
-  if (question.score && question.score.max) {
-    max = question.score.max;
-  } else {
-    var questionType = question.getType();
-    var value = 0;
-
-    if (questionType == "radiogroup" || questionType == "dropdown") {
+  let max = 0;
+  const questionType = question.getType();
+  if (questionType === "checkbox") {
+    if (question.score && question.score.max) {
+      max = question.score.max;
+    } else {
       question.choices.forEach(item => {
-        value = getValue(item.itemValue);
-        if (max < value) {
-          max = value;
-        }
-      });
-    } else if (questionType == "checkbox") {
-      question.choices.forEach(item => {
-        value = getValue(item.itemValue);
-        max += value;
+        max += getValue(question, item.itemValue);
       });
     }
+  } else if(questionType == "radiogroup" || questionType == "dropdown") {
+    question.choices.forEach(item => {
+      const value = getValue(question, item.itemValue);
+      if (max < value) {
+        max = value;
+      }
+    });
   }
-
   return max;
 }
 
 function calculateFinalScore(
   survey: SurveyModel,
   questionNames: string[]
-): number[] {
+): any {
   const score: any = {};
   const dimensions: any = Dimensions;
   const keys: string[] = Object.keys(Dimensions);
@@ -131,7 +129,7 @@ function calculateFinalScore(
     if (dimension === Dimensions.NOT_SCORED) {
       return;
     }
-    score[dimension].score += Math.min(getValue(survey.data[name]), maxScore);
+    score[dimension].score += Math.min(getValue(question, survey.data[name]), maxScore);
     score[dimension].max += maxScore;
   });
   return score;
