@@ -2,7 +2,7 @@ import Vue from "vue";
 import Vuex, { StoreOptions } from "vuex";
 import VuexPersistence from "vuex-persist";
 import { RootState } from "./types";
-import { IQuestion, QuestionSelectBase, SurveyModel, JsonObject } from "survey-vue";
+import { QuestionSelectBase, SurveyModel, JsonObject } from "survey-vue";
 import isEmpty from "lodash.isempty";
 import showdown from "showdown";
 import Dimensions from "@/enums/Dimensions";
@@ -44,18 +44,6 @@ function isScored(question: QuestionSelectBase): boolean {
   return false;
 }
 
-function hasScore(question: IQuestion): boolean {
-  if (
-    question.getType() === "radiogroup" ||
-    question.getType() === "checkbox" ||
-    question.getType() === "dropdown"
-  ) {
-    // Check the suffix for "-RS" or "-MS" for valid score questions.
-    return getScoreType(question) > 1;
-  }
-  return false;
-}
-
 function parseEmbeddedValue(val: String): number {
   var lastHyphenIdx = val.lastIndexOf("-");
   if (lastHyphenIdx !== -1) {
@@ -88,54 +76,11 @@ function getValue(val: any) {
   return val;
 }
 
-function getScoreTypeHelper(name: String): Number {
-  // 1 - Not Scored, 2 - Raw Score, 3 - Mitigation Score
-  if (name) {
-
-    /*if (name.endsWith("-RS")) {
-      return 2;
-    } else*/ if (name.endsWith("-MS")) {
-      return 3;
-    } else if (name.endsWith("-NS")) {
-      return 1;
-    } else if (name.endsWith("-AS")) {
-      return 4;
-    } else if (name.endsWith("-DQRS")) {
-      return 5;
-    } else if (name.endsWith("-EIS")) {
-      return 6;
-    } else if (name.endsWith("-BFS")) {
-      return 7;
-    } else if (name.endsWith("-RS")) {
-      return 8;
-    }
-  }
-
-  return 0;
-}
-
 function getScoreDimension(question: QuestionSelectBase): string {
   if (question.score && question.score.dimension) {
     return question.score.dimension;
   }
   return Dimensions.NOT_SCORED;
-}
-
-function getScoreType(question: IQuestion): Number {
-  var result = getScoreTypeHelper(question.name);
-
-  if (result > 0) {
-    return result;
-  }
-
-  result = getScoreTypeHelper(question.parent.name);
-
-  if (result == 0) {
-    // Treat at no score.
-    return 1;
-  }
-
-  return result;
 }
 
 function getMaxScoreForQuestion(question: QuestionSelectBase): number {
@@ -168,30 +113,6 @@ function calculateFinalScore(
   survey: SurveyModel,
   questionNames: string[]
 ): number[] {
-  let rawRiskScore = 0;
-  let maxRawRiskScore = 0;
-  let maxMitigationScore = 0;
-  let mitigationScore = 0;
-  let total = 0;
-  let percentage = 0.8;
-  let deduction = 0.15;
-  let level = 0;
-  let threshold1 = 0.25;
-  let threshold2 = 0.5;
-  let threshold3 = 0.75;
-
-  let accountabilityScore = 0;
-  let maxAccountabilityscore = 0;
-  let dataQualityRightsScore = 0;
-  let maxDataQualityRightsScore = 0;
-  let explainabilityInterpretabilityScore = 0;
-  let maxExplainabilityInterpretabilityScore = 0;
-  let biasFairnessScore = 0;
-  let maxBiasFairnessScore = 0;
-  let robustnessScore = 0;
-  let maxRobustnessScore = 0;
-
-
   const score: any = {};
   const dimensions: any = Dimensions;
   const keys: string[] = Object.keys(Dimensions);
@@ -212,48 +133,7 @@ function calculateFinalScore(
     }
     score[dimension].score += Math.min(getValue(survey.data[name]), maxScore);
     score[dimension].max += maxScore;
-
-  //   if (currentQuestionType === 2) {
-  //     // no real risk of injection since we are just getting a value, worst case it breaks our score
-  //     // eslint-disable-next-line security/detect-object-injection
-  //     rawRiskScore += getValue(survey.data[name]);
-  //     maxRawRiskScore += getMaxScoreForQuestion(<QuestionSelectBase>(
-  //       currentQuestion
-  //     ));
-  //   } else if (currentQuestionType === 3) {
-  //     // no real risk of injection since we are just getting a value, worst case it breaks our score
-  //     // eslint-disable-next-line security/detect-object-injection
-  //     mitigationScore += getValue(survey.data[name]);
-  //     maxMitigationScore += getMaxScoreForQuestion(<QuestionSelectBase>(
-  //       currentQuestion
-  //     ));
-  //   }
   });
-
-  // //maxMitigationScore is divided by 2 because of Design/Implementation fork
-  // if (mitigationScore >= percentage * (maxMitigationScore / 2)) {
-  //   total = Math.round((1 - deduction) * rawRiskScore);
-  // } else {
-  //   total = rawRiskScore;
-  // }
-
-  // if (total <= maxRawRiskScore * threshold1) {
-  //   level = 1;
-  // } else if (
-  //   total > maxRawRiskScore * threshold1 &&
-  //   total <= maxRawRiskScore * threshold2
-  // ) {
-  //   level = 2;
-  // } else if (
-  //   total > maxRawRiskScore * threshold2 &&
-  //   total <= maxRawRiskScore * threshold3
-  // ) {
-  //   level = 3;
-  // } else {
-  //   level = 4;
-  // }
-
-  // return [rawRiskScore, mitigationScore, total, level];
   return score;
 }
 
@@ -339,46 +219,6 @@ const store: StoreOptions<RootState> = {
         results[dimension].push(answer);
       });
       return results;
-    },
-    resultDataSections: state => {
-      if (state.result === undefined) return {};
-
-      var projectResults: any[] = [];
-      var riskResults: any[] = [];
-      var mitigationResults: any[] = [];
-      var mitigationResultsYes: any[] = [];
-
-      state.answerData.forEach(function(result) {
-        var question = state.result!.getQuestionByName(result.name);
-        const scoreType = getScoreType(question);
-
-        if (
-          scoreType === 1 &&
-          question.parent.name === "projectDetailsPanel-NS"
-        ) {
-          projectResults.push(result);
-        } else if (scoreType === 2) {
-          riskResults.push(result);
-        } else if (scoreType === 3) {
-          mitigationResults.push(result);
-          if (result.value > 0) {
-            mitigationResultsYes.push(result);
-          }
-          if (typeof result.value === "string") {
-            const val = getValue(result.value);
-            if (val > 0) {
-              mitigationResultsYes.push(result);
-            }
-          }
-        }
-      });
-
-      return [
-        projectResults,
-        riskResults,
-        mitigationResults,
-        mitigationResultsYes
-      ];
     }
   }
 };
