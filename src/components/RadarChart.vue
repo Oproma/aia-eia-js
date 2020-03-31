@@ -56,6 +56,7 @@ export default class RadarChart extends Vue {
       labelFactor: { x: 1.19, y: 1.2 },
       wrapWidth: 70,
       opacityArea: 0.3,
+      dotRadius: 4,
       strokeWidth: 2,
       roundStrokes: false,
       color: "#1f77b4"
@@ -183,12 +184,14 @@ export default class RadarChart extends Vue {
     }
 
     // Create blob
-    g.selectAll(".radarWrapper")
+    const parent = g
+      .selectAll(".radarWrapper")
       .data(d)
       .enter()
       .append("g")
-      .attr("class", "radarWrapper")
-      // Outline and background
+      .attr("class", "radarWrapper");
+    // Create outline and background
+    parent
       .append("path")
       .attr("class", "radarArea")
       .attr("d", (d: any, i: any) => {
@@ -198,6 +201,24 @@ export default class RadarChart extends Vue {
       .style("stroke", cfg.color)
       .style("fill", cfg.color)
       .style("fill-opacity", cfg.opacityArea);
+    // Create dots
+    parent
+      .selectAll(".radarCircle")
+      .data((d: any, i: any) => {
+        return d;
+      })
+      .enter()
+      .append("circle")
+      .attr("class", "radarCircle")
+      .attr("r", cfg.dotRadius)
+      .attr("cx", (d: any, i: any) => {
+        return rScale(d.value) * Math.cos(angleSlice * i - Math.PI / 2);
+      })
+      .attr("cy", (d: any, i: any) => {
+        return rScale(d.value) * Math.sin(angleSlice * i - Math.PI / 2);
+      })
+      .style("fill", cfg.color)
+      .style("fill-opacity", 0.8);
   }
 
   //Wraps SVG text
