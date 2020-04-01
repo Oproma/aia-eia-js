@@ -5132,8 +5132,8 @@
                         "dimension": "A",
                         "choices": {
                             "itemA0E748": 0.0,
-                            "itemACE1FC": 0.5,
-                            "itemA4DF7E": 1.0
+                            "itemACE1FC": 1.0,
+                            "itemA4DF7E": 2.0
                         }
                     },
                     "title": {
@@ -5254,11 +5254,11 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "itemAF1882": 1.0,
-                            "itemA2C200": 0.5,
-                            "itemA23A35": 0.5,
-                            "itemA92BF7": 0.5,
-                            "itemA9C525": 0.5,
+                            "itemAF1882": 2.0,
+                            "itemA2C200": 1.0,
+                            "itemA23A35": 1.0,
+                            "itemA92BF7": 1.0,
+                            "itemA9C525": 1.0,
                             "itemAE9C4A": 0.0
                         }
                     },
@@ -5339,10 +5339,10 @@
                         "dimension": "A",
                         "choices": {
                             "itemA3598E": 0.0,
-                            "itemAA7EC0": 0.25,
-                            "itemA45E90": 0.5,
-                            "itemA7A99E": 0.75,
-                            "itemA68762": 1.0
+                            "itemAA7EC0": 0.75,
+                            "itemA45E90": 1.5,
+                            "itemA7A99E": 2.25,
+                            "itemA68762": 3.0
                         }
                     },
                     "title": {
@@ -5477,7 +5477,7 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "itemA7E774": 1.0,
+                            "itemA7E774": 3.0,
                             "itemAB4ED7": 0.0
                         }
                     },
@@ -5571,11 +5571,11 @@
                     "name": "Q214D0",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0,
+                        "max": 2.0,
                         "choices": {
-                            "itemA4B948": 0.5,
-                            "itemA3DDD3": 1.0,
-                            "itemAD6BCC": 1.0,
+                            "itemA4B948": 1.0,
+                            "itemA3DDD3": 2.0,
+                            "itemAD6BCC": 2.0,
                             "itemAFE602": 0.0
                         }
                     },
@@ -5636,9 +5636,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "itemA75856": 1.0,
+                            "itemA75856": 2.0,
                             "itemA52734": 0.0,
-                            "itemA79505": 1.0
+                            "itemA79505": 2.0
                         }
                     },
                     "title": {
@@ -5692,9 +5692,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "itemAB8401": 1.0,
+                            "itemAB8401": 2.0,
                             "itemA9752E": 0.0,
-                            "itemA2CA06": 1.0
+                            "itemA2CA06": 2.0
                         }
                     },
                     "title": {
@@ -5738,11 +5738,11 @@
                     "name": "QF211C",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0,
+                        "max": 2.0,
                         "choices": {
                             "itemA202E1": 0.0,
-                            "itemA5DE57": 0.5,
-                            "itemA48BA0": 0.5
+                            "itemA5DE57": 1.0,
+                            "itemA48BA0": 1.0
                         }
                     },
                     "title": {
@@ -5805,7 +5805,7 @@
                         "dimension": "A",
                         "choices": {
                             "itemA19879": 0.0,
-                            "itemA354A1": 1.0
+                            "itemA354A1": 3.0
                         }
                     },
                     "title": {
@@ -5846,10 +5846,10 @@
                     "name": "QFF34A",
                     "score": {
                         "dimension": "A",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
-                            "itemA39F22": 1.0,
-                            "itemAE62E4": 0.5,
+                            "itemA39F22": 3.0,
+                            "itemAE62E4": 1.5,
                             "itemA352B5": 0.0
                         }
                     },
@@ -5912,9 +5912,9 @@
                     "score": {
                         "dimension": "A",
                         "choices": {
-                            "itemAA7C9B": 0.5,
-                            "itemAE6179": 1.0,
-                            "itemA6F094": 1.0,
+                            "itemAA7C9B": 1.5,
+                            "itemAE6179": 3.0,
+                            "itemA6F094": 3.0,
                             "itemA151C6": 0.0
                         }
                     },
@@ -6132,13 +6132,13 @@
                     "name": "Q71FC3",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0,
+                        "max": 2.0,
                         "choices": {
-                            "itemA14629": 0.2,
-                            "itemAFDC95": 0.2,
-                            "itemADA33F": 0.2,
-                            "itemA74430": 0.2,
-                            "itemA4C27A": 0.2
+                            "itemA14629": 0.4,
+                            "itemAFDC95": 0.4,
+                            "itemADA33F": 0.4,
+                            "itemA74430": 0.4,
+                            "itemA4C27A": 0.4
                         }
                     },
                     "title": {
@@ -6213,13 +6213,13 @@
                     "name": "Q1C8CF",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
-                            "itemAC637B": 0.2,
-                            "itemAB26CF": 0.2,
-                            "itemA9E317": 0.2,
-                            "itemA9CF08": 0.2,
-                            "itemA7DF83": 0.2
+                            "itemAC637B": 0.6,
+                            "itemAB26CF": 0.6,
+                            "itemA9E317": 0.6,
+                            "itemA9CF08": 0.6,
+                            "itemA7DF83": 0.6
                         }
                     },
                     "title": {
@@ -6345,19 +6345,19 @@
                     "name": "Q22F17",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
-                            "itemA89E02": 0.1,
-                            "itemA83E75": 0.1,
-                            "itemAB015E": 0.1,
-                            "itemA1EC52": 0.1,
-                            "itemA433A7": 0.1,
-                            "itemA6A457": 0.1,
-                            "itemA30DB7": 0.1,
-                            "itemA1AE82": 0.1,
-                            "itemA7C3E5": 0.1,
-                            "itemAE6FAD": 0.1,
-                            "itemAA93BD": 0.1
+                            "itemA89E02": 0.3,
+                            "itemA83E75": 0.3,
+                            "itemAB015E": 0.3,
+                            "itemA1EC52": 0.3,
+                            "itemA433A7": 0.3,
+                            "itemA6A457": 0.3,
+                            "itemA30DB7": 0.3,
+                            "itemA1AE82": 0.3,
+                            "itemA7C3E5": 0.3,
+                            "itemAE6FAD": 0.3,
+                            "itemAA93BD": 0.3
                         }
                     },
                     "title": {
@@ -6465,17 +6465,17 @@
                     "name": "Q1577E",
                     "score": {
                         "dimension": "B",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
-                            "itemAD1BDC": 0.11,
-                            "itemA90EF1": 0.11,
-                            "itemA7CDEE": 0.11,
-                            "itemA44372": 0.11,
-                            "itemA01B9E": 0.11,
-                            "itemA2B090": 0.11,
-                            "itemAACFA1": 0.11,
-                            "itemAA34FF": 0.11,
-                            "itemA44302": 0.11
+                            "itemAD1BDC": 0.33,
+                            "itemA90EF1": 0.33,
+                            "itemA7CDEE": 0.33,
+                            "itemA44372": 0.33,
+                            "itemA01B9E": 0.33,
+                            "itemA2B090": 0.33,
+                            "itemAACFA1": 0.33,
+                            "itemAA34FF": 0.33,
+                            "itemA44302": 0.33
                         }
                     },
                     "title": {
@@ -6627,7 +6627,7 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "itemABBD06": 1.0,
+                            "itemABBD06": 2.0,
                             "itemA624F7": 0.0
                         }
                     },
@@ -6743,7 +6743,7 @@
                         "dimension": "B",
                         "choices": {
                             "itemA34F49": 0.0,
-                            "itemAA87C9": 1.0
+                            "itemAA87C9": 2.0
                         }
                     },
                     "title": {
@@ -6790,7 +6790,7 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "itemAA5148": 1.0,
+                            "itemAA5148": 3.0,
                             "itemA960F9": 0.0
                         }
                     },
@@ -6877,7 +6877,7 @@
                     "score": {
                         "dimension": "B",
                         "choices": {
-                            "itemA6E936": 1.0,
+                            "itemA6E936": 3.0,
                             "itemA34C7B": 0.0
                         }
                     },
@@ -6985,7 +6985,7 @@
                     "score": {
                         "dimension": "T",
                         "choices": {
-                            "itemACD980": 1.0,
+                            "itemACD980": 2.0,
                             "itemA794F6": 0.0
                         }
                     },
@@ -7033,10 +7033,10 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "itemA8AB44": 1.0,
-                            "itemA58099": 0.5,
-                            "itemADD756": 0.5,
-                            "itemAABDB4": 0.5
+                            "itemA8AB44": 2.0,
+                            "itemA58099": 1.0,
+                            "itemADD756": 1.0,
+                            "itemAABDB4": 1.0
                         }
                     },
                     "title": {
@@ -7268,8 +7268,8 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "itemA4DD46": 0.5,
-                            "itemA40789": 0.5,
+                            "itemA4DD46": 1.5,
+                            "itemA40789": 1.5,
                             "itemAF7383": 0.0
                         }
                     },
@@ -7569,11 +7569,11 @@
                     "score": {
                         "dimension": "EI",
                         "choices": {
-                            "itemA2D8BD": 0.2,
-                            "itemAD3D28": 0.2,
-                            "itemA904D1": 0.2,
-                            "itemA10874": 0.2,
-                            "itemA5335C": 0.2,
+                            "itemA2D8BD": 0.6,
+                            "itemAD3D28": 0.6,
+                            "itemA904D1": 0.6,
+                            "itemA10874": 0.6,
+                            "itemA5335C": 0.6,
                             "itemA61776": 0.0
                         }
                     },
@@ -7652,16 +7652,16 @@
                     "name": "QA94E7",
                     "score": {
                         "dimension": "R",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
                             "itemAD160E": 0.0,
-                            "itemAEC1A4": 0.125,
-                            "itemA5D66B": 0.125,
-                            "itemA4D2FA": 0.125,
-                            "itemA1C8F3": 0.125,
-                            "itemA6DB38": 0.125,
-                            "itemAC88AB": 0.125,
-                            "itemAC5768": 0.125
+                            "itemAEC1A4": 0.38,
+                            "itemA5D66B": 0.38,
+                            "itemA4D2FA": 0.38,
+                            "itemA1C8F3": 0.38,
+                            "itemA6DB38": 0.38,
+                            "itemAC88AB": 0.38,
+                            "itemAC5768": 0.38
                         }
                     },
                     "title": {
@@ -7749,7 +7749,7 @@
                     "score": {
                         "dimension": "R",
                         "choices": {
-                            "itemA4020B": 1.0,
+                            "itemA4020B": 3.0,
                             "itemAA7ABE": 0.0
                         }
                     },
@@ -7835,16 +7835,16 @@
                     "name": "QF1954",
                     "score": {
                         "dimension": "R",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
                             "itemA79699": 0.0,
-                            "itemAF25AF": 0.14,
-                            "itemA8351D": 0.14,
-                            "itemA25314": 0.14,
-                            "itemAF8ED9": 0.14,
-                            "itemA85213": 0.14,
-                            "itemAC9302": 0.14,
-                            "itemAFB89A": 0.14
+                            "itemAF25AF": 0.42,
+                            "itemA8351D": 0.42,
+                            "itemA25314": 0.42,
+                            "itemAF8ED9": 0.42,
+                            "itemA85213": 0.42,
+                            "itemAC9302": 0.42,
+                            "itemAFB89A": 0.42
                         }
                     },
                     "title": {
@@ -8221,13 +8221,13 @@
                     "name": "QD54A7",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
-                            "itemA50AE8": 0.17,
-                            "itemA2AF6F": 0.17,
-                            "itemA0025B": 0.17,
-                            "itemA14E50": 0.17,
-                            "itemAE3AD4": 0.17
+                            "itemA50AE8": 0.51,
+                            "itemA2AF6F": 0.51,
+                            "itemA0025B": 0.51,
+                            "itemA14E50": 0.51,
+                            "itemAE3AD4": 0.51
                         }
                     },
                     "title": {
@@ -8309,12 +8309,12 @@
                     "name": "Q61060",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0,
+                        "max": 2.0,
                         "choices": {
                             "itemA474D7": 0.0,
-                            "itemA12CD2": 0.25,
-                            "itemAF8C49": 0.75,
-                            "itemA17287": 1.0
+                            "itemA12CD2": 0.5,
+                            "itemAF8C49": 1.5,
+                            "itemA17287": 2.0
                         }
                     },
                     "title": {
@@ -8369,14 +8369,14 @@
                     "name": "Q79336",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0,
+                        "max": 3.0,
                         "choices": {
                             "itemA39A4B": 0.0,
-                            "itemA1B141": 0.2,
-                            "itemAD865D": 0.2,
-                            "itemA9C235": 0.2,
-                            "itemA8D64C": 0.2,
-                            "itemAF3A23": 0.2
+                            "itemA1B141": 0.6,
+                            "itemAD865D": 0.6,
+                            "itemA9C235": 0.6,
+                            "itemA8D64C": 0.6,
+                            "itemAF3A23": 0.6
                         }
                     },
                     "title": {
@@ -8466,7 +8466,7 @@
                         "dimension": "D",
                         "choices": {
                             "itemAE42C8": 0.0,
-                            "itemA47278": 1.0
+                            "itemA47278": 2.0
                         }
                     },
                     "title": {
@@ -8503,12 +8503,12 @@
                     "name": "Q9049E",
                     "score": {
                         "dimension": "D",
-                        "max": 1.0,
+                        "max": 2.0,
                         "choices": {
-                            "itemAB4834": 0.25,
-                            "itemAD0DD1": 0.25,
-                            "itemAD5CFD": 0.25,
-                            "itemA23AC6": 0.25
+                            "itemAB4834": 0.5,
+                            "itemAD0DD1": 0.5,
+                            "itemAD5CFD": 0.5,
+                            "itemA23AC6": 0.5
                         }
                     },
                     "title": {
@@ -8616,11 +8616,11 @@
                     "score": {
                         "dimension": "D",
                         "choices": {
-                            "itemA12B80": 0.33,
-                            "itemA290E7": 0.33,
-                            "itemAFE12B": 0.33,
+                            "itemA12B80": 0.66,
+                            "itemA290E7": 0.66,
+                            "itemAFE12B": 0.66,
                             "itemAB3ADE": 0.0,
-                            "itemABE768": 0.25
+                            "itemABE768": 0.5
                         }
                     },
                     "title": {
