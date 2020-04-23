@@ -140,7 +140,8 @@ created() {
         // add tooltip for question
         let altTextHTML = "";
         if (options.question.alttext && options.question.alttext.hasOwnProperty("default")) {
-          const altText = converter.makeHtml(options.question.alttext.default.replace(/"/g, "&quot;"));
+          let altText = converter.makeHtml(options.question.alttext.default.replace(/"/g, "&quot;"));
+          altText = `<div class="text-justify">${altText}</div>`.replace(/"/g, "&quot;");
           altTextHTML = `<i class="fas fa-info-circle ml-2" data-toggle="tooltip" data-html="true" title="${altText}"></i>`;
         }
 
@@ -163,7 +164,8 @@ created() {
           const div = element.closest("div");
           div.classList.add("d-flex");
           const i = document.createElement("span");
-          const altText = converter.makeHtml(options.question.alttext[element.value].default.replace(/"/g, "&quot;"));
+          let altText = converter.makeHtml(options.question.alttext[element.value].default.replace(/"/g, "&quot;"));
+          altText = `<div class="text-justify">${altText}</div>`.replace(/"/g, "&quot;");
           i.innerHTML = `<i class="fas fa-info-circle ml-2" data-toggle="tooltip" data-html="true" title="${altText}"></i>`;
           div.appendChild(i);
         }
