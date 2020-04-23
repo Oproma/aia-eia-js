@@ -2,6 +2,9 @@ html {
   background-color: #252525;
 }
 
+.banner {
+  padding-top: .5rem;
+}
 .banner .logo {
   width: 61%;
 }
