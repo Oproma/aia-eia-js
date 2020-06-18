@@ -310,7 +310,6 @@ export default class SurveyScore extends Vue {
           }
         },
         didDrawCell: (data) => {
-          console.log(data.column.width);
           // Draw cell border
           doc.setDrawColor(222, 226, 230);
           doc.line(data.cell.x, data.cell.y, data.cell.x + data.column.width, data.cell.y);
